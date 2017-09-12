@@ -1,0 +1,1305 @@
+﻿Log file open, 09/11/17 20:42:18
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1194010946) SRandInit(1194010946).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179055
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.11-11.42.20:319][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.11-11.42.20:319][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.11-11.42.20:399][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.09.11-11.42.20:399][  0]LogInit: User: JWOH
+[2017.09.11-11.42.20:399][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.11-11.42.20:399][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.09.11-11.42.20:399][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.11-11.42.20:399][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.11-11.42.20:399][  0]LogMemory: Process Physical Memory: 279.60 MB used, 279.60 MB peak
+[2017.09.11-11.42.20:399][  0]LogMemory: Process Virtual Memory: 282.55 MB used, 282.55 MB peak
+[2017.09.11-11.42.20:399][  0]LogMemory: Physical Memory: 4685.93 MB used,  3369.73 MB free, 8055.66 MB total
+[2017.09.11-11.42.20:399][  0]LogMemory: Virtual Memory: 677.23 MB used,  3369.73 MB free, 134217728.00 MB total
+[2017.09.11-11.42.21:009][  0]LogInit: Using OS detected language (ko-KR).
+[2017.09.11-11.42.21:009][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.09.11-11.42.21:047][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.09.11-11.42.24:386][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.11-11.42.24:422][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.09.11-11.42.24:422][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.11-11.42.24:431][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.09.11-11.42.24:431][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.11-11.42.24:433][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.11-11.42.24:433][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.11-11.42.24:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.11-11.42.24:438][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.11-11.42.24:439][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.09.11-11.42.24:439][  0]LogWindows: EnumDisplayDevices:
+[2017.09.11-11.42.24:439][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.09.11-11.42.24:439][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.11-11.42.24:440][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.11-11.42.24:440][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.11-11.42.24:440][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.09.11-11.42.24:440][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.11-11.42.24:440][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.11-11.42.24:440][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.11-11.42.24:457][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.11-11.42.24:521][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.11-11.42.24:532][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/8172/).
+[2017.09.11-11.42.24:533][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/1D3A3BDA40B5E286719F0D83FA827B12/'.
+[2017.09.11-11.42.24:533][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.11-11.42.26:105][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.11-11.42.26:167][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.11-11.42.26:229][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.11-11.42.26:293][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.11-11.42.26:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.11-11.42.26:463][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.11-11.42.26:523][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.11-11.42.26:589][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.11-11.42.26:644][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.11-11.42.26:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.11-11.42.26:817][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.11-11.42.26:883][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.11-11.42.26:945][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.11-11.42.27:006][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.11-11.42.27:068][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.11-11.42.27:200][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.11-11.42.27:200][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.11-11.42.27:251][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.11-11.42.27:384][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.11-11.42.27:411][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.11-11.42.27:474][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.11-11.42.27:537][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.11-11.42.27:599][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.11-11.42.27:712][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.11-11.42.27:713][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.11-11.42.28:423][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: Loaded boot cache 0.36s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.11-11.42.28:785][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.11-11.42.28:805][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.11-11.42.28:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.11-11.42.28:829][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.11-11.42.28:829][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.11-11.42.28:830][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.11-11.42.28:830][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.11-11.42.33:174][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.09.11-11.42.33:457][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.11-11.42.33:865][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.11-11.42.34:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.11-11.42.34:937][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.11-11.42.34:937][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.11-11.42.34:937][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.11-11.42.34:937][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.11-11.42.34:937][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.11-11.42.35:855][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.09.11-11.42.36:161][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.059351 seconds
+[2017.09.11-11.42.36:167][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.11-11.42.36:167][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.11-11.42.36:167][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.11-11.42.36:213][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.11-11.42.48:384][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.11-11.42.48:430][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.11-11.42.49:489][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.11-11.42.50:021][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.09.11-11.42.50:021][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.09.11-11.42.50:110][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.09.11-11.42.50:183][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.09.11-11.42.51:123][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.11-11.42.51:431][  0]LogOcInput: OculusInput pre-init called
+[2017.09.11-11.42.51:955][  0]LogEngine: Initializing Engine...
+[2017.09.11-11.42.51:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.11-11.42.52:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.11-11.42.52:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.11-11.42.52:521][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.11-11.42.52:531][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-11.42.53:139][  0]LogInit: FAudioDevice initialized.
+[2017.09.11-11.42.53:271][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.11-11.42.53:295][  0]LogInit: Texture streaming: Enabled
+[2017.09.11-11.42.53:394][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.11-11.42.53:394][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5E90C39D-4231-9F16-C51B-51B6B4BB0060}
+[2017.09.11-11.42.53:776][  0]LogInit: Transaction tracking system initialized
+[2017.09.11-11.42.54:216][  0]BlueprintLog: New page: 에디터 로드
+[2017.09.11-11.42.55:513][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.09.11-11.42.56:649][  0]LogConsoleResponse: Display: 
+[2017.09.11-11.42.57:934][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.11-11.42.57:935][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.11-11.42.57:935][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.11-11.42.58:802][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.02s
+[2017.09.11-11.43.00:316][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.09.11-11.43.00:401][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-11.43.00:440][  0]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.11-11.43.00:443][  0]LogSlate: Took 0.003187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.09.11-11.43.18:809][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-11.43.18:814][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-11.43.20:652][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-11.43.20:657][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-11.43.21:045][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.11-11.43.21:045][  0]LogEditorServer: Warning: Can't find file '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.11-11.43.21:046][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.11-11.43.21:145][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 99.011ms.
+[2017.09.11-11.43.21:145][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.100
+[2017.09.11-11.43.21:357][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2c94_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3e34_0///####STATCAT_Advanced####
+[2017.09.11-11.43.21:357][  0]LogCollectionManager: Loaded 0 collections in 0.001079 seconds
+[2017.09.11-11.43.21:449][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.09.11-11.43.21:449][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.09.11-11.43.21:449][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.09.11-11.43.21:449][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.11-11.43.21:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2386 classes and 500 folders.
+[2017.09.11-11.43.21:530][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.11-11.43.22:549][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.11-11.43.22:612][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.11-11.43.22:637][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.11-11.43.22:722][  0]LogSlate: Took 0.080556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.11-11.43.22:977][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.09.11-11.43.23:209][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.11-11.43.23:209][  0]LogLoad: (Engine Initialization) Total time: 68.51 seconds
+[2017.09.11-11.43.23:209][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.11-11.43.23:209][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.11-11.43.23:209][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.11-11.43.23:258][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.11-11.43.23:291][  0]LogSlate: Took 0.018753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-11.43.23:377][  1]LogAssetRegistry: Asset discovery search completed in 50.2259 seconds
+[2017.09.11-11.43.23:379][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.11-11.43.23:379][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2017.09.11-11.43.24:314][ 27]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-11.43.28:895][135]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-11.43.29:605][135]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-11.43.29:645][135]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.11-11.43.29:645][135]LightingResults: New page: 라이팅 빌드
+[2017.09.11-11.43.29:704][135]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.09.11-11.43.29:706][135]LoadErrors: New page: 맵 로드중: ThirdPersonExampleMap.umap
+[2017.09.11-11.43.29:707][135]MapCheck: New page: 맵 체크
+[2017.09.11-11.43.29:707][135]LightingResults: New page: 라이팅 빌드
+[2017.09.11-11.43.29:722][135]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.11-11.43.29:852][135]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.11-11.43.29:922][135]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 70.108ms.
+[2017.09.11-11.43.29:922][135]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.278
+[2017.09.11-11.43.35:034][274]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.09.11-11.43.35:036][274]LogMaterial: Missing cached shader map for material DistanceEnemyMat, compiling. 
+[2017.09.11-11.43.35:210][274]LogMaterial: Missing cached shader map for material DistanceEnemyMat, compiling. 
+[2017.09.11-11.43.35:275][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.43.35:281][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.43.35:287][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.11-11.43.35:294][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.11-11.43.36:075][274]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.11-11.43.36:476][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.11-11.43.37:172][274]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 113 classes and 0 folders.
+[2017.09.11-11.43.38:409][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.11-11.43.39:614][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.09.11-11.43.39:940][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.09.11-11.43.41:544][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.11-11.43.41:588][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.09.11-11.43.43:880][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.09.11-11.43.43:939][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.09.11-11.43.47:575][274]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.43.47:575][274]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.43.47:575][274]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.11-11.43.47:575][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.43.48:055][274]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.09.11-11.43.59:164][487]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:162).
+[2017.09.11-11.44.00:485][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.09.11-11.44.00:549][499]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.09.11-11.44.06:155][499]LogSlate: Took 0.022056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.11-11.50.05:324][ 33]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-11.50.06:338][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.50.06:338][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-11.50.06:339][ 33]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 5:50:06)
+[2017.09.11-11.50.06:339][ 33]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-11.50.06:363][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023814s)
+[2017.09.11-11.50.06:364][ 33]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-11.50.06:364][ 33]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2017.09.11-11.50.06:364][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025402s)
+[2017.09.11-11.50.06:398][ 33]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-11.50.06:420][ 33]LogInit: FAudioDevice initialized.
+[2017.09.11-11.50.06:472][ 33]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-11.50.06:475][ 33]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.11-20.50.06
+[2017.09.11-11.50.06:476][ 33]LogWorld: Bringing up level for play took: 0.002411
+[2017.09.11-11.50.06:532][ 33]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.11-11.50.06:534][ 33]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: -0.008
+[2017.09.11-11.50.06:534][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.50.56:408][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.50.56:454][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.51.12:401][585]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\등에 달린 칼 애니메이션\Empty_kick_sword.FBX)
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: AnimationCurve, ItemCount : 6
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2
+[2017.09.11-11.51.12:427][585]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.11-11.51.12:435][585]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\등에 달린 칼 애니메이션\Empty_kick_sword.FBX
+[2017.09.11-11.51.12:444][585]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.11-11.51.19:831][585]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\등에 달린 칼 애니메이션\Empty_kick_sword.FBX
+[2017.09.11-11.51.19:839][585]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.11-11.51.19:839][585]LogFbx: =================================================
+[2017.09.11-11.51.19:839][585]LogFbx: Dumping Node START [Cylinder047] 
+[2017.09.11-11.51.19:839][585]LogFbx: 	Total Deformer Count -169185216.
+[2017.09.11-11.51.19:839][585]LogFbx: 	Attribute () Type (4).
+[2017.09.11-11.51.19:839][585]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.09.11-11.51.19:839][585]LogFbx: Dumping Node END [Cylinder047]
+[2017.09.11-11.51.19:839][585]LogFbx: =================================================
+[2017.09.11-11.51.19:839][585]LogFbx: Dumping Node START [Cylinder047] 
+[2017.09.11-11.51.19:839][585]LogFbx: 	Total Deformer Count -169185216.
+[2017.09.11-11.51.19:839][585]LogFbx: 	Attribute () Type (4).
+[2017.09.11-11.51.19:839][585]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.09.11-11.51.19:839][585]LogFbx: Dumping Node END [Cylinder047]
+[2017.09.11-11.51.19:840][585]LogLinker: '/Game/Enemy/DistanceEnemy/Bullet/07_-_Default' 파일을 찾을 수 없습니다.
+[2017.09.11-11.51.19:840][585]LogLinker: '/Game/Enemy/DistanceEnemy/Bullet/07_-_Default' 파일을 찾을 수 없습니다.
+[2017.09.11-11.51.19:863][585]LogMaterial: Warning: Material /Game/Enemy/DistanceEnemy/Bullet/07_-_Default.07_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.11-11.51.19:865][585]LogMaterial: Missing cached shader map for material 07_-_Default, compiling. 
+[2017.09.11-11.51.19:927][585]LogLinker: '/Game/Enemy/DistanceEnemy/Bullet/prd2456b6d3-9f0b-45be-96d6-da12b8310bcf' 파일을 찾을 수 없습니다.
+[2017.09.11-11.51.19:927][585]LogLinker: '/Game/Enemy/DistanceEnemy/Bullet/prd2456b6d3-9f0b-45be-96d6-da12b8310bcf' 파일을 찾을 수 없습니다.
+[2017.09.11-11.51.19:927][585]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\Administrator\Desktop\임한규\포폴\군화\prd2456b6d3-9f0b-45be-96d6-da12b8310bcf.jpg
+[2017.09.11-11.51.19:931][585]LogMaterial: Missing cached shader map for material 07_-_Default, compiling. 
+[2017.09.11-11.51.19:983][585]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.09.11-11.51.19:988][585]LogSkeletalMesh: Section 0: 466 vertices, 1 active bones
+[2017.09.11-11.51.19:988][585]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2017.09.11-11.51.22:377][585]FBXImport: Warning: 바인드 포즈를 찾을 수 없습니다. 시간 0 을 바인드 포즈로 사용합니다. 
+[2017.09.11-11.51.23:926][585]LogAssetTools: Warning: 'D:\NewGarden\GardenProject\NGA\Resource\등에 달린 칼 애니메이션\Empty_kick_sword.FBX' 임포트에 실패했습니다. '/Game/Enemy/DistanceEnemy/Bullet/Empty_kick_sword' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.09.11-11.52.40:094][302]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:111][303]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:127][304]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:144][305]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:160][306]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:177][307]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:193][308]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:210][309]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:227][310]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:244][311]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:260][312]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:284][313]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:304][314]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:338][315]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:354][316]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:371][317]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:387][318]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:404][319]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:420][320]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:437][321]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:457][322]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:474][323]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:494][324]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:509][325]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:524][326]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:541][327]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:557][328]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:574][329]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:591][330]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:607][331]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:625][332]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:641][333]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:657][334]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:674][335]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:692][336]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:707][337]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:724][338]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:741][339]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:757][340]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:774][341]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:791][342]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:808][343]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:824][344]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:842][345]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:858][346]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:874][347]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:891][348]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:915][349]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:929][350]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:940][351]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:958][352]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:976][353]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.40:993][354]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:008][355]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:026][356]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:041][357]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:058][358]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:074][359]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:091][360]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:107][361]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:125][362]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:141][363]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:158][364]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:174][365]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:192][366]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:208][367]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:224][368]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:245][369]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:260][370]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:274][371]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:293][372]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:308][373]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:325][374]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:341][375]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:357][376]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:374][377]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:390][378]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:408][379]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:424][380]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:441][381]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:458][382]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:474][383]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:492][384]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:508][385]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:525][386]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:541][387]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:558][388]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:575][389]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:593][390]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:608][391]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:625][392]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:641][393]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:658][394]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:674][395]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:691][396]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:708][397]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:725][398]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:741][399]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:757][400]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:774][401]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:792][402]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:808][403]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:826][404]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:842][405]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:858][406]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:875][407]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:892][408]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:908][409]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:924][410]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:941][411]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:958][412]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:974][413]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.41:992][414]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:008][415]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:025][416]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:044][417]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:060][418]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:074][419]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:093][420]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:108][421]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:125][422]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:142][423]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:158][424]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:175][425]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:192][426]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:208][427]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:225][428]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:242][429]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:259][430]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:276][431]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:293][432]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:309][433]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:325][434]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:350][435]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:365][436]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:382][437]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:398][438]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:415][439]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:431][440]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:448][441]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:466][442]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:481][443]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:498][444]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:515][445]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:532][446]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:549][447]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:565][448]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:582][449]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:604][450]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:615][451]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:633][452]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:648][453]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:665][454]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:682][455]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:698][456]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:715][457]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:731][458]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:748][459]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:764][460]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:782][461]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:798][462]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:816][463]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:832][464]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:850][465]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:865][466]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:881][467]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:898][468]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:915][469]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:931][470]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:948][471]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:965][472]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:981][473]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.42:998][474]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:014][475]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:031][476]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:048][477]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:065][478]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:081][479]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:098][480]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:115][481]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:132][482]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:148][483]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:165][484]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:182][485]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:198][486]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:214][487]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:231][488]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:248][489]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:264][490]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:282][491]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:298][492]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:315][493]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:332][494]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:348][495]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:364][496]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:381][497]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:399][498]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:416][499]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:432][500]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:448][501]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:465][502]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:482][503]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:498][504]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:515][505]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:531][506]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:565][508]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:581][509]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:598][510]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:615][511]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:631][512]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:648][513]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:665][514]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:681][515]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:698][516]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:714][517]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:731][518]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:748][519]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:765][520]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:781][521]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:798][522]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:815][523]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:831][524]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:848][525]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:864][526]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:881][527]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:898][528]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:915][529]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:931][530]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:948][531]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:965][532]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:981][533]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.43:998][534]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:014][535]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:031][536]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:048][537]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:066][538]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:081][539]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:098][540]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:115][541]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:131][542]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:148][543]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:164][544]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:181][545]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:198][546]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:214][547]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:231][548]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:248][549]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:265][550]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:281][551]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:298][552]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:314][553]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:331][554]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:348][555]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:365][556]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:381][557]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:399][558]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.52.44:415][559]LogAnimation: Warning: SkeletalMesh Empty_kick_sword has no skeleton. This needs to fixed before an animation can be set
+[2017.09.11-11.53.12:246][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.11-11.53.33:464][ 22]BlueprintLog: New page: Bullet 컴파일
+[2017.09.11-11.53.35:454][104]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-11.53.35:492][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.53.35:492][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-11.53.35:492][104]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 5:53:35)
+[2017.09.11-11.53.35:493][104]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-11.53.35:517][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024587s)
+[2017.09.11-11.53.35:518][104]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-11.53.35:519][104]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2017.09.11-11.53.35:519][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026297s)
+[2017.09.11-11.53.35:545][104]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-11.53.35:562][104]LogInit: FAudioDevice initialized.
+[2017.09.11-11.53.35:598][104]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-11.53.35:602][104]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.11-20.53.35
+[2017.09.11-11.53.35:602][104]LogWorld: Bringing up level for play took: 0.002306
+[2017.09.11-11.53.35:605][104]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 1.062
+[2017.09.11-11.53.35:605][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.53.36:591][161]Cmd: LevelEditor.ToggleImmersive
+[2017.09.11-11.53.36:738][162]LogRenderer: Reallocating scene render targets to support 1480x888 Format 10 NumSamples 1 (Frame:59).
+[2017.09.11-11.53.36:780][163]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:61).
+[2017.09.11-11.53.55:708][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.53.55:807][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.54.05:169][808]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-11.54.05:203][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.54.05:203][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-11.54.05:203][808]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 5:54:05)
+[2017.09.11-11.54.05:203][808]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-11.54.05:226][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022472s)
+[2017.09.11-11.54.05:227][808]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-11.54.05:227][808]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2017.09.11-11.54.05:228][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024282s)
+[2017.09.11-11.54.05:253][808]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-11.54.05:269][808]LogInit: FAudioDevice initialized.
+[2017.09.11-11.54.05:302][808]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-11.54.05:305][808]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.11-20.54.05
+[2017.09.11-11.54.05:306][808]LogWorld: Bringing up level for play took: 0.002272
+[2017.09.11-11.54.05:308][808]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.766
+[2017.09.11-11.54.05:308][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.54.23:535][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.54.23:602][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-11.54.52:037][595]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 캐릭터\주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor.png)
+[2017.09.11-11.54.52:340][595]LogTexture: Display: 텍스처 빌드: 주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor (AutoDXT, 2048X2048)
+[2017.09.11-11.54.53:488][595]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 캐릭터\주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive.png)
+[2017.09.11-11.54.53:749][595]LogTexture: Display: 텍스처 빌드: 주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive (AutoDXT, 2048X2048)
+[2017.09.11-11.54.54:239][595]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 캐릭터\주인공_캐릭터_Default_Fabric_FRONT_3744_Normal.png)
+[2017.09.11-11.54.54:540][595]LogTexture: Display: 텍스처 빌드: 주인공_캐릭터_Default_Fabric_FRONT_3744_Normal (BC5, 2048X2048)
+[2017.09.11-11.54.55:142][595]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 캐릭터\주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic.png)
+[2017.09.11-11.54.55:501][595]LogTexture: Display: 텍스처 빌드: 주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2017.09.11-11.55.06:789][915]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.09.11-11.55.06:876][915]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.09.11-11.55.07:796][915]LogSlate: Took 0.000435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.11-11.55.08:064][915]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.11-11.55.36:765][ 40]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.36:899][ 40]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.36:919][ 40]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.37:844][ 40]LogSlate: Took 0.867259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.11-11.55.39:091][ 54]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.11-11.55.39:091][ 54]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.11-11.55.39:091][ 54]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.11-11.55.41:059][118]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.41:076][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.55.41:109][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.55.41:133][118]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.41:157][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.55.41:195][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.55.41:203][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.55.41:237][118]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.41:261][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.11-11.55.41:302][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.55.41:311][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.55.41:321][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.11-11.55.41:350][118]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.41:374][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.11-11.55.41:415][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.55.41:423][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.55.41:431][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.11-11.55.41:440][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.11-11.55.43:378][158]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.11-11.55.43:378][158]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.11-11.55.43:378][158]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.11-11.55.47:730][303]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.47:756][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.11-11.55.49:929][358]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.09.11-11.55.49:929][358]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.55.49:929][358]MaterialEditorStats: Texture samplers: 2/16
+[2017.09.11-11.55.49:930][358]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.55.50:960][395]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.50:984][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.11-11.55.52:924][450]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.11-11.55.52:925][450]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.55.52:925][450]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.11-11.55.52:925][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.55.59:828][761]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.55.59:851][761]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.11-11.56.01:895][816]MaterialEditorStats: Base pass shader: 89 instructions
+[2017.09.11-11.56.01:895][816]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.56.01:895][816]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.11-11.56.01:895][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.56.03:956][905]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.56.03:981][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.11-11.56.06:179][967]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.56.06:179][967]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.56.06:179][967]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.11-11.56.06:179][967]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.56.09:948][136]LogMaterialEditor: Saving and Compiling material PlayerMat
+[2017.09.11-11.56.10:696][136]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.56.10:785][136]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.56.10:829][136]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.56.10:901][136]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PlayerMat, compiling. 
+[2017.09.11-11.56.11:972][136]TextureStreamingBuild: Display: Compiling optional shaders took 1.081 seconds.
+[2017.09.11-11.56.14:021][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Material/PlayerMat" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset" SILENT=true
+[2017.09.11-11.56.14:048][136]LogSavePackage: Save=24.31ms
+[2017.09.11-11.56.14:048][136]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerMat6D49FA5E41879AC0E7B3A987D58E2F03.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset'
+[2017.09.11-11.56.14:052][136]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset
+[2017.09.11-11.56.14:087][136]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.56.14:087][136]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.56.14:087][136]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.11-11.56.14:087][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.57.49:542][520]LogMaterial: Warning: Material /Game/Player/Material/PlayerMat.PlayerMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.11-11.57.49:542][520]LogMaterial: Warning: Material /Engine/Transient.PlayerMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.11-11.57.49:551][520]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.57.49:591][520]LogMaterial: Missing cached shader map for material PlayerMat, compiling. 
+[2017.09.11-11.58.02:037][878]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.09.11-11.58.03:932][878]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.58.03:932][878]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.58.03:932][878]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.11-11.58.03:932][878]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.58.18:091][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.11-11.58.40:427][805]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.40:571][805]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.40:589][805]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.42:854][837]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.11-11.58.42:854][837]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.11-11.58.42:854][837]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.11-11.58.48:551][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 무기\주인공_무기_07 - Default_BaseColor (1).png)
+[2017.09.11-11.58.48:774][854]LogTexture: Display: 텍스처 빌드: 주인공_무기_07_-_Default_BaseColor__1_ (AutoDXT, 2048X2048)
+[2017.09.11-11.58.49:401][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 무기\주인공_무기_07 - Default_BaseColor (2).png)
+[2017.09.11-11.58.49:572][854]LogTexture: Display: 텍스처 빌드: 주인공_무기_07_-_Default_BaseColor__2_ (AutoDXT, 2048X2048)
+[2017.09.11-11.58.49:980][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 무기\주인공_무기_07 - Default_BaseColor (3).png)
+[2017.09.11-11.58.50:225][854]LogTexture: Display: 텍스처 빌드: 주인공_무기_07_-_Default_BaseColor__3_ (BC5, 2048X2048)
+[2017.09.11-11.58.50:709][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\Texture\주인공 무기\주인공_무기_07 - Default_BaseColor (4).png)
+[2017.09.11-11.58.50:965][854]LogTexture: Display: 텍스처 빌드: 주인공_무기_07_-_Default_BaseColor__4_ (AutoDXT, 2048X2048)
+[2017.09.11-11.58.57:792][ 65]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.57:808][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.58.57:838][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.58.57:859][ 65]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.57:881][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.11-11.58.57:918][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.58.57:928][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.11-11.58.57:962][ 65]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.57:989][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.09.11-11.58.58:029][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.58.58:038][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.11-11.58.58:048][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.09.11-11.58.58:078][ 65]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.58.58:103][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.09.11-11.58.58:139][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.58.58:145][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.11-11.58.58:154][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.09.11-11.58.58:163][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.09.11-11.59.00:179][108]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.11-11.59.00:179][108]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.11-11.59.00:179][108]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.11-11.59.05:543][316]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.05:567][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.11-11.59.06:895][351]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.06:935][351]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.11-11.59.09:618][422]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.11-11.59.09:618][422]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.59.09:618][422]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.11-11.59.09:618][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.59.15:689][691]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.15:716][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.09.11-11.59.17:924][748]MaterialEditorStats: Base pass shader: 89 instructions
+[2017.09.11-11.59.17:924][748]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.59.17:925][748]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.11-11.59.17:925][748]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.59.23:076][960]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.23:105][960]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.09.11-11.59.25:562][ 26]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.59.25:562][ 26]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.59.25:562][ 26]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.11-11.59.25:562][ 26]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.59.29:425][198]LogMaterialEditor: Saving and Compiling material SwordMat
+[2017.09.11-11.59.30:024][198]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.30:110][198]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.30:153][198]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.30:237][198]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SwordMat, compiling. 
+[2017.09.11-11.59.31:208][198]TextureStreamingBuild: Display: Compiling optional shaders took 0.981 seconds.
+[2017.09.11-11.59.33:005][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Sword/SwordMat" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset" SILENT=true
+[2017.09.11-11.59.33:031][198]LogSavePackage: Save=23.75ms
+[2017.09.11-11.59.33:031][198]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/SwordMatF1F1DC2646F9476D2F8A7A8F62BDF5CB.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset'
+[2017.09.11-11.59.33:034][198]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset
+[2017.09.11-11.59.33:069][198]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.59.33:070][198]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.59.33:070][198]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.11-11.59.33:070][198]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-11.59.42:977][544]LogMaterial: Warning: Material /Game/Player/Sword/SwordMat.SwordMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.11-11.59.42:978][544]LogMaterial: Warning: Material /Engine/Transient.SwordMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.11-11.59.42:982][544]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.43:019][544]LogMaterial: Missing cached shader map for material SwordMat, compiling. 
+[2017.09.11-11.59.44:865][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_idle_sword" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_sword.uasset" SILENT=true
+[2017.09.11-11.59.44:906][580]LogSavePackage: Save=28.03ms
+[2017.09.11-11.59.44:906][580]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_idle_sword5282CACE4FF42D6132DA0094B24F3193.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_sword.uasset'
+[2017.09.11-11.59.44:910][580]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_sword.uasset
+[2017.09.11-11.59.56:631][925]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.09.11-11.59.56:631][925]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.11-11.59.56:631][925]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.11-11.59.56:631][925]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.11-12.00.09:850][311]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-12.00.09:898][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.00.09:898][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-12.00.09:899][311]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 6:00:09)
+[2017.09.11-12.00.09:899][311]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-12.00.09:925][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025902s)
+[2017.09.11-12.00.09:926][311]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-12.00.09:926][311]LogPlayLevel: PIE: World Init took: (0.001707s)
+[2017.09.11-12.00.09:927][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028094s)
+[2017.09.11-12.00.09:957][311]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-12.00.09:973][311]LogInit: FAudioDevice initialized.
+[2017.09.11-12.00.10:004][311]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-12.00.10:007][311]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.11-21.00.10
+[2017.09.11-12.00.10:007][311]LogWorld: Bringing up level for play took: 0.002383
+[2017.09.11-12.00.10:010][311]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: -0.533
+[2017.09.11-12.00.10:010][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.00.29:320][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.00.29:471][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.00.34:208][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.11-12.00.36:156][956]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.09.11-12.01.00:524][177]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-12.01.00:603][177]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.01.00:604][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-12.01.00:605][177]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 6:01:00)
+[2017.09.11-12.01.00:605][177]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-12.01.00:634][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029007s)
+[2017.09.11-12.01.00:636][177]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-12.01.00:637][177]LogPlayLevel: PIE: World Init took: (0.002116s)
+[2017.09.11-12.01.00:637][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031846s)
+[2017.09.11-12.01.00:670][177]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-12.01.00:689][177]LogInit: FAudioDevice initialized.
+[2017.09.11-12.01.00:722][177]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-12.01.00:725][177]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.11-21.01.00
+[2017.09.11-12.01.00:726][177]LogWorld: Bringing up level for play took: 0.002607
+[2017.09.11-12.01.00:729][177]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.186
+[2017.09.11-12.01.00:730][177]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.01.31:400][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.01.31:525][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.02.07:028][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2017.09.11-12.02.08:075][287]LogSavePackage: Save=266.91ms
+[2017.09.11-12.02.08:075][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/ThirdPersonExampleMap_Auto1D0FDC5034061A6F6D6759A9DC87C63CA.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.09.11-12.02.08:185][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.09.11-12.02.08:190][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap' took 0.425
+[2017.09.11-12.02.08:190][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.425
+[2017.09.11-12.02.08:193][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacterBP/Blueprints/PlayerCharacter] ([1] browsable assets)...
+[2017.09.11-12.02.08:257][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacterBP/Blueprints/PlayerCharacter.PlayerCharacter]
+[2017.09.11-12.02.08:257][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacterBP/Blueprints/PlayerCharacter]
+[2017.09.11-12.02.08:380][287]LogSavePackage: Save=110.82ms
+[2017.09.11-12.02.08:380][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerCharacter_Auto1AFC66CEF423FEC6EDF62C7BB4E0BA6C3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Blueprints/PlayerCharacter_Auto1.uasset'
+[2017.09.11-12.02.08:436][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Blueprints/PlayerCharacter_Auto1.uasset
+[2017.09.11-12.02.08:437][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/DistanceEnemy/Bullet/Bullet] ([1] browsable assets)...
+[2017.09.11-12.02.08:490][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/DistanceEnemy/Bullet/Bullet.Bullet]
+[2017.09.11-12.02.08:490][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/DistanceEnemy/Bullet/Bullet]
+[2017.09.11-12.02.08:517][287]LogSavePackage: Save=25.00ms
+[2017.09.11-12.02.08:517][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Bullet_Auto1B6FEFC1C4B9BBE429799F99D699DCBE8.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/DistanceEnemy/Bullet/Bullet_Auto1.uasset'
+[2017.09.11-12.02.08:518][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/DistanceEnemy/Bullet/Bullet_Auto1.uasset
+[2017.09.11-12.02.08:518][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor] ([1] browsable assets)...
+[2017.09.11-12.02.08:528][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor.주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor]
+[2017.09.11-12.02.08:528][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor]
+[2017.09.11-12.02.08:575][287]LogSavePackage: Save=44.98ms
+[2017.09.11-12.02.08:575][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor_Auto17EF5BD5D4A3B8A3DCDABC6949CB5C3EC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor_Auto1.uasset'
+[2017.09.11-12.02.08:576][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor_Auto1.uasset
+[2017.09.11-12.02.08:576][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive] ([1] browsable assets)...
+[2017.09.11-12.02.08:582][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive.주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive]
+[2017.09.11-12.02.08:582][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive]
+[2017.09.11-12.02.08:601][287]LogSavePackage: Save=16.57ms
+[2017.09.11-12.02.08:601][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive_Auto1F6F3755743851E7F03DAE8B6A2511FE1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive_Auto1.uasset'
+[2017.09.11-12.02.08:602][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive_Auto1.uasset
+[2017.09.11-12.02.08:603][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal] ([1] browsable assets)...
+[2017.09.11-12.02.08:614][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal.주인공_캐릭터_Default_Fabric_FRONT_3744_Normal]
+[2017.09.11-12.02.08:614][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal]
+[2017.09.11-12.02.08:652][287]LogSavePackage: Save=35.67ms
+[2017.09.11-12.02.08:652][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal_Auto13D0C1B7F4EF447F9750E8189E883D0B4.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal_Auto1.uasset'
+[2017.09.11-12.02.08:653][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal_Auto1.uasset
+[2017.09.11-12.02.08:653][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2017.09.11-12.02.08:663][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic.주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic]
+[2017.09.11-12.02.08:663][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic]
+[2017.09.11-12.02.08:689][287]LogSavePackage: Save=23.59ms
+[2017.09.11-12.02.08:689][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic_Auto104377E8C4A6DE4509CBD5397DCF84C02.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic_Auto1.uasset'
+[2017.09.11-12.02.08:690][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic_Auto1.uasset
+[2017.09.11-12.02.08:691][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Material/PlayerMat] ([1] browsable assets)...
+[2017.09.11-12.02.08:691][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Material/PlayerMat]
+[2017.09.11-12.02.08:715][287]LogSavePackage: Save=15.44ms
+[2017.09.11-12.02.08:715][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerMat_Auto1363B2A5A438B9F73970FDC934B932AD6.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/PlayerMat_Auto1.uasset'
+[2017.09.11-12.02.08:716][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Material/PlayerMat_Auto1.uasset
+[2017.09.11-12.02.08:717][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Sword/SwordMat] ([1] browsable assets)...
+[2017.09.11-12.02.08:717][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Sword/SwordMat]
+[2017.09.11-12.02.08:736][287]LogSavePackage: Save=10.73ms
+[2017.09.11-12.02.08:736][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/SwordMat_Auto19D04CF4F4A1CBDB9A23D2197C21423F0.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/SwordMat_Auto1.uasset'
+[2017.09.11-12.02.08:737][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/SwordMat_Auto1.uasset
+[2017.09.11-12.02.08:738][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__1_] ([1] browsable assets)...
+[2017.09.11-12.02.08:748][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__1_.주인공_무기_07_-_Default_BaseColor__1_]
+[2017.09.11-12.02.08:748][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__1_]
+[2017.09.11-12.02.08:767][287]LogSavePackage: Save=17.11ms
+[2017.09.11-12.02.08:767][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__1__Auto12C24B7754A84CA91F08D248F8873227F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__1__Auto1.uasset'
+[2017.09.11-12.02.08:768][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__1__Auto1.uasset
+[2017.09.11-12.02.08:769][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__2_] ([1] browsable assets)...
+[2017.09.11-12.02.08:774][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__2_.주인공_무기_07_-_Default_BaseColor__2_]
+[2017.09.11-12.02.08:774][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__2_]
+[2017.09.11-12.02.08:793][287]LogSavePackage: Save=15.98ms
+[2017.09.11-12.02.08:793][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__2__Auto1396A113C4164CE68720C58AB4B51FDF3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__2__Auto1.uasset'
+[2017.09.11-12.02.08:794][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__2__Auto1.uasset
+[2017.09.11-12.02.08:795][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__3_] ([1] browsable assets)...
+[2017.09.11-12.02.08:804][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__3_.주인공_무기_07_-_Default_BaseColor__3_]
+[2017.09.11-12.02.08:804][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__3_]
+[2017.09.11-12.02.08:830][287]LogSavePackage: Save=22.66ms
+[2017.09.11-12.02.08:830][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__3__Auto129D716D44532099BE8C06EB68CABABC1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__3__Auto1.uasset'
+[2017.09.11-12.02.08:831][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__3__Auto1.uasset
+[2017.09.11-12.02.08:831][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__4_] ([1] browsable assets)...
+[2017.09.11-12.02.08:841][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__4_.주인공_무기_07_-_Default_BaseColor__4_]
+[2017.09.11-12.02.08:841][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__4_]
+[2017.09.11-12.02.08:906][287]LogSavePackage: Save=62.82ms
+[2017.09.11-12.02.08:906][287]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__4__Auto12388389348648E5414928F9DBC2CCC08.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__4__Auto1.uasset'
+[2017.09.11-12.02.08:907][287]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Sword/주인공_무기_07_-_Default_BaseColor__4__Auto1.uasset
+[2017.09.11-12.02.08:907][287]LogFileHelpers: Auto-saving content packages took 0.715
+[2017.09.11-12.02.25:100][189]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.09.11-12.02.25:146][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.02.25:147][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-12.02.25:147][189]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 9. 12. 오전 6:02:25)
+[2017.09.11-12.02.25:147][189]LogPlayLevel: Creating play world package: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.11-12.02.25:172][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025293s)
+[2017.09.11-12.02.25:174][189]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.11-12.02.25:174][189]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2017.09.11-12.02.25:174][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027347s)
+[2017.09.11-12.02.25:205][189]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.11-12.02.25:224][189]LogInit: FAudioDevice initialized.
+[2017.09.11-12.02.25:262][189]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.09.11-12.02.25:266][189]LogWorld: Bringing World /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.11-21.02.25
+[2017.09.11-12.02.25:266][189]LogWorld: Bringing up level for play took: 0.002673
+[2017.09.11-12.02.25:270][189]PIE: /Game/PlayerCharacterBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.727
+[2017.09.11-12.02.25:270][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.03.12:896][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.03.13:210][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/PlayerCharacterBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.11-12.04.07:877][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.11-12.04.11:797][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/DistanceEnemy/Bullet/Bullet" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/Bullet/Bullet.uasset" SILENT=true
+[2017.09.11-12.04.11:847][329]LogSavePackage: Save=27.03ms
+[2017.09.11-12.04.11:847][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Bullet603789D1415E8A3011FD538E07C3D870.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/Bullet/Bullet.uasset'
+[2017.09.11-12.04.11:856][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/Bullet/Bullet.uasset
+[2017.09.11-12.04.11:859][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Material/PlayerMat" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset" SILENT=true
+[2017.09.11-12.04.11:888][329]LogSavePackage: Save=9.77ms
+[2017.09.11-12.04.11:888][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerMatAA18600144A7524E30C2C5B3A5A889BF.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset'
+[2017.09.11-12.04.11:896][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/PlayerMat.uasset
+[2017.09.11-12.04.12:391][329]LogSavePackage: Save=471.14ms
+[2017.09.11-12.04.12:391][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColorCD3FC2D7446CC7A104D593ADBF6DC08A.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor.uasset'
+[2017.09.11-12.04.12:399][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_BaseColor.uasset
+[2017.09.11-12.04.12:628][329]LogSavePackage: Save=211.54ms
+[2017.09.11-12.04.12:628][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive7CB249D646DAF056A737A48E4FB238FC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive.uasset'
+[2017.09.11-12.04.12:636][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Emissive.uasset
+[2017.09.11-12.04.12:934][329]LogSavePackage: Save=282.23ms
+[2017.09.11-12.04.12:934][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal0EC3CCB14B3E46E59938729F0E4D1B64.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal.uasset'
+[2017.09.11-12.04.12:943][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_Normal.uasset
+[2017.09.11-12.04.13:581][329]LogSavePackage: Save=616.52ms
+[2017.09.11-12.04.13:581][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic6B19E74F4CE3AC062AE61FBFA89D39E9.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic.uasset'
+[2017.09.11-12.04.13:592][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Material/주인공_캐릭터_Default_Fabric_FRONT_3744_OcclusionRoughnessMetallic.uasset
+[2017.09.11-12.04.13:595][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Sword/SwordMat" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset" SILENT=true
+[2017.09.11-12.04.13:624][329]LogSavePackage: Save=9.73ms
+[2017.09.11-12.04.13:624][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/SwordMatF720B505490EF1701E24A18405EFE2A5.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset'
+[2017.09.11-12.04.13:632][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/SwordMat.uasset
+[2017.09.11-12.04.14:030][329]LogSavePackage: Save=380.44ms
+[2017.09.11-12.04.14:031][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__1_73058CF942F03F414DB572B7E8500AF3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__1_.uasset'
+[2017.09.11-12.04.14:039][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__1_.uasset
+[2017.09.11-12.04.14:295][329]LogSavePackage: Save=223.90ms
+[2017.09.11-12.04.14:295][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__2_54B4C22F43D5CEE1B376D8B4484D0141.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__2_.uasset'
+[2017.09.11-12.04.14:304][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__2_.uasset
+[2017.09.11-12.04.14:682][329]LogSavePackage: Save=357.42ms
+[2017.09.11-12.04.14:682][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__3_0809C89C4143D195CD1759B04134F125.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__3_.uasset'
+[2017.09.11-12.04.14:693][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__3_.uasset
+[2017.09.11-12.04.15:151][329]LogSavePackage: Save=441.70ms
+[2017.09.11-12.04.15:151][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/주인공_무기_07_-_Default_BaseColor__4_1E05B58C429FC51F180AD9B37D8CE1A7.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__4_.uasset'
+[2017.09.11-12.04.15:159][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Sword/주인공_무기_07_-_Default_BaseColor__4_.uasset
+[2017.09.11-12.04.15:239][329]LogSavePackage: Save=72.64ms
+[2017.09.11-12.04.15:239][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerCharacterA279CEF048C152AA5DE1BB86842C9C47.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Blueprints/PlayerCharacter.uasset'
+[2017.09.11-12.04.15:245][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Blueprints/PlayerCharacter.uasset
+[2017.09.11-12.04.15:632][329]LogSavePackage: Save=247.05ms
+[2017.09.11-12.04.15:633][329]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/ThirdPersonExampleMap61B21D1A4F0271213D5379A89C976682.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.11-12.04.15:637][329]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Maps/ThirdPersonExampleMap.umap
+[2017.09.11-12.04.15:684][329]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.416
+[2017.09.11-12.04.16:607][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.11-12.04.16:704][329]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.09.11-12.04.17:052][330]Cmd: QUIT_EDITOR
+[2017.09.11-12.04.17:532][330]LogExit: Preparing to exit.
+[2017.09.11-12.04.18:354][330]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.09.11-12.04.18:547][330]LogExit: Editor shut down
+[2017.09.11-12.04.18:554][330]LogExit: Transaction tracking system shut down
+[2017.09.11-12.04.18:818][330]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.11-12.04.18:819][330]LogDirectoryWatcher: A directory notification for '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.09.11-12.04.18:819][330]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.11-12.04.18:819][330]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.11-12.04.18:819][330]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.11-12.04.19:996][330]LogExit: Object subsystem successfully closed.
+[2017.09.11-12.04.20:070][330]LogD3D11RHI: Shutdown
+[2017.09.11-12.04.20:083][330]LogD3D11RHI: CleanupD3DDevice
+[2017.09.11-12.04.20:411][330]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (548)
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (546)
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (544)
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module AnimationEditor (542)
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2017.09.11-12.04.20:930][330]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (534)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module StatsViewer (530)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.09.11-12.04.20:939][330]LogModuleManager: Shutting down and abandoning module SceneOutliner (526)
+[2017.09.11-12.04.20:948][330]LogModuleManager: Shutting down and abandoning module AddContentDialog (524)
+[2017.09.11-12.04.20:948][330]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.11-12.04.20:974][330]LogModuleManager: Shutting down and abandoning module WidgetCarousel (523)
+[2017.09.11-12.04.20:974][330]LogModuleManager: Shutting down and abandoning module EditorWidgets (520)
+[2017.09.11-12.04.20:974][330]LogModuleManager: Shutting down and abandoning module CollectionManager (518)
+[2017.09.11-12.04.20:974][330]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' was aborted.
+[2017.09.11-12.04.20:974][330]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' was aborted.
+[2017.09.11-12.04.20:974][330]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' was aborted.
+[2017.09.11-12.04.20:974][330]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.11-12.04.20:974][330]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.11-12.04.20:997][330]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.11-12.04.20:997][330]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.11-12.04.20:997][330]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.11-12.04.20:997][330]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.11-12.04.20:998][330]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.11-12.04.21:021][330]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.11-12.04.21:032][330]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.11-12.04.21:032][330]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.11-12.04.21:032][330]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.11-12.04.21:032][330]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.11-12.04.21:032][330]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.11-12.04.21:045][330]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.11-12.04.21:065][330]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.11-12.04.21:084][330]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.11-12.04.21:093][330]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.11-12.04.21:093][330]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.11-12.04.21:093][330]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.11-12.04.21:093][330]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.11-12.04.21:207][330]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.11-12.04.21:208][330]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.11-12.04.21:208][330]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.11-12.04.21:236][330]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.11-12.04.21:237][330]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.11-12.04.21:237][330]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.11-12.04.21:237][330]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.11-12.04.21:244][330]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.11-12.04.21:258][330]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.11-12.04.21:258][330]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.11-12.04.21:277][330]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.11-12.04.21:330][330]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.11-12.04.21:330][330]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.11-12.04.21:376][330]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.11-12.04.21:394][330]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.11-12.04.21:421][330]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.11-12.04.21:423][330]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.11-12.04.21:423][330]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.11-12.04.21:423][330]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.11-12.04.21:447][330]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.11-12.04.21:515][330]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.11-12.04.21:676][330]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.11-12.04.21:757][330]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.11-12.04.21:777][330]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.11-12.04.21:777][330]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.11-12.04.21:777][330]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.11-12.04.21:777][330]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.11-12.04.21:778][330]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.11-12.04.21:778][330]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.11-12.04.21:792][330]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.11-12.04.21:801][330]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.11-12.04.21:812][330]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.11-12.04.21:824][330]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.11-12.04.21:829][330]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.11-12.04.21:829][330]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.11-12.04.21:838][330]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.11-12.04.21:838][330]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.11-12.04.21:839][330]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.11-12.04.21:940][330]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.11-12.04.22:041][330]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.11-12.04.22:097][330]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.11-12.04.22:097][330]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.11-12.04.22:097][330]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.11-12.04.22:097][330]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.11-12.04.22:097][330]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.11-12.04.22:098][330]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.11-12.04.22:098][330]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.11-12.04.22:104][330]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.11-12.04.22:104][330]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.11-12.04.22:104][330]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.11-12.04.22:104][330]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.11-12.04.22:104][330]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.11-12.04.22:124][330]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.11-12.04.22:124][330]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.11-12.04.22:124][330]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.11-12.04.22:124][330]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.11-12.04.22:135][330]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.11-12.04.22:145][330]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.11-12.04.22:145][330]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.11-12.04.22:166][330]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.11-12.04.22:166][330]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.11-12.04.22:167][330]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.11-12.04.22:167][330]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.11-12.04.22:180][330]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.11-12.04.22:204][330]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.11-12.04.22:215][330]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.11-12.04.22:215][330]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.11-12.04.22:233][330]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.11-12.04.22:233][330]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.11-12.04.22:235][330]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.11-12.04.22:248][330]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.11-12.04.22:262][330]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.11-12.04.22:269][330]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.11-12.04.22:313][330]LogDerivedDataCache: Shutdown
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.11-12.04.22:313][330]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.11-12.04.22:314][330]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.11-12.04.22:314][330]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.11-12.04.22:351][330]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.11-12.04.22:351][330]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.11-12.04.22:369][330]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE7AF5AF3-477A-9A10-245B-57B615C726BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2b4b9104449ff9352e6e79a22565f81d%7C7c7d6b3990ad4a62a4d878ae6b0c72dd%7Cdff5993a-bb95-44de-bad5-df2ac76192ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.11-12.04.22:393][330]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.11-12.04.22:413][330]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.11-12.04.22:413][330]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.11-12.04.22:413][330]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.11-12.04.22:432][330]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.11-12.04.22:432][330]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.11-12.04.22:432][330]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.11-12.04.22:432][330]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.11-12.04.22:469][330]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.11-12.04.22:470][330]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.11-12.04.22:470][330]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.11-12.04.22:483][330]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.11-12.04.22:509][330]LogExit: Exiting.
+[2017.09.11-12.04.22:533][330]Log file closed, 09/11/17 21:04:22
