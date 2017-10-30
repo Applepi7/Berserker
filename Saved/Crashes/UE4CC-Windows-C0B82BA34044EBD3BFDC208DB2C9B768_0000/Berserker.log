@@ -1,0 +1,1829 @@
+﻿Log file open, 10/27/17 20:03:20
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1565677841) SRandInit(1565677842).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.527117
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.27-11.03.23:283][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.27-11.03.23:283][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.27-11.03.23:509][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.10.27-11.03.23:509][  0]LogInit: User: JWOH
+[2017.10.27-11.03.23:509][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.27-11.03.23:509][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.10.27-11.03.23:509][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.27-11.03.23:509][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.27-11.03.23:509][  0]LogMemory: Process Physical Memory: 280.26 MB used, 280.26 MB peak
+[2017.10.27-11.03.23:510][  0]LogMemory: Process Virtual Memory: 286.56 MB used, 286.56 MB peak
+[2017.10.27-11.03.23:510][  0]LogMemory: Physical Memory: 3872.56 MB used,  4183.09 MB free, 8055.66 MB total
+[2017.10.27-11.03.23:510][  0]LogMemory: Virtual Memory: 686.04 MB used,  4183.09 MB free, 134217728.00 MB total
+[2017.10.27-11.03.25:263][  0]LogInit: Using OS detected language (ko-KR).
+[2017.10.27-11.03.25:263][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.10.27-11.03.25:643][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.10.27-11.03.31:399][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.27-11.03.32:211][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.27-11.03.32:211][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.27-11.03.32:219][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.27-11.03.32:219][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.27-11.03.32:221][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.27-11.03.32:221][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.27-11.03.32:221][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.27-11.03.32:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.27-11.03.32:227][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.27-11.03.32:227][  0]LogWindows: EnumDisplayDevices:
+[2017.10.27-11.03.32:227][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.27-11.03.32:228][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.27-11.03.32:228][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.27-11.03.32:229][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.27-11.03.32:229][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.27-11.03.32:229][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.27-11.03.32:229][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.27-11.03.32:229][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.27-11.03.32:247][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.27-11.03.32:605][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.27-11.03.32:694][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/11784/).
+[2017.10.27-11.03.32:694][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/1C5B30E84D7B79C285E436B4F5E9EE81/'.
+[2017.10.27-11.03.32:706][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.27-11.03.37:534][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.27-11.03.37:576][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.27-11.03.37:618][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.27-11.03.37:661][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.27-11.03.37:736][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.27-11.03.37:779][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.27-11.03.37:823][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.27-11.03.37:867][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.27-11.03.37:903][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.27-11.03.37:990][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.27-11.03.38:031][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.27-11.03.38:073][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.27-11.03.38:118][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.27-11.03.38:160][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.27-11.03.38:208][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.27-11.03.38:291][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.27-11.03.38:291][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.27-11.03.38:325][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.27-11.03.38:558][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.27-11.03.38:583][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.27-11.03.38:627][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.27-11.03.38:669][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.27-11.03.38:710][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.27-11.03.38:803][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.27-11.03.38:803][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.27-11.03.40:578][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: Loaded boot cache 0.41s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.27-11.03.40:993][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.27-11.03.41:157][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.27-11.03.41:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.27-11.03.41:229][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.27-11.03.41:301][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.27-11.03.41:403][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.27-11.03.41:423][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.27-11.03.50:259][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2017.10.27-11.03.53:389][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.27-11.03.58:749][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.27-11.04.00:077][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.27-11.04.00:149][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.27-11.04.00:158][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.27-11.04.00:158][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.27-11.04.00:158][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.27-11.04.00:158][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.27-11.04.03:599][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.10.27-11.04.05:626][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.330883 seconds
+[2017.10.27-11.04.05:657][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.27-11.04.05:657][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.27-11.04.05:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.27-11.04.05:707][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.27-11.04.22:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.27-11.04.22:729][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.27-11.04.24:400][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.27-11.04.25:257][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.27-11.04.25:257][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.27-11.04.25:381][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.27-11.04.25:435][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.27-11.04.26:644][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.27-11.04.26:889][  0]LogOcInput: OculusInput pre-init called
+[2017.10.27-11.04.27:637][  0]LogEngine: Initializing Engine...
+[2017.10.27-11.04.27:681][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.27-11.04.28:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.27-11.04.28:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.27-11.04.29:069][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.27-11.04.29:210][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.27-11.04.29:830][  0]LogInit: FAudioDevice initialized.
+[2017.10.27-11.04.29:975][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.27-11.04.29:997][  0]LogInit: Texture streaming: Enabled
+[2017.10.27-11.04.30:191][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.27-11.04.31:219][  0]LogInit: Transaction tracking system initialized
+[2017.10.27-11.04.33:150][  0]BlueprintLog: New page: 에디터 로드
+[2017.10.27-11.04.38:277][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.10.27-11.04.41:773][  0]LogConsoleResponse: Display: 
+[2017.10.27-11.04.49:795][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.27-11.04.49:795][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.27-11.04.49:975][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.26s
+[2017.10.27-11.04.49:975][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.27-11.04.57:938][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.27-11.04.58:152][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.27-11.04.58:631][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.27-11.04.59:231][  0]MapCheck: New page: 맵 체크
+[2017.10.27-11.04.59:231][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.27-11.05.32:901][  0]LogAIModule: Creating AISystem for world Arena
+[2017.10.27-11.05.34:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.27-11.05.36:612][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.27-11.05.36:713][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 100.714ms.
+[2017.10.27-11.05.36:713][  0]LogFileHelpers: Loading map 'Arena' took 38.661
+[2017.10.27-11.05.41:012][  0]LogCollectionManager: Loaded 0 collections in 0.001115 seconds
+[2017.10.27-11.05.41:437][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.10.27-11.05.41:437][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.10.27-11.05.41:437][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.10.27-11.05.41:437][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.27-11.05.41:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2386 classes and 500 folders.
+[2017.10.27-11.05.41:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0216 seconds. Added 0 classes and 0 folders.
+[2017.10.27-11.05.44:920][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.27-11.05.45:091][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.27-11.05.47:962][  0]LogSlate: Took 0.159185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.27-11.05.50:341][  0]LogSlate: Took 2.343342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.10.27-11.05.50:374][  0]LogSlate: Took 0.016593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.27-11.05.50:636][  0]LogSlate: Took 0.202938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.27-11.05.55:453][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.27-11.06.11:501][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.27-11.06.11:501][  0]LogLoad: (Engine Initialization) Total time: 192.19 seconds
+[2017.10.27-11.06.11:501][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.27-11.06.11:579][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.27-11.06.11:579][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.27-11.06.14:560][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.27-11.06.20:420][  1]LogSlate: Took 0.233413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.27-11.06.24:130][  5]LogAssetRegistry: Asset discovery search completed in 153.8929 seconds
+[2017.10.27-11.06.24:174][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.27-11.06.24:281][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.072487 seconds (updated 0 objects)
+[2017.10.27-11.06.31:062][ 19]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.10.27-11.06.31:062][ 19]LogSynthBenchmark: Display: ===============
+[2017.10.27-11.06.31:062][ 19]LogSynthBenchmark: Display: Main Processor:
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:          ... 0.029416 s/Run 'RayIntersect'
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:          ... 0.025980 s/Run 'Fractal'
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display: 
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 8
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   CPU Perf Index 0: 87.1 (weight 1.00)
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   CPU Perf Index 1: 110.1 (weight 1.50)
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:  
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display: Graphics:
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 960M'
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   Device Id: 0x139B
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   Device Revision: 0xA2
+[2017.10.27-11.06.31:339][ 19]LogSynthBenchmark: Display:   GPU Memory: 2020/0/4028 MB
+[2017.10.27-11.06.31:833][ 19]LogSynthBenchmark: Display:   GPU first test: 0.19s
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.373 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.322 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.297 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 1.641 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.051 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.355 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.202 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Final Results:
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.373 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.322 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.297 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 1.641 s/GigaPix, Confidence=100% 'FillOnly'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.051 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.355 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... 0.202 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display: 
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 0: 8.1 (weight 1.00)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 1: 4.3 (weight 0.10)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 2: 7.7 (weight 0.10)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 3: 6.4 (weight 3.00)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 4: 4.8 (weight 1.00)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 5: 23.1 (weight 0.00)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPU Perf Index 6: 11.4 (weight 0.00)
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   CPUIndex: 100.9
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:   GPUIndex: 6.4
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display: 
+[2017.10.27-11.06.31:834][ 19]LogSynthBenchmark: Display:          ... Total Time: 0.772309 sec
+[2017.10.27-11.07.46:494][393]LogSlate: Took 0.082868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.27-11.07.47:624][393]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.27-11.08.00:539][393]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0013 seconds. Added 1 classes and 0 folders.
+[2017.10.27-11.08.00:623][393]LogClothingAssetFactory: Finished physical mesh import
+[2017.10.27-11.08.00:685][393]LogClothingAssetFactory: Finished physical mesh import
+[2017.10.27-11.08.00:942][393]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.27-11.08.00:942][393]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.27-11.08.00:942][393]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.27-11.08.00:942][393]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.27-11.08.01:363][393]LogAIModule: Creating AISystem for world FLAG
+[2017.10.27-11.08.02:018][393]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.27-11.08.02:019][393]LightingResults: New page: 라이팅 빌드
+[2017.10.27-11.08.02:021][393]LoadErrors: New page: 맵 로드중: FLAG.umap
+[2017.10.27-11.08.02:390][393]MapCheck: New page: 맵 체크
+[2017.10.27-11.08.02:390][393]LightingResults: New page: 라이팅 빌드
+[2017.10.27-11.08.03:036][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.27-11.08.03:547][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.27-11.08.03:713][393]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 165.561ms.
+[2017.10.27-11.08.03:713][393]LogFileHelpers: Loading map 'FLAG' took 2.011
+[2017.10.27-11.08.14:653][498]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Distance_enemy_die)
+[2017.10.27-11.08.22:806][714]Cmd: DELETE
+[2017.10.27-11.08.22:806][714]Cmd: ACTOR DELETE
+[2017.10.27-11.08.23:668][714]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.10.27-11.08.23:955][714]LogEditorActor: Deleted 1 Actors (0.508 secs)
+[2017.10.27-11.11.02:267][765]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_run.fbx)
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: Model, ItemCount : 34
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: AnimationCurve, ItemCount : 174
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: AnimationCurveNode, ItemCount : 31
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.27-11.11.04:141][765]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.10.27-11.11.04:307][765]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_run.fbx
+[2017.10.27-11.11.04:564][765]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.11.18:749][765]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_run.fbx
+[2017.10.27-11.11.18:783][765]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.11.19:526][765]LogFbx: =================================================
+[2017.10.27-11.11.19:526][765]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.11.19:527][765]LogFbx: 	Total Deformer Count -288065648.
+[2017.10.27-11.11.19:527][765]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.11.19:527][765]LogFbx: =================================================
+[2017.10.27-11.11.19:527][765]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.11.19:527][765]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.11.19:527][765]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.11.19:528][765]LogFbx: =================================================
+[2017.10.27-11.11.19:528][765]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.11.19:528][765]LogFbx: 	Total Deformer Count -288065648.
+[2017.10.27-11.11.19:528][765]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.11.19:528][765]LogFbx: =================================================
+[2017.10.27-11.11.19:529][765]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.11.19:529][765]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.11.19:529][765]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.11.19:562][765]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.11.20:164][765]LogLinker: '/Game/Enemy/WarriorEnemy/08_-_Default' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.20:195][765]LogLinker: '/Game/Enemy/WarriorEnemy/08_-_Default' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.20:861][765]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.11.21:334][765]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.11.21:337][765]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.11.21:396][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.21:396][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.21:535][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.21:535][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.22:233][765]LogFbx: =================================================
+[2017.10.27-11.11.22:233][765]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.11.22:233][765]LogFbx: 	Total Deformer Count -1396482416.
+[2017.10.27-11.11.22:233][765]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.11.22:233][765]LogFbx: =================================================
+[2017.10.27-11.11.22:233][765]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.11.22:233][765]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.11.22:234][765]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.11.22:235][765]LogFbx: =================================================
+[2017.10.27-11.11.22:235][765]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.11.22:235][765]LogFbx: 	Total Deformer Count -1396482416.
+[2017.10.27-11.11.22:235][765]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.11.22:235][765]LogFbx: =================================================
+[2017.10.27-11.11.22:235][765]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.11.22:235][765]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.11.22:235][765]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.11.22:289][765]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.11.22:289][765]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.11.22:289][765]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.11.22:289][765]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.11.22:290][765]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.11.22:320][765]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.11.22:321][765]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.11.22:322][765]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.11.22:391][765]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.11.22:549][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.22:549][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.22:861][765]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_run_Anim_Take_001.Warrior_run_Anim_Take_001
+[2017.10.27-11.11.23:594][765]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.11.23:595][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.23:595][765]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.11.23:715][765]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com.Warrior_run_Anim_mixamo_com
+[2017.10.27-11.12.26:408][984]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.27-11.12.29:666][984]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.27-11.12.32:864][984]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.27-11.12.41:926][984]LogSlate: Took 0.508325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.27-11.12.42:305][984]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2017.10.27-11.13.13:122][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.10.27-11.13.13:585][487]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.10.27-11.13.18:888][489]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.27-11.14.46:028][ 53]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack hit_1.fbx)
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: Model, ItemCount : 34
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.10.27-11.14.46:040][ 53]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.27-11.14.46:041][ 53]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.10.27-11.14.46:041][ 53]LogFbx: ItemName: AnimationCurve, ItemCount : 174
+[2017.10.27-11.14.46:041][ 53]LogFbx: ItemName: AnimationCurveNode, ItemCount : 31
+[2017.10.27-11.14.46:041][ 53]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.27-11.14.46:041][ 53]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.10.27-11.14.46:047][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack hit_1.fbx
+[2017.10.27-11.14.46:095][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.00:548][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack hit_1.fbx
+[2017.10.27-11.15.00:584][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.00:586][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:586][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.00:586][ 53]LogFbx: 	Total Deformer Count -832368272.
+[2017.10.27-11.15.00:586][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.00:586][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:586][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.00:586][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.00:586][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.00:587][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:587][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.00:587][ 53]LogFbx: 	Total Deformer Count -832368272.
+[2017.10.27-11.15.00:587][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.00:587][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:588][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.00:588][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.00:588][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.00:588][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.00:601][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.00:649][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.00:652][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.00:654][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.00:654][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.00:662][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:662][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.00:662][ 53]LogFbx: 	Total Deformer Count -1153245072.
+[2017.10.27-11.15.00:662][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.00:662][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:662][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.00:662][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.00:662][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.00:662][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:662][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.00:662][ 53]LogFbx: 	Total Deformer Count -1153245072.
+[2017.10.27-11.15.00:662][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.00:662][ 53]LogFbx: =================================================
+[2017.10.27-11.15.00:662][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.00:662][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.00:664][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.00:664][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.00:665][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.00:666][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.00:668][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.00:668][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.00:668][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.00:916][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_Take_001.Warrior_attack_hit_1_Anim_Take_001
+[2017.10.27-11.15.00:925][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.00:927][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.00:927][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:020][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com.Warrior_attack_hit_1_Anim_mixamo_com
+[2017.10.27-11.15.01:205][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack hit_2.fbx)
+[2017.10.27-11.15.01:220][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack hit_2.fbx
+[2017.10.27-11.15.01:256][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.01:258][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:258][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.01:258][ 53]LogFbx: 	Total Deformer Count -1153247072.
+[2017.10.27-11.15.01:258][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.01:258][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:258][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.01:258][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.01:258][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.01:258][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:258][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.01:259][ 53]LogFbx: 	Total Deformer Count -1153247072.
+[2017.10.27-11.15.01:259][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.01:259][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:259][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.01:259][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.01:259][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.01:259][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.01:275][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.01:330][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.01:340][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.01:342][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:342][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:352][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:352][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.01:352][ 53]LogFbx: 	Total Deformer Count 247283072.
+[2017.10.27-11.15.01:353][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.01:353][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:353][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.01:353][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.01:353][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.01:353][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:354][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.01:354][ 53]LogFbx: 	Total Deformer Count 247283072.
+[2017.10.27-11.15.01:354][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.01:354][ 53]LogFbx: =================================================
+[2017.10.27-11.15.01:354][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.01:354][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.01:354][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.01:354][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.01:355][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.01:356][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.01:356][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:356][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:640][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_Take_001.Warrior_attack_hit_2_Anim_Take_001
+[2017.10.27-11.15.01:650][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.01:653][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:653][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.01:804][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com.Warrior_attack_hit_2_Anim_mixamo_com
+[2017.10.27-11.15.02:034][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack_1.fbx)
+[2017.10.27-11.15.02:053][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack_1.fbx
+[2017.10.27-11.15.02:087][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.02:088][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:088][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:088][ 53]LogFbx: 	Total Deformer Count 247269152.
+[2017.10.27-11.15.02:088][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:088][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:088][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:088][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:089][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:089][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:089][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:089][ 53]LogFbx: 	Total Deformer Count -1396485776.
+[2017.10.27-11.15.02:089][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:089][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:089][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:089][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:089][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:090][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.02:101][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.02:148][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.02:150][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.02:152][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:152][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:159][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:159][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:159][ 53]LogFbx: 	Total Deformer Count -832364832.
+[2017.10.27-11.15.02:159][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:159][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:159][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:159][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:159][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:160][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:160][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:160][ 53]LogFbx: 	Total Deformer Count -832364832.
+[2017.10.27-11.15.02:160][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:160][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:160][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:160][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:160][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.02:160][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.02:161][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.02:161][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.02:162][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:162][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:418][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_Take_001.Warrior_attack_1_Anim_Take_001
+[2017.10.27-11.15.02:426][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.02:430][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:430][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.02:708][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com.Warrior_attack_1_Anim_mixamo_com
+[2017.10.27-11.15.02:938][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack_2.fbx)
+[2017.10.27-11.15.02:954][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_attack_2.fbx
+[2017.10.27-11.15.02:984][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.02:985][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:985][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:985][ 53]LogFbx: 	Total Deformer Count -832364032.
+[2017.10.27-11.15.02:985][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:985][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:985][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:985][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:985][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:986][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:986][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.02:986][ 53]LogFbx: 	Total Deformer Count -832364032.
+[2017.10.27-11.15.02:986][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.02:986][ 53]LogFbx: =================================================
+[2017.10.27-11.15.02:986][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.02:986][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.02:986][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.02:986][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.02:993][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.03:044][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.03:052][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.03:054][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:055][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:062][ 53]LogFbx: =================================================
+[2017.10.27-11.15.03:062][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.03:062][ 53]LogFbx: 	Total Deformer Count 217196768.
+[2017.10.27-11.15.03:062][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.03:062][ 53]LogFbx: =================================================
+[2017.10.27-11.15.03:062][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.03:062][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.03:062][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.03:064][ 53]LogFbx: =================================================
+[2017.10.27-11.15.03:065][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.03:065][ 53]LogFbx: 	Total Deformer Count 217196768.
+[2017.10.27-11.15.03:065][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.03:065][ 53]LogFbx: =================================================
+[2017.10.27-11.15.03:065][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.03:065][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.03:065][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.03:065][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.03:066][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.03:067][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.03:068][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:068][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:340][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_Take_001.Warrior_attack_2_Anim_Take_001
+[2017.10.27-11.15.03:383][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.03:385][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:385][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.03:537][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com.Warrior_attack_2_Anim_mixamo_com
+[2017.10.27-11.15.04:515][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_die.fbx)
+[2017.10.27-11.15.04:534][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_die.fbx
+[2017.10.27-11.15.04:569][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.04:571][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:571][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.04:571][ 53]LogFbx: 	Total Deformer Count 217190288.
+[2017.10.27-11.15.04:571][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.04:571][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:571][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.04:571][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.04:571][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.04:571][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:572][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.04:572][ 53]LogFbx: 	Total Deformer Count 217190288.
+[2017.10.27-11.15.04:572][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.04:572][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:572][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.04:572][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.04:572][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.04:572][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.04:589][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.04:640][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.04:642][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.04:642][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.04:642][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.04:657][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:657][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.04:657][ 53]LogFbx: 	Total Deformer Count -832365952.
+[2017.10.27-11.15.04:657][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.04:657][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:657][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.04:657][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.04:657][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.04:658][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:658][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.04:658][ 53]LogFbx: 	Total Deformer Count -832365952.
+[2017.10.27-11.15.04:658][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.04:658][ 53]LogFbx: =================================================
+[2017.10.27-11.15.04:658][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.04:658][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.04:658][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.04:658][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.04:658][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.04:658][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.04:658][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.04:658][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.04:659][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.04:660][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.04:661][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.04:662][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.04:663][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.04:890][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_die_Anim_Take_001.Warrior_die_Anim_Take_001
+[2017.10.27-11.15.04:898][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.04:902][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.04:902][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.05:137][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com.Warrior_die_Anim_mixamo_com
+[2017.10.27-11.15.05:293][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_jump attack.fbx)
+[2017.10.27-11.15.05:316][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_jump attack.fbx
+[2017.10.27-11.15.05:354][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.05:356][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:356][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.05:356][ 53]LogFbx: 	Total Deformer Count -1158452544.
+[2017.10.27-11.15.05:356][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.05:356][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:356][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.05:356][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.05:356][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.05:358][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:358][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.05:358][ 53]LogFbx: 	Total Deformer Count -1158452544.
+[2017.10.27-11.15.05:358][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.05:358][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:358][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.05:358][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.05:358][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.05:358][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.05:370][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.05:434][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.05:438][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.05:439][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.05:440][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.05:452][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:452][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.05:452][ 53]LogFbx: 	Total Deformer Count -288078288.
+[2017.10.27-11.15.05:452][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.05:452][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:452][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.05:452][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.05:452][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.05:453][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:453][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.05:453][ 53]LogFbx: 	Total Deformer Count -288078288.
+[2017.10.27-11.15.05:453][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.05:453][ 53]LogFbx: =================================================
+[2017.10.27-11.15.05:453][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.05:453][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.05:453][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.05:454][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.05:455][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.05:456][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.05:456][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.05:457][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.06:035][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_Take_001.Warrior_jump_attack_Anim_Take_001
+[2017.10.27-11.15.06:046][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.06:052][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.06:053][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.06:746][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com.Warrior_jump_attack_Anim_mixamo_com
+[2017.10.27-11.15.07:626][ 53]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_kick_hit.fbx)
+[2017.10.27-11.15.07:643][ 53]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_kick_hit.fbx
+[2017.10.27-11.15.07:674][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.27-11.15.07:676][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:676][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.07:676][ 53]LogFbx: 	Total Deformer Count 217192928.
+[2017.10.27-11.15.07:676][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.07:676][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:676][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.07:676][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.07:676][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.07:678][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:678][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.07:678][ 53]LogFbx: 	Total Deformer Count 217192928.
+[2017.10.27-11.15.07:678][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.07:678][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:678][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.07:678][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.07:678][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.07:679][ 53]LogFbx: Valid bind pose for Pose (BindPose) - SeaDemon MESH
+[2017.10.27-11.15.07:689][ 53]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.10.27-11.15.07:734][ 53]LogSkeletalMesh: Section 0: 3338 vertices, 28 active bones
+[2017.10.27-11.15.07:736][ 53]LogSkeletalMesh: Section 0: Material=0, 2104 triangles
+[2017.10.27-11.15.07:738][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.07:738][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.07:744][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:744][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.07:744][ 53]LogFbx: 	Total Deformer Count 180758752.
+[2017.10.27-11.15.07:744][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.07:744][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:744][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.07:744][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.07:744][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.07:746][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:746][ 53]LogFbx: Dumping Node START [SeaDemon MESH] 
+[2017.10.27-11.15.07:746][ 53]LogFbx: 	Total Deformer Count 180758752.
+[2017.10.27-11.15.07:746][ 53]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.10.27-11.15.07:746][ 53]LogFbx: =================================================
+[2017.10.27-11.15.07:746][ 53]LogFbx: 	Attribute () Type (4).
+[2017.10.27-11.15.07:746][ 53]LogFbx: 		[Node Attribute Child 1] SeaDemon MESH (Type Mesh).
+[2017.10.27-11.15.07:746][ 53]LogFbx: Dumping Node END [SeaDemon MESH]
+[2017.10.27-11.15.07:746][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.07:746][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(0) Hips
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(1) Spine
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(2) Spine1
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(3) Spine2
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(4) Neck
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(5) Head
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(15) RightShoulder
+[2017.10.27-11.15.07:747][ 53]LogFbx: SortedLinks :(16) RightArm
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(17) RightForeArm
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(18) RightHand
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(24) LeftLeg
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(25) LeftFoot
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(29) RightLeg
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(30) RightFoot
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(31) RightToeBase
+[2017.10.27-11.15.07:748][ 53]LogFbx: SortedLinks :(32) RightToe_End
+[2017.10.27-11.15.07:748][ 53]LogFbx: Parsing AnimStack Take 001
+[2017.10.27-11.15.07:749][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.07:750][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_Take_001' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.07:988][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_Take_001.Warrior_kick_hit_Anim_Take_001
+[2017.10.27-11.15.07:997][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2017.10.27-11.15.08:000][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.08:000][ 53]LogLinker: '/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com' 파일을 찾을 수 없습니다.
+[2017.10.27-11.15.08:122][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com.Warrior_kick_hit_Anim_mixamo_com
+[2017.10.27-11.15.31:125][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.10.27-11.15.31:200][744]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.10.27-11.15.32:871][744]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.27-11.16.33:598][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FLAG" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.27-11.16.38:872][475]LogSavePackage: Save=1327.21ms
+[2017.10.27-11.16.38:872][475]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/FLAG6D981A6341A5C8CB69C52B9DAA841A43.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap'
+[2017.10.27-11.16.39:217][475]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap
+[2017.10.27-11.16.39:688][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FLAG_BuiltData" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG_BuiltData.uasset" SILENT=true
+[2017.10.27-11.16.42:602][475]LogSavePackage: Save=826.99ms
+[2017.10.27-11.16.42:603][475]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/FLAG_BuiltDataBF477C9140B87E4C1683069E771354AC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG_BuiltData.uasset'
+[2017.10.27-11.16.42:640][475]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG_BuiltData.uasset
+[2017.10.27-11.17.40:469][ 51]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.10.27-11.17.47:245][ 51]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.10.27-11.17.56:825][ 51]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.10.27-11.18.01:346][ 51]LogSlate: Took 0.509129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.27-11.18.06:778][ 51]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.27-11.18.49:605][732]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_2_08 - Default_Emissive.png)
+[2017.10.27-11.18.50:297][732]LogTexture: Display: 텍스처 빌드: Warrior_2_08_-_Default_Emissive (AutoDXT, 1024X1024)
+[2017.10.27-11.18.51:151][732]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_2_08 - Default_Normal.png)
+[2017.10.27-11.18.51:544][732]LogTexture: Display: 텍스처 빌드: Warrior_2_08_-_Default_Normal (BC5, 1024X1024)
+[2017.10.27-11.18.51:933][732]LogSlate: Took 0.234831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.27-11.18.52:026][732]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_2_08 - Default_OcclusionRoughnessMetallic.png)
+[2017.10.27-11.18.52:110][732]LogTexture: Display: 텍스처 빌드: Warrior_2_08_-_Default_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2017.10.27-11.18.52:600][732]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\warrior\Warrior_2_08 - Default_BaseColor.png)
+[2017.10.27-11.18.52:671][732]LogTexture: Display: 텍스처 빌드: Warrior_2_08_-_Default_BaseColor (AutoDXT, 1024X1024)
+[2017.10.27-11.19.10:743][975]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2017.10.27-11.19.12:049][975]LogRenderer: Reallocating scene render targets to support 1516x924 Format 10 NumSamples 1 (Frame:1).
+[2017.10.27-11.22.26:886][116]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.29:086][116]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.29:508][116]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.42:055][227]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.42:111][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.22.42:298][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.22.42:332][227]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.42:354][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.27-11.22.42:398][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.22.42:406][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.27-11.22.42:437][227]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.42:465][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.27-11.22.42:510][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.22.42:520][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.27-11.22.42:533][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.27-11.22.42:565][227]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.22.42:587][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.10.27-11.22.42:631][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.22.42:638][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.27-11.22.42:650][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.27-11.22.42:657][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.10.27-11.22.53:136][267]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.27-11.22.53:136][267]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.27-11.22.53:136][267]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.27-11.23.26:328][521]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.23.26:428][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.10.27-11.23.32:149][552]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.27-11.23.32:149][552]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.27-11.23.32:149][552]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.27-11.23.32:149][552]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.27-11.26.34:841][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 1.198
+[2017.10.27-11.26.35:124][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_run] ([1] browsable assets)...
+[2017.10.27-11.26.35:541][257]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Enemy/WarriorEnemy/Warrior_run.Warrior_run]
+[2017.10.27-11.26.35:541][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_run]
+[2017.10.27-11.26.35:957][257]LogSavePackage: Save=389.45ms
+[2017.10.27-11.26.35:957][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_run_Auto1170ECC2749DAFEFBF155A5BE66DBD816.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Auto1.uasset'
+[2017.10.27-11.26.35:958][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Auto1.uasset
+[2017.10.27-11.26.35:959][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/08_-_Default] ([1] browsable assets)...
+[2017.10.27-11.26.35:986][257]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Enemy/WarriorEnemy/08_-_Default.08_-_Default]
+[2017.10.27-11.26.35:986][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/08_-_Default]
+[2017.10.27-11.26.36:292][257]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 08_-_Default, compiling. 
+[2017.10.27-11.26.39:875][257]TextureStreamingBuild: Display: Compiling optional shaders took 3.808 seconds.
+[2017.10.27-11.26.40:090][257]LogSavePackage: Save=37.28ms
+[2017.10.27-11.26.40:090][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/08_-_Default_Auto1FE953B24455F28E838729B9C32D78392.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/08_-_Default_Auto1.uasset'
+[2017.10.27-11.26.40:091][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/08_-_Default_Auto1.uasset
+[2017.10.27-11.26.40:092][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton] ([1] browsable assets)...
+[2017.10.27-11.26.40:092][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton]
+[2017.10.27-11.26.40:151][257]LogSavePackage: Save=49.61ms
+[2017.10.27-11.26.40:151][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_run_Skeleton_Auto1E08A18154CD61E14A542C78DEF6A886E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton_Auto1.uasset'
+[2017.10.27-11.26.40:152][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Skeleton_Auto1.uasset
+[2017.10.27-11.26.40:152][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.40:153][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset]
+[2017.10.27-11.26.40:268][257]LogSavePackage: Save=111.90ms
+[2017.10.27-11.26.40:268][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_run_PhysicsAsset_Auto18A0C8404420EFFBD6A5C55A0C35B269E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.40:269][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.40:271][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.40:294][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com.Warrior_run_Anim_mixamo_com]
+[2017.10.27-11.26.40:294][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com]
+[2017.10.27-11.26.40:350][257]LogSavePackage: Save=51.24ms
+[2017.10.27-11.26.40:350][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_run_Anim_mixamo_com_Auto1D23CBA684A96A9D4CAE43BB7301DDB9E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.40:353][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_run_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.40:354][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.40:355][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset]
+[2017.10.27-11.26.40:391][257]LogSavePackage: Save=31.33ms
+[2017.10.27-11.26.40:391][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_hit_1_PhysicsAsset_Auto10E28BB6D4ED5BCE087D4BD8A861CD65E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.40:397][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.40:399][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.40:420][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com.Warrior_attack_hit_1_Anim_mixamo_com]
+[2017.10.27-11.26.40:420][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com]
+[2017.10.27-11.26.40:454][257]LogSavePackage: Save=28.99ms
+[2017.10.27-11.26.40:466][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_hit_1_Anim_mixamo_com_Auto1049948614E0C7BF11DA51FABB96A5192.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.40:467][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_1_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.40:468][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Emissive] ([1] browsable assets)...
+[2017.10.27-11.26.40:503][257]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Emissive.Warrior_2_08_-_Default_Emissive]
+[2017.10.27-11.26.40:503][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Emissive]
+[2017.10.27-11.26.40:537][257]LogSavePackage: Save=30.58ms
+[2017.10.27-11.26.40:538][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_2_08_-_Default_Emissive_Auto15739C8F443EF134960151E8D1166F7F1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Emissive_Auto1.uasset'
+[2017.10.27-11.26.40:539][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Emissive_Auto1.uasset
+[2017.10.27-11.26.40:540][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.40:540][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset]
+[2017.10.27-11.26.40:583][257]LogSavePackage: Save=35.52ms
+[2017.10.27-11.26.40:583][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_hit_2_PhysicsAsset_Auto12E15E1BD4FE4F2A3D16708BEFBF16A38.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.40:585][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.40:586][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.40:612][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com.Warrior_attack_hit_2_Anim_mixamo_com]
+[2017.10.27-11.26.40:612][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com]
+[2017.10.27-11.26.40:640][257]LogSavePackage: Save=24.44ms
+[2017.10.27-11.26.40:640][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_hit_2_Anim_mixamo_com_Auto19A6553E14BF847C6F37311B3FBCF7BF9.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.40:641][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_hit_2_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.40:642][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Normal] ([1] browsable assets)...
+[2017.10.27-11.26.40:654][257]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Normal.Warrior_2_08_-_Default_Normal]
+[2017.10.27-11.26.40:654][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Normal]
+[2017.10.27-11.26.40:691][257]LogSavePackage: Save=31.21ms
+[2017.10.27-11.26.40:691][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_2_08_-_Default_Normal_Auto13B7176D54DFD537536F48C86530E4AE3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Normal_Auto1.uasset'
+[2017.10.27-11.26.40:693][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_Normal_Auto1.uasset
+[2017.10.27-11.26.40:695][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.40:695][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset]
+[2017.10.27-11.26.40:729][257]LogSavePackage: Save=32.06ms
+[2017.10.27-11.26.40:729][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_1_PhysicsAsset_Auto1018B17A14548F28BA5E4179A3B03B6FA.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.40:731][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_1_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.40:732][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.40:752][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com.Warrior_attack_1_Anim_mixamo_com]
+[2017.10.27-11.26.40:752][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com]
+[2017.10.27-11.26.40:785][257]LogSavePackage: Save=28.35ms
+[2017.10.27-11.26.40:785][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_1_Anim_mixamo_com_Auto14B1D5DC24EA24F9E55FFA690C89DE3EB.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.40:786][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_1_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.40:787][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2017.10.27-11.26.40:799][257]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_OcclusionRoughnessMetallic.Warrior_2_08_-_Default_OcclusionRoughnessMetallic]
+[2017.10.27-11.26.40:799][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_OcclusionRoughnessMetallic]
+[2017.10.27-11.26.40:828][257]LogSavePackage: Save=25.51ms
+[2017.10.27-11.26.40:829][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_2_08_-_Default_OcclusionRoughnessMetallic_Auto133BB9DC749FAE733B2E07DAF46DFBC4E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_OcclusionRoughnessMetallic_Auto1.uasset'
+[2017.10.27-11.26.40:830][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_OcclusionRoughnessMetallic_Auto1.uasset
+[2017.10.27-11.26.40:830][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.40:831][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset]
+[2017.10.27-11.26.40:864][257]LogSavePackage: Save=29.46ms
+[2017.10.27-11.26.40:865][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_2_PhysicsAsset_Auto1359E615A4BD1B615F73A9E90D9B14E26.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.40:867][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_2_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.40:869][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.40:892][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com.Warrior_attack_2_Anim_mixamo_com]
+[2017.10.27-11.26.40:893][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com]
+[2017.10.27-11.26.40:928][257]LogSavePackage: Save=30.34ms
+[2017.10.27-11.26.40:928][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_attack_2_Anim_mixamo_com_Auto1E333EF834BC5208867EA9D8CEE9874F4.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.40:929][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_attack_2_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.40:930][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_BaseColor] ([1] browsable assets)...
+[2017.10.27-11.26.40:943][257]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_BaseColor.Warrior_2_08_-_Default_BaseColor]
+[2017.10.27-11.26.40:944][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_BaseColor]
+[2017.10.27-11.26.40:982][257]LogSavePackage: Save=34.57ms
+[2017.10.27-11.26.40:982][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_2_08_-_Default_BaseColor_Auto10DFD418540B358C945AD62979D05CA93.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_BaseColor_Auto1.uasset'
+[2017.10.27-11.26.40:999][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/Warrior_2_08_-_Default_BaseColor_Auto1.uasset
+[2017.10.27-11.26.41:000][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.41:000][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset]
+[2017.10.27-11.26.41:035][257]LogSavePackage: Save=32.01ms
+[2017.10.27-11.26.41:035][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_die_PhysicsAsset_Auto1CBDC488A4EDF9674762EA2A480EFA9EA.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.41:036][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_die_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.41:038][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.41:061][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com.Warrior_die_Anim_mixamo_com]
+[2017.10.27-11.26.41:062][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com]
+[2017.10.27-11.26.41:094][257]LogSavePackage: Save=25.66ms
+[2017.10.27-11.26.41:094][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_die_Anim_mixamo_com_Auto16E6A01A9440919CF7915939E616D5620.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.41:096][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_die_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.41:097][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/WarriorMat] ([1] browsable assets)...
+[2017.10.27-11.26.41:118][257]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Enemy/WarriorEnemy/Mat/WarriorMat.WarriorMat]
+[2017.10.27-11.26.41:118][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/WarriorMat]
+[2017.10.27-11.26.41:150][257]LogSavePackage: Save=28.40ms
+[2017.10.27-11.26.41:150][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorMat_Auto18F49418C4F3EE4BF568C388DA625C22E.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/WarriorMat_Auto1.uasset'
+[2017.10.27-11.26.41:151][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/WarriorMat_Auto1.uasset
+[2017.10.27-11.26.41:152][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.41:152][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset]
+[2017.10.27-11.26.41:187][257]LogSavePackage: Save=29.71ms
+[2017.10.27-11.26.41:187][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_jump_attack_PhysicsAsset_Auto13DF275B94B602D8B732333A3B6AD9849.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.41:189][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_jump_attack_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.41:190][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.41:212][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com.Warrior_jump_attack_Anim_mixamo_com]
+[2017.10.27-11.26.41:212][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com]
+[2017.10.27-11.26.41:246][257]LogSavePackage: Save=30.77ms
+[2017.10.27-11.26.41:246][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_jump_attack_Anim_mixamo_com_Auto125FA65384C91A219E39800B26D8875BB.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.41:247][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_jump_attack_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.41:248][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset] ([1] browsable assets)...
+[2017.10.27-11.26.41:248][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset]
+[2017.10.27-11.26.41:285][257]LogSavePackage: Save=33.26ms
+[2017.10.27-11.26.41:285][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_kick_hit_PhysicsAsset_Auto15AEAD9A64DB9984E590710BCFE67541F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset_Auto1.uasset'
+[2017.10.27-11.26.41:286][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_kick_hit_PhysicsAsset_Auto1.uasset
+[2017.10.27-11.26.41:287][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com] ([1] browsable assets)...
+[2017.10.27-11.26.41:306][257]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com.Warrior_kick_hit_Anim_mixamo_com]
+[2017.10.27-11.26.41:306][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com]
+[2017.10.27-11.26.41:337][257]LogSavePackage: Save=26.00ms
+[2017.10.27-11.26.41:337][257]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_kick_hit_Anim_mixamo_com_Auto16CDDFD5447EF14A18D56838CAFCA414B.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com_Auto1.uasset'
+[2017.10.27-11.26.41:338][257]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_kick_hit_Anim_mixamo_com_Auto1.uasset
+[2017.10.27-11.26.41:353][257]LogFileHelpers: Auto-saving content packages took 6.465
+[2017.10.27-11.27.13:600][632]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.13:660][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.27-11.27.24:130][928]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.24:162][928]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.27-11.27.29:722][ 96]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.27-11.27.29:722][ 96]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.27-11.27.29:722][ 96]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.27-11.27.29:722][ 96]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.27-11.27.31:345][155]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.31:374][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.27-11.27.37:563][321]MaterialEditorStats: Base pass shader: 89 instructions
+[2017.10.27-11.27.37:563][321]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.27-11.27.37:563][321]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.27-11.27.37:564][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.27-11.27.44:569][530]LogMaterialEditor: Saving and Compiling material WarriorMat
+[2017.10.27-11.27.55:608][530]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.55:910][530]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.56:099][530]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.27.56:241][530]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WarriorMat, compiling. 
+[2017.10.27-11.27.59:104][530]TextureStreamingBuild: Display: Compiling optional shaders took 2.876 seconds.
+[2017.10.27-11.28.04:169][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/WarriorEnemy/Mat/WarriorMat" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Mat/WarriorMat.uasset" SILENT=true
+[2017.10.27-11.28.04:211][530]LogSavePackage: Save=32.02ms
+[2017.10.27-11.28.04:211][530]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorMat177B34014A08BBF9ED79D4BE8741B55B.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Mat/WarriorMat.uasset'
+[2017.10.27-11.28.04:226][530]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Mat/WarriorMat.uasset
+[2017.10.27-11.28.04:285][530]MaterialEditorStats: Base pass shader: 89 instructions
+[2017.10.27-11.28.04:285][530]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.27-11.28.04:285][530]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.27-11.28.04:285][530]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.27-11.28.09:873][707]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 08_-_Default, compiling. 
+[2017.10.27-11.28.10:246][707]TextureStreamingBuild: Display: Compiling optional shaders took 0.380 seconds.
+[2017.10.27-11.28.15:799][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.10.27-11.28.16:427][858]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.10.27-11.28.23:351][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.10.27-11.28.23:456][954]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.10.27-11.28.32:012][ 55]LogMaterial: Warning: Material /Game/Enemy/WarriorEnemy/Mat/WarriorMat.WarriorMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.27-11.28.32:099][ 55]LogMaterial: Warning: Material /Engine/Transient.WarriorMat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.27-11.28.32:107][ 55]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.28.32:241][ 55]LogMaterial: Missing cached shader map for material WarriorMat, compiling. 
+[2017.10.27-11.29.15:138][759]MaterialEditorStats: Base pass shader: 89 instructions
+[2017.10.27-11.29.15:138][759]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.27-11.29.15:138][759]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.27-11.29.15:138][759]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.27-11.33.09:472][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/WarriorEnemy/Warrior_run" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Warrior_run.uasset" SILENT=true
+[2017.10.27-11.33.09:506][280]LogSavePackage: Save=31.19ms
+[2017.10.27-11.33.09:506][280]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_runDE43475847730301D29F18945D6DDA81.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Warrior_run.uasset'
+[2017.10.27-11.33.09:516][280]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Warrior_run.uasset
+[2017.10.27-11.33.11:356][338]LogSavePackage: Save=8.62ms
+[2017.10.27-11.33.11:356][338]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_run_SkeletonD024FEBD41F65D1C37005DA80F4E141F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Warrior_run_Skeleton.uasset'
+[2017.10.27-11.33.11:369][338]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/Warrior_run_Skeleton.uasset
+[2017.10.27-11.36.42:686][225]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 0.343
+[2017.10.27-11.36.42:716][225]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/Mat/WarriorMat] ([1] browsable assets)...
+[2017.10.27-11.36.42:716][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Mat/WarriorMat]
+[2017.10.27-11.36.44:622][225]LogSavePackage: Save=33.35ms
+[2017.10.27-11.36.44:622][225]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorMat_Auto203008B0C498F8D8F54C8919AC9C5C7D5.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/WarriorMat_Auto2.uasset'
+[2017.10.27-11.36.44:762][225]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Mat/WarriorMat_Auto2.uasset
+[2017.10.27-11.36.44:762][225]LogFileHelpers: Auto-saving content packages took 2.075
+[2017.10.27-11.57.59:437][577]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 0.093
+[2017.10.27-11.57.59:440][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorEnemy] ([1] browsable assets)...
+[2017.10.27-11.57.59:440][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorEnemy]
+[2017.10.27-11.57.59:526][577]LogSavePackage: Save=83.21ms
+[2017.10.27-11.57.59:526][577]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorEnemy_Auto3CBA726E944A2A1706F3A279F0DD38D41.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto3.uasset'
+[2017.10.27-11.57.59:527][577]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto3.uasset
+[2017.10.27-11.57.59:527][577]LogFileHelpers: Auto-saving content packages took 0.089
+[2017.10.27-12.03.16:201][  6]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.03.32:504][646]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.05.09:702][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.10.27-12.05.09:772][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.10.27-12.05.12:152][424]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.27-12.07.02:226][988]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.27-12.07.04:265][988]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.27-12.08.23:599][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 0.095
+[2017.10.27-12.08.23:602][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorEnemy] ([1] browsable assets)...
+[2017.10.27-12.08.23:627][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/WarriorEnemy/WarriorEnemy.WarriorEnemy]
+[2017.10.27-12.08.23:627][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorEnemy]
+[2017.10.27-12.08.23:675][914]LogSavePackage: Save=42.41ms
+[2017.10.27-12.08.23:675][914]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorEnemy_Auto4EF9B53F043C91D27F3D186870989EE03.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto4.uasset'
+[2017.10.27-12.08.23:676][914]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto4.uasset
+[2017.10.27-12.08.23:676][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_Idle_Run] ([1] browsable assets)...
+[2017.10.27-12.08.23:703][914]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Enemy/WarriorEnemy/Warrior_Idle_Run.Warrior_Idle_Run]
+[2017.10.27-12.08.23:703][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_Idle_Run]
+[2017.10.27-12.08.23:730][914]LogSavePackage: Save=23.04ms
+[2017.10.27-12.08.23:730][914]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_Idle_Run_Auto44220447044186DF6209991BF23A345CF.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_Idle_Run_Auto4.uasset'
+[2017.10.27-12.08.23:731][914]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_Idle_Run_Auto4.uasset
+[2017.10.27-12.08.23:732][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP] ([1] browsable assets)...
+[2017.10.27-12.08.23:758][914]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemy/WarriorEnemy/WarriorAnim_BP.WarriorAnim_BP]
+[2017.10.27-12.08.23:758][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP]
+[2017.10.27-12.08.23:815][914]LogSavePackage: Save=54.44ms
+[2017.10.27-12.08.23:815][914]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorAnim_BP_Auto472E4B0054A158F2FCE762FA751141383.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto4.uasset'
+[2017.10.27-12.08.23:817][914]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto4.uasset
+[2017.10.27-12.08.23:817][914]LogFileHelpers: Auto-saving content packages took 0.216
+[2017.10.27-12.11.40:756][362]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_7.DebugSkelMeshComponent_25) Already registered. Aborting.
+[2017.10.27-12.11.41:275][362]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_46:PersistentLevel.Actor_7.DebugSkelMeshComponent_25) - call TermArticulated first.
+[2017.10.27-12.11.44:864][362]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.27-12.17.21:125][901]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.18.24:544][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 0.048
+[2017.10.27-12.18.24:549][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/Warrior_Idle_Run] ([1] browsable assets)...
+[2017.10.27-12.18.24:572][ 88]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Enemy/WarriorEnemy/Warrior_Idle_Run.Warrior_Idle_Run]
+[2017.10.27-12.18.24:573][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/Warrior_Idle_Run]
+[2017.10.27-12.18.24:612][ 88]LogSavePackage: Save=36.42ms
+[2017.10.27-12.18.24:613][ 88]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Warrior_Idle_Run_Auto5D3DF0A5E428475A3907D7EA40540ACEC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_Idle_Run_Auto5.uasset'
+[2017.10.27-12.18.24:614][ 88]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/Warrior_Idle_Run_Auto5.uasset
+[2017.10.27-12.18.24:615][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP] ([1] browsable assets)...
+[2017.10.27-12.18.24:644][ 88]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemy/WarriorEnemy/WarriorAnim_BP.WarriorAnim_BP]
+[2017.10.27-12.18.24:644][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP]
+[2017.10.27-12.18.24:782][ 88]LogSavePackage: Save=133.52ms
+[2017.10.27-12.18.24:782][ 88]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorAnim_BP_Auto58569989C48DEAC996F0F14B17379A8DA.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto5.uasset'
+[2017.10.27-12.18.24:784][ 88]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto5.uasset
+[2017.10.27-12.18.24:784][ 88]LogFileHelpers: Auto-saving content packages took 0.238
+[2017.10.27-12.20.30:255][933]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.20.39:569][262]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.23.24:584][395]LogSlate: Took 0.060132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.27-12.23.26:700][471]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.25.35:246][644]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.28.51:193][894]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.28.52:147][894]LogBlueprint: Error: [Compiler WarriorEnemy] 이 블루프린트(self)는 PlayerCharacter_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.10.27-12.28.52:151][894]LogBlueprint: Error: [Compiler WarriorEnemy] Is Attack 설정  변수 노드가 유효하지 않은 타겟을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2017.10.27-12.28.52:742][894]LogBlueprint: Warning: [Compiler WarriorEnemy] [5153.43] WarriorEnemy 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 1,547 ms] (/Game/Enemy/WarriorEnemy/WarriorEnemy.WarriorEnemy)
+[2017.10.27-12.29.19:962][585]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.29.39:090][ 54]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.30.14:543][137]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.27-12.30.29:070][488]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.30.39:267][743]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.31.15:178][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.27-12.31.15:438][472]PIE: New page: SIE 세션: FLAG (2017. 10. 28. 오전 6:31:15)
+[2017.10.27-12.31.15:487][472]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.10.27-12.31.16:223][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.735110s)
+[2017.10.27-12.31.16:300][472]LogAIModule: Creating AISystem for world FLAG
+[2017.10.27-12.31.16:442][472]LogPlayLevel: PIE: World Init took: (0.218348s)
+[2017.10.27-12.31.16:452][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.964222s)
+[2017.10.27-12.31.16:645][472]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.27-12.31.16:680][472]LogInit: FAudioDevice initialized.
+[2017.10.27-12.31.19:222][472]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.10.27-12.31.19:459][472]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 0) at 2017.10.27-21.31.19
+[2017.10.27-12.31.19:703][472]LogWorld: Bringing up level for play took: 0.470159
+[2017.10.27-12.31.22:334][472]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.10.27-12.31.22:467][472]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 6.755
+[2017.10.27-12.31.23:624][472]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.24:333][473]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.24:402][474]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.24:438][475]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.24:777][476]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:108][477]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:450][478]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:473][479]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:494][480]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:519][481]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:545][482]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:555][483]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:603][484]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:631][485]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:659][486]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:703][487]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:722][488]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:743][489]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:778][490]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:829][491]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:848][492]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:867][493]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:902][494]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:933][495]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:951][496]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.25:976][497]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:001][498]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:028][499]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:054][500]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:076][501]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:112][502]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:135][503]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:164][504]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:188][505]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:216][506]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:231][507]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:264][508]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:325][509]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:369][510]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:388][511]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:416][512]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:436][513]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:474][514]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:496][515]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:511][516]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:537][517]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:580][518]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:638][519]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:685][520]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:737][521]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:785][522]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:836][523]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:885][524]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:936][525]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:986][526]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.26:999][527]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:018][528]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:045][529]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:064][530]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:097][531]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:122][532]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:146][533]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:165][534]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:198][535]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:253][536]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:304][537]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:352][538]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:402][539]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:460][540]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:508][541]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:520][542]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:547][543]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:571][544]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:642][545]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:692][546]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:744][547]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:760][548]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:791][549]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:816][550]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:835][551]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:866][552]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:905][553]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:931][554]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:956][555]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.27:986][556]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:017][557]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:045][558]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:070][559]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:098][560]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:132][561]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:163][562]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:192][563]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:219][564]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:240][565]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:255][566]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:285][567]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:357][568]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:402][569]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:454][570]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:503][571]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:516][572]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:541][573]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:558][574]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:635][575]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:684][576]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:734][577]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:781][578]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:831][579]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:879][580]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:904][581]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:922][582]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:940][583]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.28:993][584]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:015][585]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:028][586]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:060][587]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:072][588]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:098][589]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:130][590]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:159][591]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:193][592]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.29:298][597]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:WarriorEnemy_24 with goal actor None (if any of these is None then there's your problem
+[2017.10.27-12.31.55:941][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FLAG" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.27-12.31.59:096][669]LogSavePackage: Save=2242.75ms
+[2017.10.27-12.31.59:096][669]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/FLAG_Auto681CCFDA74BEB79204060E8A7C040D174.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto6.umap'
+[2017.10.27-12.31.59:098][669]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto6.umap
+[2017.10.27-12.31.59:102][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 3.204
+[2017.10.27-12.31.59:103][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.204
+[2017.10.27-12.31.59:109][669]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorEnemy] ([1] browsable assets)...
+[2017.10.27-12.31.59:163][669]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/WarriorEnemy/WarriorEnemy.WarriorEnemy]
+[2017.10.27-12.31.59:164][669]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorEnemy]
+[2017.10.27-12.31.59:332][669]LogSavePackage: Save=161.98ms
+[2017.10.27-12.31.59:333][669]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorEnemy_Auto6228CBE284C499160C511D394C4BAF65A.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto6.uasset'
+[2017.10.27-12.31.59:336][669]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto6.uasset
+[2017.10.27-12.31.59:337][669]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP] ([1] browsable assets)...
+[2017.10.27-12.31.59:370][669]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemy/WarriorEnemy/WarriorAnim_BP.WarriorAnim_BP]
+[2017.10.27-12.31.59:370][669]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorAnim_BP]
+[2017.10.27-12.31.59:575][669]LogSavePackage: Save=200.04ms
+[2017.10.27-12.31.59:575][669]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorAnim_BP_Auto6C1348FA447F3C0E03A967DB670E8EFBE.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto6.uasset'
+[2017.10.27-12.31.59:583][669]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorAnim_BP_Auto6.uasset
+[2017.10.27-12.31.59:583][669]LogFileHelpers: Auto-saving content packages took 0.476
+[2017.10.27-12.33.09:772][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/WarriorEnemy/WarriorAnim_BP" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorAnim_BP.uasset" SILENT=true
+[2017.10.27-12.33.09:902][368]LogSavePackage: Save=123.30ms
+[2017.10.27-12.33.09:902][368]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorAnim_BPA4630BBE484BD7F82BE40D840FE87267.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorAnim_BP.uasset'
+[2017.10.27-12.33.09:918][368]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorAnim_BP.uasset
+[2017.10.27-12.36.58:043][781]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.37.05:249][875]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.37.21:399][252]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.27-12.40.33:981][568]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.40.38:937][700]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.27-12.40.47:139][927]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.42.00:991][746]BlueprintLog: New page: DistanceEnemy 컴파일
+[2017.10.27-12.42.22:064][314]BlueprintLog: New page: WarriorAnim_BP 컴파일
+[2017.10.27-12.42.25:010][383]BlueprintLog: New page: WarriorEnemy 컴파일
+[2017.10.27-12.42.30:879][383]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.317 s
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: 
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: Ensure condition failed: ArchetypeIndex > OldObjIndex [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1775]
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: 
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: Stack: 
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9EC3606
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9C4C2D2
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9C64746
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C871534C
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C86D8C0F
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000C42C973F
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000C4267F2C
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C86E06FE
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000C42676D2
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000C42B8E51
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000C42BDBB6
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB0C53FF
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB1C9652
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB1267B2
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB127B69
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB1A66F5
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB25B967
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB2874D4
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB0A42BC
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB077145
+[2017.10.27-12.42.30:880][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB111452
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB0F9C92
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CB0EB68F
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9E9B3C9
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9E83B51
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9E9D22B
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9E7ECB2
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: USER32.dll!0x00000000FB9B1169
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: USER32.dll!0x00000000FB9B0C97
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9E9D936
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor.exe!0x0000000078804BE2
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor.exe!0x0000000078813970
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor.exe!0x00000000788139EA
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor.exe!0x00000000788202D9
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: UE4Editor.exe!0x0000000078821C47
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: KERNEL32.DLL!0x00000000FC4A8102
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: ntdll.dll!0x00000000FE55C2E4
+[2017.10.27-12.42.30:881][383]LogOutputDevice: Error: 
+[2017.10.27-12.42.30:896][383]LogStats:                SubmitErrorReport -  0.012 s

@@ -1,0 +1,639 @@
+﻿Log file open, 10/30/17 18:28:07
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-930974695) SRandInit(-930974695).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.303086
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.30-09.28.10:626][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-09.28.10:626][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.30-09.28.10:819][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.10.30-09.28.10:820][  0]LogInit: User: JWOH
+[2017.10.30-09.28.10:820][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.30-09.28.10:820][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.10.30-09.28.10:820][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.30-09.28.10:820][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-09.28.10:820][  0]LogMemory: Process Physical Memory: 280.71 MB used, 280.71 MB peak
+[2017.10.30-09.28.10:820][  0]LogMemory: Process Virtual Memory: 286.35 MB used, 286.35 MB peak
+[2017.10.30-09.28.10:820][  0]LogMemory: Physical Memory: 3626.36 MB used,  4429.30 MB free, 8055.66 MB total
+[2017.10.30-09.28.10:820][  0]LogMemory: Virtual Memory: 681.23 MB used,  4429.30 MB free, 134217728.00 MB total
+[2017.10.30-09.28.12:263][  0]LogInit: Using OS detected language (ko-KR).
+[2017.10.30-09.28.12:263][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.10.30-09.28.12:576][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.10.30-09.28.17:201][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.30-09.28.17:973][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.30-09.28.17:973][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.30-09.28.17:981][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.30-09.28.17:981][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.30-09.28.17:983][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.30-09.28.17:983][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.30-09.28.17:983][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.30-09.28.17:988][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.30-09.28.17:988][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.30-09.28.17:988][  0]LogWindows: EnumDisplayDevices:
+[2017.10.30-09.28.17:988][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.30-09.28.17:989][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.30-09.28.17:989][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.30-09.28.17:990][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.30-09.28.17:990][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.30-09.28.17:990][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.30-09.28.17:990][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.30-09.28.17:990][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.30-09.28.18:012][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.30-09.28.18:373][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.30-09.28.18:463][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/15284/).
+[2017.10.30-09.28.18:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/B550D0DC4E9C1BF5ED1956934A6023E8/'.
+[2017.10.30-09.28.18:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.30-09.28.23:346][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.30-09.28.23:391][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.30-09.28.23:435][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.30-09.28.23:478][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.30-09.28.23:560][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.30-09.28.23:605][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.30-09.28.23:647][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.30-09.28.23:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.30-09.28.23:732][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.30-09.28.23:813][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.30-09.28.23:857][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.30-09.28.23:899][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.30-09.28.23:947][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.30-09.28.23:988][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.30-09.28.24:031][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.30-09.28.24:117][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.30-09.28.24:117][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.30-09.28.24:151][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.30-09.28.24:415][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.30-09.28.24:444][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.30-09.28.24:485][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.30-09.28.24:530][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.30-09.28.24:572][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.30-09.28.24:694][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.30-09.28.24:694][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.30-09.28.26:574][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.30-09.28.26:961][  0]LogDerivedDataCache: Loaded boot cache 0.39s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.30-09.28.26:962][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.30-09.28.26:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.30-09.28.26:962][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.30-09.28.26:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.30-09.28.26:962][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.30-09.28.27:106][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.30-09.28.27:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.30-09.28.27:183][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.30-09.28.27:258][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.30-09.28.27:369][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-09.28.27:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-09.28.36:117][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
+[2017.10.30-09.28.39:345][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-09.28.45:893][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.30-09.28.46:943][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.30-09.28.46:990][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.30-09.28.47:002][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.30-09.28.47:014][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.30-09.28.47:014][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.30-09.28.47:014][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.30-09.28.50:220][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.10.30-09.28.52:115][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.197802 seconds
+[2017.10.30-09.28.52:136][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.30-09.28.52:136][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.30-09.28.52:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.30-09.28.52:185][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.30-09.29.09:875][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.30-09.29.09:938][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.30-09.29.11:856][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.30-09.29.12:861][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.30-09.29.12:861][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.30-09.29.12:991][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.30-09.29.13:055][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.30-09.29.14:187][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.30-09.29.14:474][  0]LogOcInput: OculusInput pre-init called
+[2017.10.30-09.29.15:325][  0]LogEngine: Initializing Engine...
+[2017.10.30-09.29.15:369][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.30-09.29.16:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.30-09.29.16:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.30-09.29.16:746][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.30-09.29.16:888][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-09.29.17:488][  0]LogInit: FAudioDevice initialized.
+[2017.10.30-09.29.17:620][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.30-09.29.17:642][  0]LogInit: Texture streaming: Enabled
+[2017.10.30-09.29.17:842][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.30-09.29.18:706][  0]LogInit: Transaction tracking system initialized
+[2017.10.30-09.29.21:037][  0]BlueprintLog: New page: 에디터 로드
+[2017.10.30-09.29.26:362][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.10.30-09.29.29:775][  0]LogConsoleResponse: Display: 
+[2017.10.30-09.29.37:267][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.35s
+[2017.10.30-09.29.37:268][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.30-09.29.37:268][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.30-09.29.37:397][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.30-09.29.45:648][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.10.30-09.29.45:829][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-09.29.46:319][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.30-09.29.46:985][  0]MapCheck: New page: 맵 체크
+[2017.10.30-09.29.46:985][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.30-09.30.18:181][  0]LogAIModule: Creating AISystem for world Arena
+[2017.10.30-09.30.19:675][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-09.30.20:682][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-09.30.20:791][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 108.155ms.
+[2017.10.30-09.30.20:791][  0]LogFileHelpers: Loading map 'Arena' took 35.040
+[2017.10.30-09.30.24:734][  0]LogCollectionManager: Loaded 0 collections in 0.001484 seconds
+[2017.10.30-09.30.25:147][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.10.30-09.30.25:147][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.10.30-09.30.25:147][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.10.30-09.30.25:147][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.30-09.30.25:187][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2386 classes and 500 folders.
+[2017.10.30-09.30.25:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.30-09.30.27:393][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.10.30-09.30.28:142][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.30-09.30.31:034][  0]LogSlate: Took 0.052335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-09.30.32:826][  0]LogSlate: Took 1.777703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.10.30-09.30.32:960][  0]LogSlate: Took 0.106069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.30-09.30.33:164][  0]LogSlate: Took 0.081344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.30-09.30.34:729][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.30-09.30.38:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.30-09.30.38:622][  0]LogLoad: (Engine Initialization) Total time: 166.53 seconds
+[2017.10.30-09.30.38:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.30-09.30.38:622][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.30-09.30.38:622][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.30-09.30.38:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.30-09.30.39:702][  0]LogSlate: Took 0.220781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-09.30.40:785][  2]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-09.30.40:805][  3]LogAssetRegistry: Asset discovery search completed in 124.7099 seconds
+[2017.10.30-09.30.40:807][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.30-09.30.40:807][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2017.10.30-09.30.45:368][ 58]LogSlate: Took 0.087796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-09.30.47:085][ 58]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.30-09.30.51:940][ 58]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-09.30.52:784][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.30-09.30.58:476][ 58]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.30-09.31.04:825][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.30-09.31.12:937][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.10.30-09.31.13:058][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.10.30-09.31.14:462][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.10.30-09.31.14:752][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.10.30-09.31.17:506][ 58]LogSlate: Took 0.022629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.30-09.31.17:786][ 58]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.10.30-09.31.19:089][ 58]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-09.31.19:338][ 59]LogSlate: Took 0.100904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.30-09.31.53:265][211]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-09.32.04:785][349]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-09.32.16:260][493]LogClothingAssetFactory: Finished physical mesh import
+[2017.10.30-09.32.16:261][493]LogClothingAssetFactory: Finished physical mesh import
+[2017.10.30-09.32.16:278][493]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.30-09.32.16:278][493]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.30-09.32.16:278][493]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.30-09.32.16:278][493]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.10.30-09.32.16:810][493]LogAIModule: Creating AISystem for world FLAG
+[2017.10.30-09.32.16:919][493]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-09.32.16:919][493]LightingResults: New page: 라이팅 빌드
+[2017.10.30-09.32.16:920][493]LoadErrors: New page: 맵 로드중: FLAG.umap
+[2017.10.30-09.32.16:933][493]MapCheck: New page: 맵 체크
+[2017.10.30-09.32.16:933][493]LightingResults: New page: 라이팅 빌드
+[2017.10.30-09.32.17:013][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-09.32.17:123][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-09.32.17:224][493]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 101.397ms.
+[2017.10.30-09.32.17:225][493]LogFileHelpers: Loading map 'FLAG' took 0.307
+[2017.10.30-09.33.22:433][429]LogEditorViewport: Clicking Background
+[2017.10.30-09.33.35:851][822]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.10.30-09.33.36:574][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-09.33.36:593][822]PIE: New page: PIE 세션: FLAG (2017. 10. 31. 오전 3:33:36)
+[2017.10.30-09.33.36:593][822]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.10.30-09.33.36:649][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056252s)
+[2017.10.30-09.33.36:650][822]LogAIModule: Creating AISystem for world FLAG
+[2017.10.30-09.33.36:650][822]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.10.30-09.33.36:650][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.057457s)
+[2017.10.30-09.33.36:679][822]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-09.33.36:698][822]LogInit: FAudioDevice initialized.
+[2017.10.30-09.33.36:838][822]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.10.30-09.33.36:888][822]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.10.30-18.33.36
+[2017.10.30-09.33.37:019][822]LogWorld: Bringing up level for play took: 0.179317
+[2017.10.30-09.33.37:169][822]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.30-09.33.37:176][822]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.10.30-09.33.37:272][822]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 1.003
+[2017.10.30-09.39.46:988][421]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.10.30-09.39.52:658][458]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling_word.FBX)
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: AnimationCurve, ItemCount : 6
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2
+[2017.10.30-09.39.52:888][458]LogFbx: ItemName: Video, ItemCount : 1
+[2017.10.30-09.39.52:897][458]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling_word.FBX
+[2017.10.30-09.39.52:922][458]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.39.59:770][458]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling_word.FBX
+[2017.10.30-09.39.59:779][458]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.39.59:795][458]LogFbx: =================================================
+[2017.10.30-09.39.59:795][458]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.39.59:795][458]LogFbx: 	Total Deformer Count -2139148736.
+[2017.10.30-09.39.59:795][458]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.39.59:795][458]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.39.59:795][458]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.39.59:795][458]LogFbx: =================================================
+[2017.10.30-09.39.59:795][458]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.39.59:795][458]LogFbx: 	Total Deformer Count -2139148736.
+[2017.10.30-09.39.59:795][458]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.39.59:795][458]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.39.59:795][458]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.39.59:922][458]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.10.30-09.39.59:947][458]LogSkeletalMesh: Section 0: 461 vertices, 1 active bones
+[2017.10.30-09.39.59:947][458]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2017.10.30-09.40.05:652][458]FBXImport: Warning: 바인드 포즈를 찾을 수 없습니다. 시간 0 을 바인드 포즈로 사용합니다. 
+[2017.10.30-09.40.07:000][458]LogAssetTools: Warning: 'D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling_word.FBX' 임포트에 실패했습니다. '/Game/Player/Empty_back_tumbling_word' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.10.30-09.40.07:005][458]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack.FBX)
+[2017.10.30-09.40.07:027][458]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack_sword.FBX)
+[2017.10.30-09.40.07:037][458]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling.FBX)
+[2017.10.30-09.40.12:452][503]LogEditorFactories: Performing atomic reimport of [D:/NewGarden/GardenProject/NGA/Resource/주인공 애니추가(백스텝, 점프공격)/Empty_back tumbling_word.FBX]
+[2017.10.30-09.40.12:604][503]LogFbx: Loading FBX Scene from D:/NewGarden/GardenProject/NGA/Resource/주인공 애니추가(백스텝, 점프공격)/Empty_back tumbling_word.FBX
+[2017.10.30-09.40.12:612][503]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.40.12:612][503]LogFbx: =================================================
+[2017.10.30-09.40.12:612][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.12:612][503]LogFbx: 	Total Deformer Count -901217664.
+[2017.10.30-09.40.12:612][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.12:612][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.12:612][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.12:612][503]LogFbx: =================================================
+[2017.10.30-09.40.12:612][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.12:612][503]LogFbx: 	Total Deformer Count -901217664.
+[2017.10.30-09.40.12:612][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.12:612][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.12:612][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.12:633][503]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.10.30-09.40.12:751][503]LogSkeletalMesh: Section 0: 461 vertices, 1 active bones
+[2017.10.30-09.40.12:776][503]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2017.10.30-09.40.12:793][503]LogLinker: '/Game/Player/Empty_back_tumbling_word_Skeleton' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.12:794][503]LogLinker: '/Game/Player/Empty_back_tumbling_word_Skeleton' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.12:826][503]LogEditorFactories: -- imported successfully
+[2017.10.30-09.40.12:829][503]FBXImport: Warning: 바인드 포즈를 찾을 수 없습니다. 시간 0 을 바인드 포즈로 사용합니다. 
+[2017.10.30-09.40.12:895][503]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack.FBX)
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Model, ItemCount : 53
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: NodeAttribute, ItemCount : 104
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: AnimationCurve, ItemCount : 162
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.30-09.40.12:962][503]LogFbx: ItemName: Video, ItemCount : 1
+[2017.10.30-09.40.12:969][503]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack.FBX
+[2017.10.30-09.40.13:021][503]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.40.30:934][503]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack.FBX
+[2017.10.30-09.40.30:971][503]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.40.30:972][503]LogFbx: =================================================
+[2017.10.30-09.40.30:972][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.30:972][503]LogFbx: 	Total Deformer Count 343131824.
+[2017.10.30-09.40.30:972][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.30:972][503]LogFbx: =================================================
+[2017.10.30-09.40.30:972][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.30:972][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.30:972][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.30:973][503]LogFbx: =================================================
+[2017.10.30-09.40.30:973][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.30:973][503]LogFbx: 	Total Deformer Count 343131040.
+[2017.10.30-09.40.30:973][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.30:973][503]LogFbx: =================================================
+[2017.10.30-09.40.30:973][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.30:973][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.30:973][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.30:973][503]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node BaseMesh_Man_Simple_Body : Not all the deformers are stored in this BindPose
+[2017.10.30-09.40.30:973][503]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.30-09.40.30:975][503]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - BaseMesh_Man_Simple_Body
+[2017.10.30-09.40.30:975][503]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.10.30-09.40.31:014][503]LogFbx: Warning: Bones digested - 52  Depth of hierarchy - 11
+[2017.10.30-09.40.31:203][503]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.10.30-09.40.31:212][503]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.10.30-09.40.31:216][503]LogLinker: '/Game/Player/Empty_jump_attack_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.31:217][503]LogLinker: '/Game/Player/Empty_jump_attack_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.31:231][503]LogFbx: =================================================
+[2017.10.30-09.40.31:231][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.31:231][503]LogFbx: 	Total Deformer Count -786897136.
+[2017.10.30-09.40.31:231][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.31:231][503]LogFbx: =================================================
+[2017.10.30-09.40.31:231][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.31:231][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.31:231][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.31:232][503]LogFbx: =================================================
+[2017.10.30-09.40.31:232][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.31:232][503]LogFbx: 	Total Deformer Count -786897136.
+[2017.10.30-09.40.31:232][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.31:232][503]LogFbx: =================================================
+[2017.10.30-09.40.31:232][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.31:232][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.31:232][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.31:249][503]LogFbx: SortedLinks :(0) Hips
+[2017.10.30-09.40.31:249][503]LogFbx: SortedLinks :(1) Spine
+[2017.10.30-09.40.31:249][503]LogFbx: SortedLinks :(2) Spine1
+[2017.10.30-09.40.31:249][503]LogFbx: SortedLinks :(3) Spine2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(4) Neck
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(5) Head
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(6) LeftShoulder
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(7) LeftArm
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(8) LeftForeArm
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(9) LeftHand
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(10) LeftHandThumb1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(11) LeftHandThumb2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(12) LeftHandThumb3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(13) LeftHandIndex1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(14) LeftHandIndex2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(15) LeftHandIndex3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(16) LeftHandMiddle1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(17) LeftHandMiddle2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(18) LeftHandMiddle3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(19) LeftHandRing1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(20) LeftHandRing2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(21) LeftHandRing3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(22) LeftHandPinky1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(23) LeftHandPinky2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(24) LeftHandPinky3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(25) RightShoulder
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(26) RightArm
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(27) RightForeArm
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(28) RightHand
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(29) RightHandThumb1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(30) RightHandThumb2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(31) RightHandThumb3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(32) RightHandIndex1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(33) RightHandIndex2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(34) RightHandIndex3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(35) RightHandMiddle1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(36) RightHandMiddle2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(37) RightHandMiddle3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(38) RightHandRing1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(39) RightHandRing2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(40) RightHandRing3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(41) RightHandPinky1
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(42) RightHandPinky2
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(43) RightHandPinky3
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(44) LeftUpLeg
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(45) LeftLeg
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(46) LeftFoot
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(47) LeftToeBase
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(48) RightUpLeg
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(49) RightLeg
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(50) RightFoot
+[2017.10.30-09.40.31:250][503]LogFbx: SortedLinks :(51) RightToeBase
+[2017.10.30-09.40.31:251][503]LogFbx: Parsing AnimStack Take 001
+[2017.10.30-09.40.31:287][503]LogLinker: '/Game/Player/Empty_jump_attack_Anim' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.31:287][503]LogLinker: '/Game/Player/Empty_jump_attack_Anim' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.32:189][503]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_jump_attack_Anim.Empty_jump_attack_Anim
+[2017.10.30-09.40.32:223][503]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.10.30-09.40.32:259][503]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack_sword.FBX)
+[2017.10.30-09.40.32:299][503]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_jump attack_sword.FBX
+[2017.10.30-09.40.32:309][503]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.40.32:309][503]LogFbx: =================================================
+[2017.10.30-09.40.32:309][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.32:309][503]LogFbx: 	Total Deformer Count -1013253312.
+[2017.10.30-09.40.32:309][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.32:309][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.32:309][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.32:309][503]LogFbx: =================================================
+[2017.10.30-09.40.32:309][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.32:309][503]LogFbx: 	Total Deformer Count -1013253312.
+[2017.10.30-09.40.32:309][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.32:309][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.32:309][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.32:312][503]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.10.30-09.40.32:316][503]LogSkeletalMesh: Section 0: 456 vertices, 1 active bones
+[2017.10.30-09.40.32:316][503]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2017.10.30-09.40.33:856][503]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_idle_Anim.Empty_idle_Anim
+[2017.10.30-09.40.33:856][503]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Transient.Empty_idle_Anim
+[2017.10.30-09.40.40:577][503]LogMaterial: Missing cached shader map for material 07_-_Default_ncl1_1, compiling. 
+[2017.10.30-09.40.44:378][503]LogLinker: '/Game/Player/Empty_jump_attack_sword_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.44:379][503]LogLinker: '/Game/Player/Empty_jump_attack_sword_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.44:396][503]LogFbx: =================================================
+[2017.10.30-09.40.44:396][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.44:396][503]LogFbx: 	Total Deformer Count 412839616.
+[2017.10.30-09.40.44:396][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.44:396][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.44:396][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.44:396][503]LogFbx: =================================================
+[2017.10.30-09.40.44:396][503]LogFbx: Dumping Node START [Cylinder047] 
+[2017.10.30-09.40.44:396][503]LogFbx: 	Total Deformer Count 412839616.
+[2017.10.30-09.40.44:396][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.44:396][503]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.10.30-09.40.44:396][503]LogFbx: Dumping Node END [Cylinder047]
+[2017.10.30-09.40.44:396][503]LogFbx: SortedLinks :(0) Cylinder047
+[2017.10.30-09.40.44:396][503]LogFbx: Parsing AnimStack Take 001
+[2017.10.30-09.40.44:397][503]LogLinker: '/Game/Player/Empty_jump_attack_sword_Anim' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.44:397][503]LogLinker: '/Game/Player/Empty_jump_attack_sword_Anim' 파일을 찾을 수 없습니다.
+[2017.10.30-09.40.44:407][503]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_jump_attack_sword_Anim.Empty_jump_attack_sword_Anim
+[2017.10.30-09.40.44:449][503]FBXImport: Warning: 바인드 포즈를 찾을 수 없습니다. 시간 0 을 바인드 포즈로 사용합니다. 
+[2017.10.30-09.40.44:480][503]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling.FBX)
+[2017.10.30-09.40.44:525][503]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling.FBX
+[2017.10.30-09.40.44:586][503]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-09.40.44:587][503]LogFbx: =================================================
+[2017.10.30-09.40.44:587][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.44:587][503]LogFbx: 	Total Deformer Count -355698656.
+[2017.10.30-09.40.44:587][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.44:587][503]LogFbx: =================================================
+[2017.10.30-09.40.44:587][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.44:587][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.44:587][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.44:588][503]LogFbx: =================================================
+[2017.10.30-09.40.44:588][503]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.10.30-09.40.44:588][503]LogFbx: 	Total Deformer Count -355699440.
+[2017.10.30-09.40.44:588][503]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-09.40.44:588][503]LogFbx: =================================================
+[2017.10.30-09.40.44:588][503]LogFbx: 	Attribute () Type (4).
+[2017.10.30-09.40.44:588][503]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.10.30-09.40.44:588][503]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.10.30-09.40.44:589][503]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node BaseMesh_Man_Simple_Body : Not all the deformers are stored in this BindPose
+[2017.10.30-09.40.44:589][503]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.30-09.40.44:589][503]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - BaseMesh_Man_Simple_Body
+[2017.10.30-09.40.44:590][503]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.10.30-09.40.44:619][503]LogFbx: Warning: Bones digested - 52  Depth of hierarchy - 11
+[2017.10.30-09.40.44:943][503]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.10.30-09.40.44:957][503]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.10.30-09.40.47:038][503]LogAssetTools: Warning: 'D:\NewGarden\GardenProject\NGA\Resource\주인공 애니추가(백스텝, 점프공격)\Empty_back tumbling.FBX' 임포트에 실패했습니다. '/Game/Player/Empty_back_tumbling' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.10.30-09.40.48:853][504]LoadErrors: Error: 스켈레톤에  Empty_idle_Skeleton  is missing bones that SkeletalMesh  Empty_idle   needs. They will be added now. Please save the Skeleton!
+[2017.10.30-09.40.48:958][506]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.51:719][557]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.52:302][566]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.52:938][575]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.53:613][585]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.54:381][594]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.55:180][604]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.55:798][613]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.56:183][622]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.56:746][631]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.57:537][640]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.58:047][648]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.58:714][657]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.40.59:446][666]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.00:196][675]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.00:930][684]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.01:628][693]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.02:211][702]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.08:719][710]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-09.41.08:791][711]LogAnimation: Warning: SkeletalMesh Empty_back_tumbling has no skeleton. This needs to fixed before an animation can be set
+[2017.10.30-09.41.21:552][814]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_idle_Anim.Empty_idle_Anim
+[2017.10.30-09.41.21:553][814]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Transient.AnimSequence_0
+[2017.10.30-09.41.21:555][814]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_jump_attack_sword_Anim.Empty_jump_attack_sword_Anim
+[2017.10.30-09.41.22:126][814]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.547 s
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: 
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: Ensure condition failed: !bUseRawDataOnly [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 2233]
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: Anim Compression failed for Sequence 'AnimSequence /Game/Player/Empty_jump_attack_sword_Anim.Empty_jump_attack_sword_Anim' Guid:B79B71DECE799F22E61786BA0DCAFCAA CompressedDebugData:
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: 	Original Anim:AnimSequence /Engine/Transient.AnimSequence_1
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: 	AdditiveSetting:0
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: 	Compression Scheme:AnimCompress_BitwiseCompressOnly /Engine/Transient.AnimSequence_1:AnimCompress_BitwiseCompressOnly_0
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: 	RawDataGuid:B79B71DECE799F22E61786BA0DCAFCAA
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: Stack: 
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC073606
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CBDFC2D2
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CBE14746
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBE6E594
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBE69A86
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBE69827
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBE5CAF3
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBEE8453
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBEFCE4B
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBECE41E
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBED55E3
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BBED51FB
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A8400431
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A84BA933
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A836ECEE
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-SkeletonEditor.dll!0x000000009F21945B
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-SkeletonEditor.dll!0x000000009F1F1ACD
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000AC71AA04
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000BAEAE3ED
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000BAEAE780
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A86ACC35
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A865BB4D
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Persona.dll!0x00000000A866475D
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C7A27205
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C7A07696
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C78242BC
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C77F7145
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C7891452
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C7879C92
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C786B68F
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC04B3C9
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC033B51
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC04D22B
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC02ECB2
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: USER32.dll!0x00000000FB9B1169
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: USER32.dll!0x00000000FB9B0C97
+[2017.10.30-09.41.22:126][814]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CC04D936
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: UE4Editor.exe!0x000000002E534BE2
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: UE4Editor.exe!0x000000002E543970
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: UE4Editor.exe!0x000000002E5439EA
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: UE4Editor.exe!0x000000002E5502D9
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: UE4Editor.exe!0x000000002E551C47
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: KERNEL32.DLL!0x00000000FC4A8102
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: ntdll.dll!0x00000000FE55C2E4
+[2017.10.30-09.41.22:127][814]LogOutputDevice: Error: 
+[2017.10.30-09.41.22:129][814]LogStats:                SubmitErrorReport -  0.000 s
