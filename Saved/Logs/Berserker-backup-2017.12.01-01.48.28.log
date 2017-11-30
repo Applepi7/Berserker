@@ -1,0 +1,1589 @@
+﻿Log file open, 12/01/17 01:16:31
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-606690647) SRandInit(-606690647).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179919
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.30-16.16.32:817][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-16.16.32:818][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.30-16.16.32:870][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.11.30-16.16.32:870][  0]LogInit: User: JWOH
+[2017.11.30-16.16.32:870][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.30-16.16.32:870][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.11.30-16.16.32:870][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.30-16.16.32:870][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.30-16.16.32:870][  0]LogMemory: Process Physical Memory: 280.58 MB used, 280.58 MB peak
+[2017.11.30-16.16.32:870][  0]LogMemory: Process Virtual Memory: 290.41 MB used, 290.41 MB peak
+[2017.11.30-16.16.32:870][  0]LogMemory: Physical Memory: 5904.95 MB used,  2150.70 MB free, 8055.66 MB total
+[2017.11.30-16.16.32:870][  0]LogMemory: Virtual Memory: 685.23 MB used,  2150.70 MB free, 134217728.00 MB total
+[2017.11.30-16.16.33:767][  0]LogInit: Using OS detected language (ko-KR).
+[2017.11.30-16.16.33:768][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.11.30-16.16.34:048][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.11.30-16.16.39:342][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.30-16.16.39:385][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.11.30-16.16.39:385][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.30-16.16.39:476][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.30-16.16.39:476][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.30-16.16.39:478][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.30-16.16.39:478][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.30-16.16.39:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.30-16.16.39:497][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.30-16.16.39:497][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.11.30-16.16.39:497][  0]LogWindows: EnumDisplayDevices:
+[2017.11.30-16.16.39:498][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.11.30-16.16.39:499][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.30-16.16.39:500][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.30-16.16.39:500][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.30-16.16.39:500][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.11.30-16.16.39:500][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.30-16.16.39:500][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.30-16.16.39:500][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.30-16.16.39:528][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.30-16.16.39:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.30-16.16.39:613][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/7556/).
+[2017.11.30-16.16.39:613][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/7B07816F4EBB81061AB55DB9369D3D6E/'.
+[2017.11.30-16.16.39:613][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.30-16.16.43:604][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.30-16.16.43:654][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.30-16.16.43:702][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.30-16.16.43:756][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.30-16.16.43:844][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.30-16.16.43:913][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.30-16.16.43:974][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.30-16.16.44:028][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.30-16.16.44:071][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.30-16.16.44:186][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.30-16.16.44:251][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.30-16.16.44:306][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.30-16.16.44:377][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.30-16.16.44:459][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.30-16.16.44:539][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.30-16.16.44:664][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.30-16.16.44:664][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.30-16.16.44:720][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.30-16.16.44:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.30-16.16.44:939][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.30-16.16.45:005][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.30-16.16.45:055][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.30-16.16.45:106][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.30-16.16.45:224][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.30-16.16.45:224][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.30-16.16.46:242][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.30-16.16.46:702][  0]LogDerivedDataCache: Loaded boot cache 0.46s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-16.16.46:703][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.30-16.16.46:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.30-16.16.46:703][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.30-16.16.46:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.30-16.16.46:703][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.30-16.16.46:754][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.30-16.16.46:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.30-16.16.46:778][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.30-16.16.46:784][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.30-16.16.46:850][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-16.16.46:850][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-16.16.54:557][  0]LogAssetRegistry: FAssetRegistry took 0.0456 seconds to start up
+[2017.11.30-16.16.55:261][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-16.16.57:511][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.30-16.16.57:557][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.30-16.16.57:557][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.30-16.16.57:557][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.30-16.16.57:557][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.30-16.16.57:557][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.30-16.16.57:562][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.30-16.16.58:583][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.11.30-16.16.59:448][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.086085 seconds
+[2017.11.30-16.16.59:455][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.30-16.16.59:455][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.30-16.16.59:455][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.30-16.16.59:569][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.30-16.17.19:546][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.30-16.17.19:613][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.30-16.17.21:159][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.30-16.17.21:995][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.11.30-16.17.21:995][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.11.30-16.17.22:139][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.11.30-16.17.22:254][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.11.30-16.17.23:430][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.30-16.17.23:800][  0]LogOcInput: OculusInput pre-init called
+[2017.11.30-16.17.24:629][  0]LogEngine: Initializing Engine...
+[2017.11.30-16.17.24:635][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.30-16.17.25:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.30-16.17.25:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.30-16.17.26:130][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.30-16.17.26:164][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.17.26:240][  0]LogInit: FAudioDevice initialized.
+[2017.11.30-16.17.26:439][  0]LogDerivedDataCache: Saved boot cache 0.20s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-16.17.26:463][  0]LogInit: Texture streaming: Enabled
+[2017.11.30-16.17.26:686][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.30-16.17.27:322][  0]LogInit: Transaction tracking system initialized
+[2017.11.30-16.17.28:070][  0]BlueprintLog: New page: 에디터 로드
+[2017.11.30-16.17.30:155][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.11.30-16.17.31:895][  0]LogConsoleResponse: Display: 
+[2017.11.30-16.17.35:212][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.30-16.17.35:212][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.30-16.17.35:212][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.30-16.17.35:903][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.08s
+[2017.11.30-16.17.38:724][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.11.30-16.17.38:725][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.30-16.17.38:725][  0]LightingResults: New page: 라이팅 빌드
+[2017.11.30-16.17.38:769][  0]MapCheck: New page: 맵 체크
+[2017.11.30-16.17.38:769][  0]LightingResults: New page: 라이팅 빌드
+[2017.11.30-16.17.50:753][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.11.30-16.17.50:755][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.11.30-16.17.50:775][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.11.30-16.17.50:775][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.11.30-16.17.50:775][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.11.30-16.17.50:776][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.11.30-16.17.51:919][  0]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.17.52:110][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.11.30-16.17.52:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.30-16.17.52:303][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 163.803ms.
+[2017.11.30-16.17.52:303][  0]LogFileHelpers: Loading map 'FLAG' took 13.578
+[2017.11.30-16.17.53:504][  0]LogCollectionManager: Loaded 0 collections in 0.001438 seconds
+[2017.11.30-16.17.53:819][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.11.30-16.17.53:819][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.11.30-16.17.53:819][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.11.30-16.17.53:819][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.11.30-16.17.53:851][  0]LogContentBrowser: Native class hierarchy populated in 0.0297 seconds. Added 2386 classes and 500 folders.
+[2017.11.30-16.17.53:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2017.11.30-16.17.55:267][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.30-16.17.55:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.30-16.17.55:658][  0]LogSlate: Took 0.016053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.30-16.17.55:744][  0]LogSlate: Took 0.084252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.11.30-16.17.55:768][  0]LogSlate: Took 0.022234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.30-16.17.55:804][  0]LogSlate: Took 0.025566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.30-16.17.56:450][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.30-16.17.56:633][  0]LogSlate: Took 0.028600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-16.17.57:369][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.11.30-16.17.57:375][  0]LogLoad: (Engine Initialization) Total time: 89.98 seconds
+[2017.11.30-16.17.57:376][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.30-16.17.57:377][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.30-16.17.57:377][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.30-16.17.57:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.30-16.17.58:763][  3]LogAssetRegistry: Asset discovery search completed in 64.2289 seconds
+[2017.11.30-16.17.58:766][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.30-16.17.58:766][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2017.11.30-16.22.54:019][344]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-16.22.54:103][344]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\ESC_설정창_ UI\Continue.png)
+[2017.11.30-16.22.54:215][344]LogTexture: Display: 텍스처 빌드: Continue (BGRA8, 271X86)
+[2017.11.30-16.22.54:300][344]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\ESC_설정창_ UI\Exit.png)
+[2017.11.30-16.22.54:309][344]LogTexture: Display: 텍스처 빌드: Exit (BGRA8, 279X84)
+[2017.11.30-16.22.54:337][344]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\ESC_설정창_ UI\Pause.png)
+[2017.11.30-16.22.54:363][344]LogTexture: Display: 텍스처 빌드: Pause (BGRA8, 290X90)
+[2017.11.30-16.23.02:155][368]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\ESC_설정창_ UI\background.png)
+[2017.11.30-16.23.02:229][368]LogTexture: Display: 텍스처 빌드: background (AutoDXT, 1920X1080)
+[2017.11.30-16.23.19:875][721]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.30-16.23.19:940][721]LogClass: Warning: Enum '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.30-16.23.20:439][721]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.11.30-16.23.22:426][721]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-16.23.22:467][721]LogSlate: Took 0.039932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.30-16.24.28:764][812]PIE: '/Engine/Transient.Image_30' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:777][812]PIE: '/Engine/Transient.Image_30' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:781][812]PIE: '/Engine/Transient.Image_32' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:818][813]PIE: '/Engine/Transient.Image_34' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:844][814]PIE: '/Engine/Transient.Image_36' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:870][815]PIE: '/Engine/Transient.Image_38' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:911][816]PIE: '/Engine/Transient.Image_40' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.28:964][817]PIE: '/Engine/Transient.Image_42' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:011][818]PIE: '/Engine/Transient.Image_44' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:059][819]PIE: '/Engine/Transient.Image_46' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:065][819]PIE: '/Engine/Transient.Image_48' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:109][820]PIE: '/Engine/Transient.Image_50' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:116][820]PIE: '/Engine/Transient.Image_52' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:159][821]PIE: '/Engine/Transient.Image_54' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:163][821]PIE: '/Engine/Transient.Image_56' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.29:212][822]PIE: '/Engine/Transient.Image_58' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:741][937]PIE: '/Engine/Transient.Image_30' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:742][937]PIE: '/Engine/Transient.Image_62' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:746][937]PIE: '/Engine/Transient.Image_64' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:807][938]PIE: '/Engine/Transient.Image_66' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:810][938]PIE: '/Engine/Transient.Image_68' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:840][939]PIE: '/Engine/Transient.Image_70' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:844][939]PIE: '/Engine/Transient.Image_72' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:906][940]PIE: '/Engine/Transient.Image_74' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.38:910][940]PIE: '/Engine/Transient.Image_76' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:006][941]PIE: '/Engine/Transient.Image_78' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:010][941]PIE: '/Engine/Transient.Image_80' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:107][942]PIE: '/Engine/Transient.Image_82' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:111][942]PIE: '/Engine/Transient.Image_84' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:115][942]PIE: '/Engine/Transient.Image_86' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:205][943]PIE: '/Engine/Transient.Image_88' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:208][943]PIE: '/Engine/Transient.Image_90' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:212][943]PIE: '/Engine/Transient.Image_92' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:305][944]PIE: '/Engine/Transient.Image_94' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:308][944]PIE: '/Engine/Transient.Image_96' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:312][944]PIE: '/Engine/Transient.Image_98' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:406][945]PIE: '/Engine/Transient.Image_100' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:410][945]PIE: '/Engine/Transient.Image_102' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:506][946]PIE: '/Engine/Transient.Image_104' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:510][946]PIE: '/Engine/Transient.Image_106' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:607][947]PIE: '/Engine/Transient.Image_108' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:611][947]PIE: '/Engine/Transient.Image_110' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:707][948]PIE: '/Engine/Transient.Image_112' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:710][948]PIE: '/Engine/Transient.Image_114' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:807][949]PIE: '/Engine/Transient.Image_116' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:810][949]PIE: '/Engine/Transient.Image_118' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.39:908][950]PIE: '/Engine/Transient.Image_120' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:007][951]PIE: '/Engine/Transient.Image_122' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:107][952]PIE: '/Engine/Transient.Image_124' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:110][952]PIE: '/Engine/Transient.Image_126' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:207][953]PIE: '/Engine/Transient.Image_128' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:211][953]PIE: '/Engine/Transient.Image_130' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:305][954]PIE: '/Engine/Transient.Image_132' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:308][954]PIE: '/Engine/Transient.Image_134' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:407][955]PIE: '/Engine/Transient.Image_136' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:410][955]PIE: '/Engine/Transient.Image_138' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:505][956]PIE: '/Engine/Transient.Image_140' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:508][956]PIE: '/Engine/Transient.Image_142' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:605][957]PIE: '/Engine/Transient.Image_144' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:608][957]PIE: '/Engine/Transient.Image_146' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:707][958]PIE: '/Engine/Transient.Image_148' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:806][959]PIE: '/Engine/Transient.Image_150' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.40:906][960]PIE: '/Engine/Transient.Image_152' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:006][961]PIE: '/Engine/Transient.Image_154' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:110][962]PIE: '/Engine/Transient.Image_156' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:205][963]PIE: '/Engine/Transient.Image_158' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:209][963]PIE: '/Engine/Transient.Image_160' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:305][964]PIE: '/Engine/Transient.Image_162' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:309][964]PIE: '/Engine/Transient.Image_164' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:405][965]PIE: '/Engine/Transient.Image_166' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:409][965]PIE: '/Engine/Transient.Image_168' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:507][966]PIE: '/Engine/Transient.Image_170' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:607][967]PIE: '/Engine/Transient.Image_172' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:707][968]PIE: '/Engine/Transient.Image_174' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.41:806][969]PIE: '/Engine/Transient.Image_176' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:621][154]PIE: '/Engine/Transient.Image_30' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:622][154]PIE: '/Engine/Transient.Image_180' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:626][154]PIE: '/Engine/Transient.Image_182' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:656][155]PIE: '/Engine/Transient.Image_184' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:686][156]PIE: '/Engine/Transient.Image_186' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:689][156]PIE: '/Engine/Transient.Image_188' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:710][157]PIE: '/Engine/Transient.Image_190' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:718][157]PIE: '/Engine/Transient.Image_192' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:753][158]PIE: '/Engine/Transient.Image_194' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:758][158]PIE: '/Engine/Transient.Image_196' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:804][159]PIE: '/Engine/Transient.Image_198' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:853][160]PIE: '/Engine/Transient.Image_200' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:859][160]PIE: '/Engine/Transient.Image_202' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:903][161]PIE: '/Engine/Transient.Image_204' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:908][161]PIE: '/Engine/Transient.Image_206' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.49:955][162]PIE: '/Engine/Transient.Image_208' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:002][163]PIE: '/Engine/Transient.Image_210' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:007][163]PIE: '/Engine/Transient.Image_212' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:052][164]PIE: '/Engine/Transient.Image_214' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:057][164]PIE: '/Engine/Transient.Image_216' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:102][165]PIE: '/Engine/Transient.Image_218' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:107][165]PIE: '/Engine/Transient.Image_220' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:153][166]PIE: '/Engine/Transient.Image_222' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:159][166]PIE: '/Engine/Transient.Image_224' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:202][167]PIE: '/Engine/Transient.Image_226' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:208][167]PIE: '/Engine/Transient.Image_228' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:255][168]PIE: '/Engine/Transient.Image_230' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:260][168]PIE: '/Engine/Transient.Image_232' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:302][169]PIE: '/Engine/Transient.Image_234' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:309][169]PIE: '/Engine/Transient.Image_236' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:354][170]PIE: '/Engine/Transient.Image_238' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:359][170]PIE: '/Engine/Transient.Image_240' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:404][171]PIE: '/Engine/Transient.Image_242' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:452][172]PIE: '/Engine/Transient.Image_244' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:458][172]PIE: '/Engine/Transient.Image_246' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:503][173]PIE: '/Engine/Transient.Image_248' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:509][173]PIE: '/Engine/Transient.Image_250' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:552][174]PIE: '/Engine/Transient.Image_252' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:558][174]PIE: '/Engine/Transient.Image_254' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:605][175]PIE: '/Engine/Transient.Image_256' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:654][176]PIE: '/Engine/Transient.Image_258' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:704][177]PIE: '/Engine/Transient.Image_260' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:752][178]PIE: '/Engine/Transient.Image_262' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:757][178]PIE: '/Engine/Transient.Image_264' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:804][179]PIE: '/Engine/Transient.Image_266' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:855][180]PIE: '/Engine/Transient.Image_268' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:902][181]PIE: '/Engine/Transient.Image_270' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:909][181]PIE: '/Engine/Transient.Image_272' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.50:958][182]PIE: '/Engine/Transient.Image_274' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:002][183]PIE: '/Engine/Transient.Image_276' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:009][183]PIE: '/Engine/Transient.Image_278' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:059][184]PIE: '/Engine/Transient.Image_280' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:113][185]PIE: '/Engine/Transient.Image_282' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:155][186]PIE: '/Engine/Transient.Image_284' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:205][187]PIE: '/Engine/Transient.Image_286' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:257][188]PIE: '/Engine/Transient.Image_288' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:303][189]PIE: '/Engine/Transient.Image_290' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:310][189]PIE: '/Engine/Transient.Image_292' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:352][190]PIE: '/Engine/Transient.Image_294' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:358][190]PIE: '/Engine/Transient.Image_296' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:405][191]PIE: '/Engine/Transient.Image_298' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:455][192]PIE: '/Engine/Transient.Image_300' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:505][193]PIE: '/Engine/Transient.Image_302' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:554][194]PIE: '/Engine/Transient.Image_304' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:604][195]PIE: '/Engine/Transient.Image_306' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:610][195]PIE: '/Engine/Transient.Image_308' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:652][196]PIE: '/Engine/Transient.Image_310' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:657][196]PIE: '/Engine/Transient.Image_312' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:704][197]PIE: '/Engine/Transient.Image_314' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.24.51:752][198]PIE: '/Engine/Transient.Image_316' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:223][ 99]PIE: '/Engine/Transient.Button_39' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:224][ 99]PIE: '/Engine/Transient.Button_70' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:228][ 99]PIE: '/Engine/Transient.Button_72' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:289][100]PIE: '/Engine/Transient.Button_74' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:292][100]PIE: '/Engine/Transient.Button_76' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:327][101]PIE: '/Engine/Transient.Button_78' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:330][101]PIE: '/Engine/Transient.Button_80' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:387][102]PIE: '/Engine/Transient.Button_82' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:392][102]PIE: '/Engine/Transient.Button_84' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:487][103]PIE: '/Engine/Transient.Button_86' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:490][103]PIE: '/Engine/Transient.Button_88' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:587][104]PIE: '/Engine/Transient.Button_90' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:590][104]PIE: '/Engine/Transient.Button_92' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.34:688][105]PIE: '/Engine/Transient.Button_94' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:606][185]PIE: '/Engine/Transient.Button_39' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:607][185]PIE: '/Engine/Transient.Button_98' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:610][185]PIE: '/Engine/Transient.Button_100' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:651][186]PIE: '/Engine/Transient.Button_102' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:656][186]PIE: '/Engine/Transient.Button_104' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:686][187]PIE: '/Engine/Transient.Button_106' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:689][187]PIE: '/Engine/Transient.Button_108' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:726][188]PIE: '/Engine/Transient.Button_110' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:729][188]PIE: '/Engine/Transient.Button_112' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:757][189]PIE: '/Engine/Transient.Button_114' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:768][189]PIE: '/Engine/Transient.Button_116' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:803][190]PIE: '/Engine/Transient.Button_118' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:810][190]PIE: '/Engine/Transient.Button_120' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:853][191]PIE: '/Engine/Transient.Button_122' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:860][191]PIE: '/Engine/Transient.Button_124' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:908][192]PIE: '/Engine/Transient.Button_126' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.39:956][193]PIE: '/Engine/Transient.Button_128' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:006][194]PIE: '/Engine/Transient.Button_130' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:054][195]PIE: '/Engine/Transient.Button_132' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:105][196]PIE: '/Engine/Transient.Button_134' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:152][197]PIE: '/Engine/Transient.Button_136' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:158][197]PIE: '/Engine/Transient.Button_138' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:202][198]PIE: '/Engine/Transient.Button_140' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:209][198]PIE: '/Engine/Transient.Button_142' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:254][199]PIE: '/Engine/Transient.Button_144' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:305][200]PIE: '/Engine/Transient.Button_146' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:354][201]PIE: '/Engine/Transient.Button_148' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:406][202]PIE: '/Engine/Transient.Button_150' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:453][203]PIE: '/Engine/Transient.Button_152' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:460][203]PIE: '/Engine/Transient.Button_154' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:505][204]PIE: '/Engine/Transient.Button_156' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:555][205]PIE: '/Engine/Transient.Button_158' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:602][206]PIE: '/Engine/Transient.Button_160' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:609][206]PIE: '/Engine/Transient.Button_162' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:654][207]PIE: '/Engine/Transient.Button_164' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:704][208]PIE: '/Engine/Transient.Button_166' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:752][209]PIE: '/Engine/Transient.Button_168' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:758][209]PIE: '/Engine/Transient.Button_170' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:804][210]PIE: '/Engine/Transient.Button_172' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:852][211]PIE: '/Engine/Transient.Button_174' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:856][211]PIE: '/Engine/Transient.Button_176' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:904][212]PIE: '/Engine/Transient.Button_178' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:952][213]PIE: '/Engine/Transient.Button_180' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.40:958][213]PIE: '/Engine/Transient.Button_182' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:004][214]PIE: '/Engine/Transient.Button_184' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:054][215]PIE: '/Engine/Transient.Button_186' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:109][216]PIE: '/Engine/Transient.Button_188' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:154][217]PIE: '/Engine/Transient.Button_190' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:160][217]PIE: '/Engine/Transient.Button_192' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:205][218]PIE: '/Engine/Transient.Button_194' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:254][219]PIE: '/Engine/Transient.Button_196' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:304][220]PIE: '/Engine/Transient.Button_198' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:354][221]PIE: '/Engine/Transient.Button_200' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:363][221]PIE: '/Engine/Transient.Button_202' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:402][222]PIE: '/Engine/Transient.Button_204' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:410][222]PIE: '/Engine/Transient.Button_206' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.25.41:457][223]PIE: '/Engine/Transient.Button_208' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2017.11.30-16.27.59:035][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 0.182
+[2017.11.30-16.27.59:137][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Pause/Continue] ([1] browsable assets)...
+[2017.11.30-16.27.59:148][ 22]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/Pause/Continue.Continue]
+[2017.11.30-16.27.59:148][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/Continue]
+[2017.11.30-16.27.59:148][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Continue" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Continue_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.30-16.27.59:299][ 22]LogSavePackage: Save=129.59ms
+[2017.11.30-16.27.59:299][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Continue_Auto1DE03466E446EE420D3DD4989974E88D1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Continue_Auto1.uasset'
+[2017.11.30-16.27.59:305][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Continue_Auto1.uasset
+[2017.11.30-16.27.59:306][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Pause/Exit] ([1] browsable assets)...
+[2017.11.30-16.27.59:310][ 22]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/Pause/Exit.Exit]
+[2017.11.30-16.27.59:310][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/Exit]
+[2017.11.30-16.27.59:310][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Exit" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Exit_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.30-16.27.59:325][ 22]LogSavePackage: Save=11.30ms
+[2017.11.30-16.27.59:325][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Exit_Auto131310F3346224F55505D68AF928D0269.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Exit_Auto1.uasset'
+[2017.11.30-16.27.59:326][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Exit_Auto1.uasset
+[2017.11.30-16.27.59:327][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Pause/Pause] ([1] browsable assets)...
+[2017.11.30-16.27.59:330][ 22]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/Pause/Pause.Pause]
+[2017.11.30-16.27.59:330][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/Pause]
+[2017.11.30-16.27.59:330][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Pause" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Pause_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.30-16.27.59:346][ 22]LogSavePackage: Save=11.56ms
+[2017.11.30-16.27.59:346][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Pause_Auto1147860E245F4863B5CC920A70ADB38C0.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Pause_Auto1.uasset'
+[2017.11.30-16.27.59:347][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/Pause_Auto1.uasset
+[2017.11.30-16.27.59:347][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Pause/background] ([1] browsable assets)...
+[2017.11.30-16.27.59:352][ 22]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/Pause/background.background]
+[2017.11.30-16.27.59:352][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/background]
+[2017.11.30-16.27.59:367][ 22]LogSavePackage: Save=11.74ms
+[2017.11.30-16.27.59:367][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/background_Auto1A4D16F97416D52AAC41E76BD85B90E3F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/background_Auto1.uasset'
+[2017.11.30-16.27.59:368][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/background_Auto1.uasset
+[2017.11.30-16.27.59:370][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Pause/PauseMenu] ([1] browsable assets)...
+[2017.11.30-16.27.59:370][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/PauseMenu]
+[2017.11.30-16.27.59:475][ 22]LogSavePackage: Save=102.48ms
+[2017.11.30-16.27.59:475][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PauseMenu_Auto1579C5B1A49999C3D3967B69337442C6C.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/PauseMenu_Auto1.uasset'
+[2017.11.30-16.27.59:476][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/PauseMenu_Auto1.uasset
+[2017.11.30-16.27.59:476][ 22]LogFileHelpers: Auto-saving content packages took 0.425
+[2017.11.30-16.28.22:800][123]BlueprintLog: New page: PauseMenu 컴파일
+[2017.11.30-16.28.27:755][204]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.28.57:941][335]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX)
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Model, ItemCount : 67
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Material, ItemCount : 2
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: AnimationCurve, ItemCount : 198
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.11.30-16.28.58:228][335]LogFbx: ItemName: Video, ItemCount : 2
+[2017.11.30-16.28.58:246][335]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX
+[2017.11.30-16.28.58:310][335]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.28.58:326][335]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.11.30-16.29.05:568][335]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX
+[2017.11.30-16.29.05:618][335]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.29.05:627][335]LogFbx: =================================================
+[2017.11.30-16.29.05:627][335]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.29.05:627][335]LogFbx: 	Total Deformer Count -223963200.
+[2017.11.30-16.29.05:627][335]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.29.05:627][335]LogFbx: =================================================
+[2017.11.30-16.29.05:627][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:627][335]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.29.05:627][335]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.29.05:627][335]LogFbx: =================================================
+[2017.11.30-16.29.05:627][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:627][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:627][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:627][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:627][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:627][335]LogFbx: =================================================
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:628][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:628][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:628][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:628][335]LogFbx: =================================================
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:628][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:628][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:628][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:628][335]LogFbx: =================================================
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:628][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:628][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:628][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:628][335]LogFbx: =================================================
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:628][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:628][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:628][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:628][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:629][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:629][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:629][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:629][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:629][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:629][335]LogFbx: =================================================
+[2017.11.30-16.29.05:629][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.05:629][335]LogFbx: 	Total Deformer Count 77841280.
+[2017.11.30-16.29.05:629][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:630][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.05:630][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.05:630][335]LogFbx: =================================================
+[2017.11.30-16.29.05:631][335]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.29.05:631][335]LogFbx: 	Total Deformer Count -223963984.
+[2017.11.30-16.29.05:631][335]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.29.05:631][335]LogFbx: =================================================
+[2017.11.30-16.29.05:631][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.05:631][335]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.29.05:631][335]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.29.05:666][335]LogFbx: Valid bind pose for Pose (BIND_POSES) - BaseMesh_Man_Simple_Body
+[2017.11.30-16.29.05:837][335]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2017.11.30-16.29.06:093][335]LogSkeletalMesh: Section 0: 6425 vertices, 52 active bones
+[2017.11.30-16.29.06:093][335]LogSkeletalMesh: Section 1: 359 vertices, 1 active bones
+[2017.11.30-16.29.06:108][335]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.11.30-16.29.06:108][335]LogSkeletalMesh: Section 1: Material=1, 278 triangles
+[2017.11.30-16.29.06:145][335]LogLinker: '/Game/Player/Anim/empty_attack_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.11.30-16.29.06:146][335]LogLinker: '/Game/Player/Anim/empty_attack_1_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.11.30-16.29.06:253][335]LogFbx: =================================================
+[2017.11.30-16.29.06:253][335]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.29.06:253][335]LogFbx: 	Total Deformer Count 49881440.
+[2017.11.30-16.29.06:253][335]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.29.06:253][335]LogFbx: =================================================
+[2017.11.30-16.29.06:253][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:253][335]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.29.06:253][335]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.29.06:253][335]LogFbx: =================================================
+[2017.11.30-16.29.06:253][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:253][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:253][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:253][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:253][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:253][335]LogFbx: =================================================
+[2017.11.30-16.29.06:253][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:253][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:253][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:253][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:254][335]LogFbx: =================================================
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:254][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:254][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:254][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:254][335]LogFbx: =================================================
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:254][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:254][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:254][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:254][335]LogFbx: =================================================
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:254][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:254][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:254][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:254][335]LogFbx: =================================================
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:254][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:254][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:254][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:254][335]LogFbx: =================================================
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:254][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:254][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:254][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:254][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:255][335]LogFbx: =================================================
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:255][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:255][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:255][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:255][335]LogFbx: =================================================
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:255][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:255][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:255][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:255][335]LogFbx: =================================================
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:255][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:255][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:255][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:255][335]LogFbx: =================================================
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.06:255][335]LogFbx: 	Total Deformer Count 71970496.
+[2017.11.30-16.29.06:255][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:255][335]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.06:255][335]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.06:256][335]LogFbx: =================================================
+[2017.11.30-16.29.06:256][335]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.29.06:256][335]LogFbx: 	Total Deformer Count 49881440.
+[2017.11.30-16.29.06:256][335]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.29.06:256][335]LogFbx: =================================================
+[2017.11.30-16.29.06:256][335]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.06:256][335]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.29.06:256][335]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(0) Hips
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(1) Spine
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(2) Spine1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(3) Spine2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(4) Neck
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(5) Head
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(8) LeftArm
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(10) LeftHand
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(15) Cylinder047
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(16) LeftHandIndex1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(17) LeftHandIndex2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(18) LeftHandIndex3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(19) LeftHandIndex4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(20) LeftHandMiddle1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(21) LeftHandMiddle2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(22) LeftHandMiddle3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(23) LeftHandMiddle4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(24) LeftHandRing1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(25) LeftHandRing2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(26) LeftHandRing3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(27) LeftHandRing4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(28) LeftHandPinky1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(29) LeftHandPinky2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(30) LeftHandPinky3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(31) LeftHandPinky4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(32) RightShoulder
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(33) RightArm
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(34) RightForeArm
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(35) RightHand
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(36) RightHandThumb1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(37) RightHandThumb2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(38) RightHandThumb3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(39) RightHandThumb4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(40) RightHandIndex1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(41) RightHandIndex2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(42) RightHandIndex3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(43) RightHandIndex4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(44) RightHandMiddle1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(45) RightHandMiddle2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(46) RightHandMiddle3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(47) RightHandMiddle4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(48) RightHandRing1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(49) RightHandRing2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(50) RightHandRing3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(51) RightHandRing4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(52) RightHandPinky1
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(53) RightHandPinky2
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(54) RightHandPinky3
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(55) RightHandPinky4
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(56) LeftUpLeg
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(57) LeftLeg
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(58) LeftFoot
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(59) LeftToeBase
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(60) LeftToe_End
+[2017.11.30-16.29.06:269][335]LogFbx: SortedLinks :(61) RightUpLeg
+[2017.11.30-16.29.06:270][335]LogFbx: SortedLinks :(62) RightLeg
+[2017.11.30-16.29.06:270][335]LogFbx: SortedLinks :(63) RightFoot
+[2017.11.30-16.29.06:270][335]LogFbx: SortedLinks :(64) RightToeBase
+[2017.11.30-16.29.06:270][335]LogFbx: SortedLinks :(65) RightToe_End
+[2017.11.30-16.29.06:280][335]LogFbx: Parsing AnimStack Take 001
+[2017.11.30-16.29.06:318][335]LogLinker: '/Game/Player/Anim/empty_attack_1_Anim' 파일을 찾을 수 없습니다.
+[2017.11.30-16.29.06:318][335]LogLinker: '/Game/Player/Anim/empty_attack_1_Anim' 파일을 찾을 수 없습니다.
+[2017.11.30-16.29.07:553][335]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/empty_attack_1_Anim.empty_attack_1_Anim
+[2017.11.30-16.29.07:653][335]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.29.07:683][335]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.11.30-16.29.07:683][335]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+Cylinder047  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.11.30-16.29.12:860][378]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.30-16.29.13:503][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.30-16.29.14:046][378]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.30-16.29.15:996][378]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.30-16.29.47:470][482]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX)
+[2017.11.30-16.29.47:567][482]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: Model, ItemCount : 66
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: AnimationCurve, ItemCount : 195
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: AnimationCurveNode, ItemCount : 65
+[2017.11.30-16.29.47:568][482]LogFbx: ItemName: Video, ItemCount : 1
+[2017.11.30-16.29.47:575][482]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX
+[2017.11.30-16.29.47:613][482]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.29.57:079][482]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX
+[2017.11.30-16.29.57:137][482]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.29.57:138][482]LogFbx: =================================================
+[2017.11.30-16.29.57:138][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:139][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:139][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:139][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:139][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:139][482]LogFbx: =================================================
+[2017.11.30-16.29.57:139][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:139][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:139][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:139][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:139][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:140][482]LogFbx: =================================================
+[2017.11.30-16.29.57:140][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:140][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:140][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:140][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:140][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:140][482]LogFbx: =================================================
+[2017.11.30-16.29.57:140][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:140][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:140][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:140][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:140][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:140][482]LogFbx: =================================================
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:141][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:141][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:141][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:141][482]LogFbx: =================================================
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:141][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:141][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:141][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:141][482]LogFbx: =================================================
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:141][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:141][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:141][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:141][482]LogFbx: =================================================
+[2017.11.30-16.29.57:141][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:141][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:142][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:142][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:142][482]LogFbx: =================================================
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:142][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:142][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:142][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:142][482]LogFbx: =================================================
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:142][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:142][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:142][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:142][482]LogFbx: =================================================
+[2017.11.30-16.29.57:142][482]LogFbx: Dumping Node START [Cylinder047] 
+[2017.11.30-16.29.57:142][482]LogFbx: 	Total Deformer Count -163913664.
+[2017.11.30-16.29.57:142][482]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.29.57:142][482]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.11.30-16.29.57:143][482]LogFbx: Dumping Node END [Cylinder047]
+[2017.11.30-16.29.57:176][482]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2017.11.30-16.29.57:185][482]LogSkeletalMesh: Section 0: 354 vertices, 1 active bones
+[2017.11.30-16.29.57:185][482]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2017.11.30-16.30.06:490][482]FBXImport: Warning: 바인드 포즈를 찾을 수 없습니다. 시간 0 을 바인드 포즈로 사용합니다. 
+[2017.11.30-16.30.44:921][482]LogAssetTools: Warning: 'D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\empty_attack_1.FBX' 임포트에 실패했습니다. '/Game/Player/Anim/empty_attack_1' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.11.30-16.32.27:359][834]LogSlate: Took 0.046236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.30-16.32.29:524][853]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.33.11:975][260]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.33.13:973][312]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.33.17:278][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.33.17:288][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.33.17:417][312]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:33:17)
+[2017.11.30-16.33.17:456][312]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.33.17:781][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.324959s)
+[2017.11.30-16.33.17:782][312]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.33.17:783][312]LogPlayLevel: PIE: World Init took: (0.001807s)
+[2017.11.30-16.33.17:783][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.327424s)
+[2017.11.30-16.33.17:857][312]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.33.17:886][312]LogInit: FAudioDevice initialized.
+[2017.11.30-16.33.18:081][312]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.33.18:229][312]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.33.18
+[2017.11.30-16.33.18:586][312]LogWorld: Bringing up level for play took: 0.492009
+[2017.11.30-16.33.20:725][312]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.11.30-16.33.20:727][312]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.33.20:909][312]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 3.508
+[2017.11.30-16.33.20:919][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.33.21:920][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.33.22:080][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.09:802][392]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.34.11:380][464]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.34.11:453][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.11:454][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.34.11:454][464]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:34:11)
+[2017.11.30-16.34.11:454][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.34.11:520][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066571s)
+[2017.11.30-16.34.11:521][464]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.34.11:521][464]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2017.11.30-16.34.11:522][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.068109s)
+[2017.11.30-16.34.11:551][464]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.34.11:574][464]LogInit: FAudioDevice initialized.
+[2017.11.30-16.34.11:635][464]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.34.11:669][464]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.34.11
+[2017.11.30-16.34.11:671][464]LogWorld: Bringing up level for play took: 0.035309
+[2017.11.30-16.34.11:672][464]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.34.11:676][464]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 0.274
+[2017.11.30-16.34.11:677][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.14:538][609]Cmd: LevelEditor.ToggleImmersive
+[2017.11.30-16.34.15:055][610]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:147).
+[2017.11.30-16.34.16:058][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.16:209][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.26:742][881]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.34.29:742][950]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.34.29:841][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.29:841][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.34.29:841][950]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:34:29)
+[2017.11.30-16.34.29:841][950]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.34.29:911][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069398s)
+[2017.11.30-16.34.29:912][950]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.34.29:912][950]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2017.11.30-16.34.29:912][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.071097s)
+[2017.11.30-16.34.29:948][950]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.34.29:982][950]LogInit: FAudioDevice initialized.
+[2017.11.30-16.34.30:026][950]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.34.30:069][950]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.34.30
+[2017.11.30-16.34.30:072][950]LogWorld: Bringing up level for play took: 0.044776
+[2017.11.30-16.34.30:074][950]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.34.30:078][950]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 0.677
+[2017.11.30-16.34.30:079][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.35:650][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.35:741][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.34.37:255][117]Cmd: SELECT NONE
+[2017.11.30-16.34.37:437][121]Cmd: SELECT NONE
+[2017.11.30-16.34.37:612][125]Cmd: SELECT NONE
+[2017.11.30-16.35.55:528][421]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:552][422]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:590][423]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:665][425]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:730][427]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:798][429]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:864][431]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:926][433]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.55:998][435]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:104][437]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:205][439]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:235][441]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:288][443]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:351][445]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:450][448]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:535][450]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:578][452]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:636][454]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:698][456]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:764][458]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:827][460]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:891][462]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.56:954][464]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:018][466]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:082][468]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:142][470]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:206][472]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:274][474]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:338][476]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:412][478]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:517][480]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:551][482]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:607][484]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:679][486]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:739][488]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:812][490]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:916][492]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.57:950][494]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:006][496]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:069][498]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:133][500]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:196][502]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:256][504]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:323][506]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:386][508]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:451][510]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:515][512]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:577][514]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:641][516]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:701][518]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.35.58:765][520]LogAnimation: Warning: SkeletalMesh empty_attack_1 has no skeleton. This needs to fixed before an animation can be set
+[2017.11.30-16.36.05:411][544]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\3.FBX)
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Model, ItemCount : 66
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: NodeAttribute, ItemCount : 117
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: AnimationCurve, ItemCount : 198
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.11.30-16.36.05:424][544]LogFbx: ItemName: Video, ItemCount : 1
+[2017.11.30-16.36.05:433][544]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\3.FBX
+[2017.11.30-16.36.05:494][544]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.36.12:940][544]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\3.FBX
+[2017.11.30-16.36.12:994][544]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-16.36.12:996][544]LogFbx: =================================================
+[2017.11.30-16.36.12:996][544]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.36.12:996][544]LogFbx: 	Total Deformer Count 1311567040.
+[2017.11.30-16.36.12:996][544]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.36.12:996][544]LogFbx: =================================================
+[2017.11.30-16.36.12:996][544]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.36.12:997][544]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.36.12:997][544]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.36.12:998][544]LogFbx: =================================================
+[2017.11.30-16.36.12:998][544]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.36.12:998][544]LogFbx: 	Total Deformer Count 1311566256.
+[2017.11.30-16.36.12:998][544]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.36.12:998][544]LogFbx: =================================================
+[2017.11.30-16.36.12:998][544]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.36.12:998][544]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.36.12:998][544]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.36.12:999][544]LogFbx: Valid bind pose for Pose (BIND_POSES) - BaseMesh_Man_Simple_Body
+[2017.11.30-16.36.13:065][544]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.11.30-16.36.13:310][544]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.11.30-16.36.13:323][544]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.11.30-16.36.13:328][544]LogLinker: '/Game/Player/Anim/3_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.11.30-16.36.13:328][544]LogLinker: '/Game/Player/Anim/3_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.11.30-16.36.13:342][544]LogFbx: =================================================
+[2017.11.30-16.36.13:342][544]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.36.13:343][544]LogFbx: 	Total Deformer Count 1311506320.
+[2017.11.30-16.36.13:343][544]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.36.13:343][544]LogFbx: =================================================
+[2017.11.30-16.36.13:343][544]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.36.13:343][544]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.36.13:343][544]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.36.13:344][544]LogFbx: =================================================
+[2017.11.30-16.36.13:344][544]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.11.30-16.36.13:344][544]LogFbx: 	Total Deformer Count 1311506320.
+[2017.11.30-16.36.13:344][544]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.30-16.36.13:344][544]LogFbx: =================================================
+[2017.11.30-16.36.13:344][544]LogFbx: 	Attribute () Type (4).
+[2017.11.30-16.36.13:344][544]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.11.30-16.36.13:344][544]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(0) Hips
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(1) Spine
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(2) Spine1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(3) Spine2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(4) Neck
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(5) Head
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(8) LeftArm
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(10) LeftHand
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(23) LeftHandRing1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(24) LeftHandRing2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(25) LeftHandRing3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(26) LeftHandRing4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(31) RightShoulder
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(32) RightArm
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(33) RightForeArm
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(34) RightHand
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(35) RightHandThumb1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(36) RightHandThumb2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(37) RightHandThumb3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(38) RightHandThumb4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(39) RightHandIndex1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(40) RightHandIndex2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(41) RightHandIndex3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(42) RightHandIndex4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(47) RightHandRing1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(48) RightHandRing2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(49) RightHandRing3
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(50) RightHandRing4
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(51) RightHandPinky1
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(52) RightHandPinky2
+[2017.11.30-16.36.13:345][544]LogFbx: SortedLinks :(53) RightHandPinky3
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(54) RightHandPinky4
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(55) LeftUpLeg
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(56) LeftLeg
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(57) LeftFoot
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(58) LeftToeBase
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(59) LeftToe_End
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(60) RightUpLeg
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(61) RightLeg
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(62) RightFoot
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(63) RightToeBase
+[2017.11.30-16.36.13:346][544]LogFbx: SortedLinks :(64) RightToe_End
+[2017.11.30-16.36.13:346][544]LogFbx: Parsing AnimStack Take 001
+[2017.11.30-16.36.13:350][544]LogLinker: '/Game/Player/Anim/3_Anim' 파일을 찾을 수 없습니다.
+[2017.11.30-16.36.13:351][544]LogLinker: '/Game/Player/Anim/3_Anim' 파일을 찾을 수 없습니다.
+[2017.11.30-16.36.13:608][544]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/3_Anim.3_Anim
+[2017.11.30-16.36.13:614][544]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.36.13:619][544]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.36.13:630][544]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.11.30-16.36.17:558][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.30-16.36.17:670][708]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.30-16.36.19:342][708]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.30-16.38.20:263][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FLAG" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.30-16.38.23:345][809]LogSavePackage: Save=1430.10ms
+[2017.11.30-16.38.23:345][809]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/FLAG_Auto2F31C3E0E478E8D73D826C0AD6379BEC7.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto2.umap'
+[2017.11.30-16.38.23:619][809]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/FLAG_Auto2.umap
+[2017.11.30-16.38.23:668][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FLAG' took 3.807
+[2017.11.30-16.38.23:668][809]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.807
+[2017.11.30-16.38.23:672][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Pause/PauseMenu] ([1] browsable assets)...
+[2017.11.30-16.38.23:673][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Pause/PauseMenu]
+[2017.11.30-16.38.23:720][809]LogSavePackage: Save=42.58ms
+[2017.11.30-16.38.23:720][809]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PauseMenu_Auto22D67517146B7F7F9556C209FF6B57844.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/PauseMenu_Auto2.uasset'
+[2017.11.30-16.38.23:724][809]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/Pause/PauseMenu_Auto2.uasset
+[2017.11.30-16.38.23:724][809]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.11.30-16.43.07:731][ 20]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.43.31:724][906]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.43.34:017][995]BlueprintLog: New page: PauseMenu 컴파일
+[2017.11.30-16.43.35:830][ 66]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.43.35:921][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.43.35:921][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.43.35:921][ 66]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:43:35)
+[2017.11.30-16.43.35:921][ 66]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.43.35:984][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062116s)
+[2017.11.30-16.43.35:985][ 66]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.43.35:987][ 66]LogPlayLevel: PIE: World Init took: (0.003096s)
+[2017.11.30-16.43.35:988][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.066116s)
+[2017.11.30-16.43.36:020][ 66]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.43.36:045][ 66]LogInit: FAudioDevice initialized.
+[2017.11.30-16.43.36:077][ 66]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.43.36:116][ 66]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.43.36
+[2017.11.30-16.43.36:120][ 66]LogWorld: Bringing up level for play took: 0.041627
+[2017.11.30-16.43.36:122][ 66]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.43.36:126][ 66]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 0.725
+[2017.11.30-16.43.36:126][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.43.36:865][ 99]Cmd: LevelEditor.ToggleImmersive
+[2017.11.30-16.43.46:583][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.43.46:701][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.43.57:427][613]BlueprintLog: New page: PauseMenu 컴파일
+[2017.11.30-16.44.01:517][752]BlueprintLog: New page: FLAG 컴파일
+[2017.11.30-16.44.05:345][886]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.44.05:419][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.05:420][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.44.05:420][886]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:44:05)
+[2017.11.30-16.44.05:420][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.44.05:489][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069014s)
+[2017.11.30-16.44.05:490][886]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.44.05:490][886]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.11.30-16.44.05:490][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.070852s)
+[2017.11.30-16.44.05:528][886]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.44.05:554][886]LogInit: FAudioDevice initialized.
+[2017.11.30-16.44.05:592][886]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.44.05:631][886]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.44.05
+[2017.11.30-16.44.05:632][886]LogWorld: Bringing up level for play took: 0.038249
+[2017.11.30-16.44.05:634][886]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.44.05:638][886]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 0.237
+[2017.11.30-16.44.05:638][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.09:353][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.09:423][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.10:501][ 76]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.44.10:580][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.10:580][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.44.10:581][ 76]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:44:10)
+[2017.11.30-16.44.10:581][ 76]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.44.10:637][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055455s)
+[2017.11.30-16.44.10:637][ 76]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.44.10:638][ 76]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2017.11.30-16.44.10:638][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.056966s)
+[2017.11.30-16.44.10:671][ 76]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.44.10:695][ 76]LogInit: FAudioDevice initialized.
+[2017.11.30-16.44.10:730][ 76]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.44.10:765][ 76]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.44.10
+[2017.11.30-16.44.10:767][ 76]LogWorld: Bringing up level for play took: 0.035426
+[2017.11.30-16.44.10:768][ 76]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.44.10:772][ 76]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: -0.629
+[2017.11.30-16.44.10:772][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.18:364][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.18:475][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.44.58:409][548]BlueprintLog: New page: PauseMenu 컴파일
+[2017.11.30-16.45.00:209][591]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.11.30-16.45.00:304][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.45.00:304][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.45.00:304][591]PIE: New page: PIE 세션: FLAG (2017. 12. 1. 오전 10:45:00)
+[2017.11.30-16.45.00:304][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.11.30-16.45.00:365][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060992s)
+[2017.11.30-16.45.00:366][591]LogAIModule: Creating AISystem for world FLAG
+[2017.11.30-16.45.00:366][591]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2017.11.30-16.45.00:367][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.062498s)
+[2017.11.30-16.45.00:399][591]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.30-16.45.00:427][591]LogInit: FAudioDevice initialized.
+[2017.11.30-16.45.00:460][591]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.11.30-16.45.00:496][591]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 60) at 2017.12.01-01.45.00
+[2017.11.30-16.45.00:497][591]LogWorld: Bringing up level for play took: 0.035536
+[2017.11.30-16.45.00:498][591]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.11.30-16.45.00:502][591]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 1.101
+[2017.11.30-16.45.00:502][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.45.06:374][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.45.06:430][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.11.30-16.47.07:416][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FLAG" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-16.47.08:404][278]LogSavePackage: Save=929.00ms
+[2017.11.30-16.47.08:404][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/FLAGFE15E79A426FD7433EA250BB4CB5A3E7.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap'
+[2017.11.30-16.47.08:433][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap
+[2017.11.30-16.47.08:651][278]LogFileHelpers: Saving map 'FLAG' took 11.543
+[2017.11.30-16.47.08:720][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/background" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/background.uasset" SILENT=true
+[2017.11.30-16.47.08:862][278]LogSavePackage: Save=138.82ms
+[2017.11.30-16.47.08:863][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/backgroundCE17858F4A40576E5159818600CEDAB8.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/background.uasset'
+[2017.11.30-16.47.08:875][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/background.uasset
+[2017.11.30-16.47.08:889][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Continue" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Continue.uasset" SILENT=true
+[2017.11.30-16.47.08:909][278]LogSavePackage: Save=15.71ms
+[2017.11.30-16.47.08:909][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/ContinueC10DF4D94DAF2FCAAB9018A95F0CCC62.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Continue.uasset'
+[2017.11.30-16.47.08:919][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Continue.uasset
+[2017.11.30-16.47.08:929][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Exit" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Exit.uasset" SILENT=true
+[2017.11.30-16.47.08:949][278]LogSavePackage: Save=14.41ms
+[2017.11.30-16.47.08:950][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Exit390E256140750D6BDA8DC8A01B7EC404.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Exit.uasset'
+[2017.11.30-16.47.08:956][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Exit.uasset
+[2017.11.30-16.47.08:968][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/Pause" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Pause.uasset" SILENT=true
+[2017.11.30-16.47.09:003][278]LogSavePackage: Save=12.35ms
+[2017.11.30-16.47.09:003][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Pause7642743842C1323122CCA4824BAB22C6.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Pause.uasset'
+[2017.11.30-16.47.09:008][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/Pause.uasset
+[2017.11.30-16.47.09:012][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pause/PauseMenu" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/PauseMenu.uasset" SILENT=true
+[2017.11.30-16.47.09:073][278]LogSavePackage: Save=52.37ms
+[2017.11.30-16.47.09:073][278]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PauseMenu2BFDEBAF4162A5F15A754AA1790E507D.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/PauseMenu.uasset'
+[2017.11.30-16.47.09:082][278]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/Pause/PauseMenu.uasset
+[2017.11.30-16.47.09:845][278]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.11.30-16.47.10:483][279]Cmd: QUIT_EDITOR
+[2017.11.30-16.47.11:724][279]LogExit: Preparing to exit.
+[2017.11.30-16.47.12:935][279]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.11.30-16.47.13:553][279]LogExit: Editor shut down
+[2017.11.30-16.47.13:658][279]LogExit: Transaction tracking system shut down
+[2017.11.30-16.47.14:300][279]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.30-16.47.14:300][279]LogDirectoryWatcher: A directory notification for '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.11.30-16.47.14:300][279]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.30-16.47.14:300][279]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.30-16.47.14:301][279]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.30-16.47.17:155][279]LogExit: Object subsystem successfully closed.
+[2017.11.30-16.47.17:484][279]LogD3D11RHI: Shutdown
+[2017.11.30-16.47.17:503][279]LogD3D11RHI: CleanupD3DDevice
+[2017.11.30-16.47.18:274][279]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.30-16.47.19:392][279]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (544)
+[2017.11.30-16.47.19:403][279]LogModuleManager: Shutting down and abandoning module SkeletonEditor (542)
+[2017.11.30-16.47.19:408][279]LogModuleManager: Shutting down and abandoning module AnimationEditor (540)
+[2017.11.30-16.47.19:408][279]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2017.11.30-16.47.19:408][279]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.11.30-16.47.19:408][279]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.11.30-16.47.19:423][279]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.11.30-16.47.19:423][279]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.11.30-16.47.19:434][279]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.11.30-16.47.19:450][279]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.30-16.47.19:505][279]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.11.30-16.47.19:505][279]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.11.30-16.47.19:505][279]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.11.30-16.47.19:573][279]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' was aborted.
+[2017.11.30-16.47.19:573][279]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' was aborted.
+[2017.11.30-16.47.19:573][279]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' was aborted.
+[2017.11.30-16.47.19:573][279]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (520)
+[2017.11.30-16.47.19:573][279]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.30-16.47.19:596][279]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.30-16.47.19:596][279]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.30-16.47.19:612][279]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.30-16.47.19:613][279]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.30-16.47.19:613][279]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.30-16.47.19:613][279]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.30-16.47.19:613][279]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.30-16.47.19:613][279]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.30-16.47.19:625][279]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.30-16.47.19:625][279]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.30-16.47.19:625][279]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.30-16.47.19:638][279]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.30-16.47.19:644][279]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.30-16.47.19:663][279]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.30-16.47.19:681][279]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.30-16.47.19:704][279]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.30-16.47.19:704][279]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.30-16.47.19:704][279]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.30-16.47.19:704][279]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.30-16.47.19:704][279]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.30-16.47.19:733][279]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.30-16.47.19:750][279]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.30-16.47.19:781][279]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.30-16.47.19:806][279]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.30-16.47.19:806][279]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.30-16.47.19:806][279]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.30-16.47.19:806][279]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.30-16.47.20:420][279]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.30-16.47.20:420][279]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.30-16.47.20:420][279]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.30-16.47.20:420][279]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.30-16.47.20:433][279]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.30-16.47.20:462][279]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.30-16.47.20:462][279]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.30-16.47.20:493][279]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.30-16.47.20:493][279]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.30-16.47.20:498][279]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.30-16.47.20:504][279]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.30-16.47.20:504][279]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.30-16.47.20:514][279]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.30-16.47.20:515][279]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.30-16.47.20:528][279]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.30-16.47.20:528][279]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.30-16.47.20:528][279]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.30-16.47.20:530][279]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.30-16.47.20:530][279]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.30-16.47.20:538][279]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.30-16.47.20:550][279]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.30-16.47.20:564][279]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.30-16.47.20:578][279]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.30-16.47.20:628][279]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.30-16.47.20:680][279]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.30-16.47.20:730][279]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.30-16.47.20:753][279]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.30-16.47.20:904][279]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.30-16.47.20:904][279]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.30-16.47.20:960][279]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.30-16.47.20:961][279]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.30-16.47.21:016][279]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.30-16.47.21:016][279]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.30-16.47.21:072][279]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.30-16.47.21:196][279]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.30-16.47.21:201][279]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.30-16.47.21:202][279]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.30-16.47.21:220][279]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.30-16.47.21:296][279]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.30-16.47.21:308][279]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.30-16.47.21:336][279]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.30-16.47.21:337][279]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.30-16.47.21:376][279]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.30-16.47.21:376][279]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.30-16.47.21:376][279]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.30-16.47.21:547][279]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.30-16.47.21:547][279]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.30-16.47.21:547][279]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.30-16.47.21:548][279]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.30-16.47.21:548][279]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.30-16.47.21:548][279]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.30-16.47.21:548][279]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.30-16.47.21:560][279]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.30-16.47.21:561][279]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.30-16.47.21:586][279]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.30-16.47.21:620][279]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.30-16.47.21:716][279]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.30-16.47.21:716][279]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.30-16.47.21:717][279]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.30-16.47.21:717][279]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.30-16.47.21:739][279]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.30-16.47.21:822][279]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.30-16.47.21:822][279]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.30-16.47.21:839][279]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.30-16.47.21:840][279]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.30-16.47.21:840][279]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.30-16.47.21:840][279]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.30-16.47.21:840][279]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.30-16.47.22:024][279]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.30-16.47.22:053][279]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.30-16.47.22:053][279]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.30-16.47.22:066][279]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.30-16.47.22:066][279]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.30-16.47.22:099][279]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.30-16.47.22:167][279]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.30-16.47.22:235][279]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.30-16.47.22:346][279]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.30-16.47.22:347][279]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.30-16.47.22:347][279]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.30-16.47.22:347][279]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.30-16.47.22:418][279]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.30-16.47.22:427][279]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.30-16.47.22:456][279]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.30-16.47.22:497][279]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.30-16.47.22:497][279]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.30-16.47.22:665][279]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.30-16.47.22:714][279]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.30-16.47.22:814][279]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.30-16.47.22:958][279]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.30-16.47.22:978][279]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.30-16.47.22:981][279]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.30-16.47.22:981][279]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.30-16.47.22:996][279]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.30-16.47.22:996][279]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.30-16.47.23:000][279]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.30-16.47.23:000][279]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.30-16.47.23:008][279]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.30-16.47.23:025][279]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.30-16.47.23:054][279]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.30-16.47.23:054][279]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.30-16.47.23:084][279]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.30-16.47.23:084][279]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.30-16.47.23:084][279]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.30-16.47.23:084][279]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.30-16.47.23:084][279]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.30-16.47.23:104][279]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.30-16.47.23:116][279]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.30-16.47.23:116][279]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.30-16.47.23:215][279]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.30-16.47.23:215][279]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.30-16.47.23:272][279]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.30-16.47.23:272][279]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.30-16.47.23:304][279]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.30-16.47.23:304][279]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.30-16.47.23:304][279]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.30-16.47.23:304][279]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.30-16.47.23:395][279]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.30-16.47.23:395][279]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.30-16.47.23:443][279]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.30-16.47.23:495][279]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.30-16.47.23:532][279]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.30-16.47.23:532][279]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.30-16.47.23:558][279]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.30-16.47.23:558][279]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.30-16.47.23:606][279]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.30-16.47.23:623][279]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.30-16.47.23:632][279]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.30-16.47.23:728][279]LogDerivedDataCache: Shutdown
+[2017.11.30-16.47.23:728][279]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.30-16.47.23:728][279]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.30-16.47.23:800][279]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.30-16.47.23:807][279]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.30-16.47.23:845][279]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.30-16.47.23:873][279]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.30-16.47.23:925][279]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.30-16.47.23:926][279]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.30-16.47.23:926][279]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.30-16.47.23:926][279]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.30-16.47.23:947][279]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.30-16.47.23:948][279]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.30-16.47.23:949][279]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.30-16.47.23:950][279]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.30-16.47.23:950][279]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.30-16.47.23:950][279]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.30-16.47.23:950][279]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.30-16.47.23:950][279]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.30-16.47.23:951][279]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.30-16.47.23:951][279]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.30-16.47.23:951][279]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.30-16.47.23:951][279]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.30-16.47.23:952][279]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.30-16.47.23:965][279]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.30-16.47.23:965][279]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.30-16.47.23:965][279]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.30-16.47.23:989][279]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.30-16.47.24:103][279]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.30-16.47.24:287][279]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.30-16.47.24:301][279]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.30-16.47.24:349][279]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE29617D6-43D2-18DB-BB4B-A495D1B72D98%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2b4b9104449ff9352e6e79a22565f81d%7C7c7d6b3990ad4a62a4d878ae6b0c72dd%7Cdff5993a-bb95-44de-bad5-df2ac76192ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.30-16.47.24:433][279]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.30-16.47.24:665][279]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.30-16.47.24:825][279]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.30-16.47.24:826][279]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.30-16.47.24:846][279]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.30-16.47.24:846][279]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.30-16.47.24:846][279]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.30-16.47.24:846][279]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.30-16.47.24:931][279]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.30-16.47.24:985][279]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.30-16.47.25:044][279]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.30-16.47.25:077][279]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.30-16.47.25:117][279]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.30-16.47.25:117][279]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.30-16.47.25:319][279]LogExit: Exiting.
+[2017.11.30-16.47.25:405][279]Log file closed, 12/01/17 01:47:25
