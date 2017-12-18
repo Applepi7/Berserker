@@ -1,0 +1,1205 @@
+﻿Log file open, 12/18/17 18:18:35
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-408607865) SRandInit(-408607865).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.342028
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.18-09.18.38:175][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.18-09.18.38:175][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.18-09.18.38:391][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.12.18-09.18.38:391][  0]LogInit: User: JWOH
+[2017.12.18-09.18.38:391][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.18-09.18.38:391][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.12.18-09.18.38:391][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.18-09.18.38:391][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.18-09.18.38:391][  0]LogMemory: Process Physical Memory: 281.73 MB used, 281.73 MB peak
+[2017.12.18-09.18.38:391][  0]LogMemory: Process Virtual Memory: 278.56 MB used, 278.56 MB peak
+[2017.12.18-09.18.38:391][  0]LogMemory: Physical Memory: 4767.78 MB used,  3287.88 MB free, 8055.66 MB total
+[2017.12.18-09.18.38:391][  0]LogMemory: Virtual Memory: 673.29 MB used,  3287.88 MB free, 134217728.00 MB total
+[2017.12.18-09.18.39:779][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.18-09.18.39:779][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.18-09.18.40:092][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.18-09.18.45:815][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.18-09.18.46:647][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.12.18-09.18.46:648][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.18-09.18.46:658][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.18-09.18.46:658][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.18-09.18.46:661][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.18-09.18.46:661][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.18-09.18.46:661][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.18-09.18.46:666][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.18-09.18.46:666][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.12.18-09.18.46:666][  0]LogWindows: EnumDisplayDevices:
+[2017.12.18-09.18.46:667][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.18-09.18.46:669][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.18-09.18.46:670][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.18-09.18.46:670][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.18-09.18.46:670][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.12.18-09.18.46:670][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.18-09.18.46:670][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.18-09.18.46:670][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.18-09.18.46:694][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.18-09.18.47:065][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.18-09.18.47:154][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/12008/).
+[2017.12.18-09.18.47:154][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/9E7D1F7045DF1A36283BB1A27EF4CB03/'.
+[2017.12.18-09.18.47:166][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.18-09.18.52:670][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.18-09.18.52:725][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.18-09.18.52:783][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.18-09.18.52:839][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.18-09.18.52:930][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.18-09.18.52:978][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.18-09.18.53:035][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.18-09.18.53:099][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.18-09.18.53:146][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.18-09.18.53:238][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.18-09.18.53:290][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.18-09.18.53:349][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.18-09.18.53:397][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.18-09.18.53:444][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.18-09.18.53:494][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.18-09.18.53:602][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.18-09.18.53:602][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.18-09.18.53:640][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.18-09.18.53:882][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.18-09.18.53:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.18-09.18.53:957][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.18-09.18.54:006][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.18-09.18.54:054][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.18-09.18.54:155][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.18-09.18.54:155][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.18-09.18.56:028][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.18-09.18.56:474][  0]LogDerivedDataCache: Loaded boot cache 0.45s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.18-09.18.56:474][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.18-09.18.56:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.18-09.18.56:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.18-09.18.56:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.18-09.18.56:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.18-09.18.56:595][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.18-09.18.56:610][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.18-09.18.56:666][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.18-09.18.56:736][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.18-09.18.56:843][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.18-09.18.56:860][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.18-09.19.06:088][  0]LogAssetRegistry: FAssetRegistry took 0.0386 seconds to start up
+[2017.12.18-09.19.09:071][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.18-09.19.16:903][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.18-09.19.18:032][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.18-09.19.18:115][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.18-09.19.18:123][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.18-09.19.18:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.18-09.19.18:124][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.18-09.19.18:124][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.18-09.19.21:808][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.12.18-09.19.23:751][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.202129 seconds
+[2017.12.18-09.19.23:778][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.18-09.19.23:778][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.18-09.19.23:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.18-09.19.23:895][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.18-09.19.43:404][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.18-09.19.43:468][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.18-09.19.45:195][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.18-09.19.46:077][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.18-09.19.46:078][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.18-09.19.46:186][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.18-09.19.46:264][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.18-09.19.47:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.18-09.19.47:490][  0]LogOcInput: OculusInput pre-init called
+[2017.12.18-09.19.48:288][  0]LogEngine: Initializing Engine...
+[2017.12.18-09.19.48:332][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.18-09.19.49:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.18-09.19.49:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.18-09.19.49:708][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.18-09.19.49:828][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.18-09.19.49:857][  0]LogInit: FAudioDevice initialized.
+[2017.12.18-09.19.50:000][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.18-09.19.50:026][  0]LogInit: Texture streaming: Enabled
+[2017.12.18-09.19.50:240][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.18-09.19.51:259][  0]LogInit: Transaction tracking system initialized
+[2017.12.18-09.19.52:569][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.18-09.19.56:718][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.18-09.20.00:031][  0]LogConsoleResponse: Display: 
+[2017.12.18-09.20.06:244][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.14s
+[2017.12.18-09.20.06:244][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.18-09.20.06:244][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.18-09.20.06:498][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.18-09.20.15:404][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.18-09.20.15:585][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/FLAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.18-09.20.15:770][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.18-09.20.16:298][  0]MapCheck: New page: 맵 체크
+[2017.12.18-09.20.16:298][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.18-09.21.43:057][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.18-09.21.43:090][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.18-09.21.43:634][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.18-09.21.43:634][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.18-09.21.43:634][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.18-09.21.43:634][  0]LogActorComponent: ReregisterComponent: (/Game/FLAG.FLAG:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.18-09.21.44:418][  0]LogAIModule: Creating AISystem for world FLAG
+[2017.12.18-09.21.50:281][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.18-09.21.51:368][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.18-09.21.51:546][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 175.504ms.
+[2017.12.18-09.21.51:548][  0]LogFileHelpers: Loading map 'FLAG' took 96.040
+[2017.12.18-09.21.54:074][  0]LogCollectionManager: Loaded 0 collections in 0.002215 seconds
+[2017.12.18-09.21.54:329][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.12.18-09.21.54:329][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.12.18-09.21.54:329][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.12.18-09.21.54:329][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.18-09.21.54:357][  0]LogContentBrowser: Native class hierarchy populated in 0.0265 seconds. Added 2386 classes and 500 folders.
+[2017.12.18-09.21.54:588][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.18-09.21.55:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.18-09.21.56:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.18-09.21.58:105][  0]LogSlate: Took 0.064091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.18-09.21.58:187][  0]LogSlate: Took 0.075799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.18-09.21.58:218][  0]LogSlate: Took 0.016113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.18-09.21.58:384][  0]LogSlate: Took 0.016293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.18-09.21.59:193][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.18-09.21.59:931][  0]LogSlate: Took 0.019432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.18-09.22.01:131][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.18-09.22.01:132][  0]LogLoad: (Engine Initialization) Total time: 221.14 seconds
+[2017.12.18-09.22.01:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.18-09.22.01:140][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.18-09.22.01:140][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.18-09.22.02:201][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.18-09.22.03:626][  4]LogAssetRegistry: Asset discovery search completed in 177.5593 seconds
+[2017.12.18-09.22.03:641][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.18-09.22.03:646][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.004690 seconds (updated 0 objects)
+[2017.12.18-09.27.21:873][399]LogSlate: Took 0.025901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.18-09.27.22:172][399]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.18-09.27.22:560][399]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.18-09.27.22:824][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.18-09.27.23:496][399]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.12.18-09.27.25:190][399]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.18-09.27.25:847][399]LogSlate: Took 0.044487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.18-09.27.26:088][399]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2017.12.18-09.27.29:492][511]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.18-09.28.02:990][ 24]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.18-09.28.03:546][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.28.03:556][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.18-09.28.03:708][ 24]PIE: New page: PIE 세션: FLAG (2017. 12. 19. 오전 3:28:03)
+[2017.12.18-09.28.03:731][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.12.18-09.28.03:940][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.208308s)
+[2017.12.18-09.28.03:941][ 24]LogAIModule: Creating AISystem for world FLAG
+[2017.12.18-09.28.03:941][ 24]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2017.12.18-09.28.03:958][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.226841s)
+[2017.12.18-09.28.04:058][ 24]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.18-09.28.04:079][ 24]LogInit: FAudioDevice initialized.
+[2017.12.18-09.28.04:336][ 24]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.18-09.28.04:474][ 24]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 0) at 2017.12.18-18.28.04
+[2017.12.18-09.28.04:744][ 24]LogWorld: Bringing up level for play took: 0.394233
+[2017.12.18-09.28.05:028][ 24]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.18-09.28.05:037][ 24]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.18-09.28.05:283][ 24]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 0.878
+[2017.12.18-09.28.05:356][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.28.05:596][ 24]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.05:843][ 24]LogRenderer: Reallocating scene render targets to support 1292x888 Format 10 NumSamples 1 (Frame:1).
+[2017.12.18-09.28.05:898][ 25]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.05:972][ 26]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:005][ 27]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:024][ 28]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:049][ 29]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:072][ 30]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:091][ 31]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:114][ 32]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:145][ 33]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:176][ 34]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:207][ 35]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:237][ 36]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:249][ 37]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:270][ 38]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:290][ 39]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:308][ 40]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:327][ 41]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:353][ 42]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:383][ 43]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:415][ 44]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:451][ 45]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:486][ 46]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:509][ 47]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:566][ 48]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:579][ 49]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:593][ 50]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:608][ 51]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:637][ 52]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:673][ 53]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:788][ 54]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:805][ 55]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:822][ 56]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:836][ 57]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:867][ 58]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:890][ 59]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:923][ 60]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:959][ 61]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:980][ 62]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.06:993][ 63]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:012][ 64]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:035][ 65]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:058][ 66]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:082][ 67]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:106][ 68]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:133][ 69]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:158][ 70]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:178][ 71]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:200][ 72]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:224][ 73]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:249][ 74]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:286][ 75]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:312][ 76]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:333][ 77]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:356][ 78]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:379][ 79]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:403][ 80]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:437][ 81]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:463][ 82]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:488][ 83]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:510][ 84]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:528][ 85]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:554][ 86]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:564][ 87]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:586][ 88]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:606][ 89]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:633][ 90]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:664][ 91]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:694][ 92]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:720][ 93]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:739][ 94]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:757][ 95]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:777][ 96]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:805][ 97]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:824][ 98]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:841][ 99]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:871][100]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:900][101]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:937][102]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:953][103]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:967][104]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.07:990][105]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:016][106]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:042][107]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:070][108]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:096][109]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:118][110]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:132][111]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:162][112]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:190][113]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:220][114]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:249][115]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:276][116]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:299][117]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:320][118]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:335][119]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:356][120]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:382][121]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:412][122]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:445][123]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:465][124]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:485][125]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:498][126]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:525][127]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:550][128]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:571][129]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:596][130]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:625][131]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:645][132]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:674][133]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:708][134]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:725][135]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:742][136]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:769][137]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:792][138]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:812][139]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:829][140]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:853][141]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:872][142]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:891][143]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:922][144]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:949][145]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:961][146]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:975][147]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.08:994][148]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:018][149]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:039][150]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:060][151]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:079][152]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:098][153]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:118][154]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:145][155]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:172][156]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:193][157]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:214][158]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:238][159]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:260][160]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:277][161]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:296][162]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:305][163]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:319][164]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:341][165]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:360][166]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:380][167]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:406][168]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:438][169]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:456][170]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:470][171]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:488][172]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:508][173]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:528][174]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:547][175]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:568][176]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:590][177]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:610][178]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:635][179]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:661][180]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:687][181]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:707][182]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:727][183]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:751][184]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:777][185]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:801][186]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:822][187]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:839][188]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:867][189]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:896][190]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:925][191]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:952][192]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:973][193]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.09:992][194]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:017][195]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:037][196]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:053][197]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:078][198]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:105][199]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:130][200]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:152][201]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:176][202]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:204][203]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:230][204]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:251][205]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:263][206]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:290][207]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:317][208]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:342][209]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:372][210]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:392][211]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:418][212]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:446][213]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:472][214]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:489][215]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:527][216]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:545][217]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:559][218]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:582][219]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:607][220]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:630][221]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:650][222]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:667][223]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:695][224]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:723][225]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:750][226]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:767][227]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:777][228]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:799][229]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:819][230]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:838][231]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:858][232]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:881][233]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:902][234]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:932][235]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:955][236]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:974][237]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.10:995][238]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:014][239]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:037][240]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:055][241]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:074][242]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:094][243]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:117][244]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:138][245]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:170][246]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:198][247]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:223][248]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:248][249]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:272][250]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:293][251]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:316][252]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:342][253]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:365][254]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:390][255]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:416][256]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:445][257]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:467][258]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:482][259]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:507][260]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:531][261]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:562][262]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:587][263]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:615][264]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:634][265]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:648][266]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:680][267]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:712][268]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:743][269]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:765][270]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:784][271]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:814][272]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:843][273]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:876][274]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:903][275]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:927][276]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:960][277]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.11:985][278]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:001][279]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:025][280]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:055][281]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:081][282]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:102][283]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:116][284]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:143][285]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:173][286]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:207][287]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:235][288]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:251][289]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:265][290]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:284][291]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:307][292]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:329][293]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:351][294]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:377][295]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:400][296]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:423][297]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:446][298]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:470][299]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:497][300]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:515][301]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:530][302]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:553][303]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:576][304]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:599][305]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:622][306]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:643][307]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:669][308]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:700][309]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:726][310]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:753][311]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:772][312]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:790][313]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:814][314]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:840][315]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:865][316]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:884][317]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:892][318]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:913][319]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:945][320]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:973][321]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.12:997][322]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:019][323]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:044][324]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:067][325]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:088][326]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:102][327]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:128][328]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:158][329]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:187][330]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:218][331]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:239][332]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:258][333]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:283][334]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:308][335]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:328][336]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:351][337]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:371][338]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:388][339]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:413][340]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:448][341]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:469][342]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:485][343]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:506][344]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:533][345]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:555][346]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:574][347]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:593][348]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:618][349]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:639][350]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:656][351]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:686][352]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:716][353]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:740][354]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:761][355]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:781][356]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:806][357]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:828][358]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:846][359]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:858][360]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:878][361]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:899][362]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:926][363]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:947][364]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:965][365]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.13:987][366]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:011][367]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:035][368]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:062][369]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:088][370]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:109][371]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:133][372]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:158][373]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:187][374]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:209][375]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:235][376]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:255][377]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:274][378]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:301][379]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:326][380]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:347][381]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:369][382]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:381][383]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:401][384]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:430][385]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.28.14:452][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.28.14:760][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.28.39:102][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (넷마블_wall14)
+[2017.12.18-09.28.40:336][755]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Empty_main_idle_Anim)
+[2017.12.18-09.28.41:475][816]Cmd: DELETE
+[2017.12.18-09.28.41:475][816]Cmd: ACTOR DELETE
+[2017.12.18-09.28.41:693][816]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.12.18-09.28.41:705][816]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.12.18-09.29.35:218][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.29.35:218][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.18-09.29.35:218][374]PIE: New page: SIE 세션: FLAG (2017. 12. 19. 오전 3:29:35)
+[2017.12.18-09.29.35:218][374]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FLAG
+[2017.12.18-09.29.35:455][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.238085s)
+[2017.12.18-09.29.35:457][374]LogAIModule: Creating AISystem for world FLAG
+[2017.12.18-09.29.35:457][374]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.12.18-09.29.35:457][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FLAG.FLAG to /Game/UEDPIE_0_FLAG.FLAG (0.239564s)
+[2017.12.18-09.29.35:472][374]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.18-09.29.35:488][374]LogInit: FAudioDevice initialized.
+[2017.12.18-09.29.35:541][374]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.18-09.29.35:572][374]LogWorld: Bringing World /Game/UEDPIE_0_FLAG.FLAG up for play (max tick rate 0) at 2017.12.18-18.29.35
+[2017.12.18-09.29.35:575][374]LogWorld: Bringing up level for play took: 0.033355
+[2017.12.18-09.29.35:578][374]PIE: /Game/UEDPIE_0_FLAG 에 대한 에디터에서 플레이 시작 시간: 1.174
+[2017.12.18-09.29.35:708][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.29.35:734][374]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.35:764][375]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.35:942][376]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.35:981][377]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:015][378]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:053][379]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:082][380]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:120][381]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:156][382]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:189][383]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:221][384]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:251][385]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:283][386]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:316][387]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:349][388]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:389][389]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:425][390]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:457][391]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:490][392]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:521][393]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:553][394]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:583][395]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:620][396]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:635][397]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:651][398]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:659][399]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:670][400]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:686][401]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:701][402]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:718][403]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:735][404]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:751][405]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:767][406]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:782][407]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:798][408]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:815][409]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:830][410]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:848][411]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:864][412]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:891][413]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:906][414]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:914][415]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:931][416]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:946][417]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:961][418]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:979][419]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.36:996][420]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:013][421]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:028][422]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:046][423]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:061][424]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:099][425]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:140][426]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:172][427]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:200][428]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:231][429]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:263][430]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:299][431]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:332][432]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:364][433]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:400][434]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:432][435]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:463][436]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:499][437]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:531][438]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:541][439]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:556][440]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:577][441]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:597][442]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:618][443]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:638][444]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:654][445]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:672][446]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:688][447]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:702][448]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:725][449]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:745][450]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:763][451]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:780][452]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:797][453]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:813][454]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:832][455]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:855][456]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:880][457]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:903][458]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:917][459]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:925][460]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:937][461]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:952][462]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:968][463]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.37:986][464]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:001][465]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:017][466]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:032][467]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:047][468]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:059][469]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:075][470]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:089][471]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:104][472]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:121][473]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:142][474]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:166][475]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:180][476]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:197][477]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:212][478]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:231][479]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:246][480]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:266][481]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:282][482]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:299][483]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:315][484]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:329][485]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:344][486]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:360][487]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:383][488]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:406][489]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:422][490]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:431][491]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:447][492]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:464][493]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:479][494]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:492][495]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:506][496]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:523][497]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:538][498]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:551][499]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:566][500]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:581][501]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:594][502]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:608][503]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:628][504]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:654][505]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:676][506]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:690][507]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:699][508]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:713][509]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:729][510]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:742][511]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:757][512]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:771][513]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:785][514]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:798][515]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:810][516]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:826][517]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:842][518]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:860][519]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:887][520]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:911][521]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:925][522]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:943][523]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:959][524]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:972][525]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.38:985][526]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:000][527]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:016][528]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:032][529]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:048][530]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:068][531]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:084][532]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:092][533]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:102][534]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:120][535]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:146][536]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:166][537]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:180][538]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:194][539]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:209][540]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:224][541]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:239][542]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:251][543]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:264][544]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:278][545]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:290][546]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:302][547]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:315][548]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:326][549]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:339][550]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:354][551]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:367][552]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:395][553]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:413][554]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:428][555]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:446][556]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:468][557]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:483][558]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:493][559]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:507][560]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:522][561]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:537][562]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:552][563]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:564][564]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:578][565]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:592][566]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:605][567]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:620][568]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:646][569]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:666][570]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:680][571]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:688][572]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:697][573]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:712][574]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:731][575]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:749][576]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:763][577]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:778][578]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:791][579]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:806][580]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:819][581]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:834][582]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:849][583]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:867][584]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:893][585]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:918][586]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:936][587]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:953][588]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:961][589]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:974][590]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.39:988][591]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:001][592]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:014][593]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:028][594]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:042][595]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:057][596]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:073][597]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:086][598]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:101][599]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:115][600]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:136][601]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:162][602]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:179][603]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:192][604]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:208][605]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:223][606]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:240][607]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:259][608]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:276][609]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:288][610]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:305][611]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:322][612]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:340][613]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:505][624]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.29.40:508][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.29.40:582][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FLAG.FLAG:PersistentLevel' has LevelScriptBlueprint '/Game/FLAG.FLAG:PersistentLevel.FLAG' with GeneratedClass '/Game/FLAG.FLAG_C' with ClassGeneratedBy '/Game/FLAG.FLAG:PersistentLevel.FLAG'
+[2017.12.18-09.29.52:024][138]LogAIModule: Creating AISystem for world Arena
+[2017.12.18-09.30.07:417][835]LogAIModule: Creating AISystem for world MenuLevel
+[2017.12.18-09.30.16:404][231]LogMetaData: Removing '/Game/GameLevel.GameLevel_C' ref from Metadata '/Game/FLAG.PackageMetaData'
+[2017.12.18-09.30.16:404][231]LogMetaData: Removing '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel.EventGraph.K2Node_Event_0' ref from Metadata '/Game/FLAG.PackageMetaData'
+[2017.12.18-09.30.16:404][231]LogMetaData: Removing '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel.EventGraph.K2Node_Event_1' ref from Metadata '/Game/FLAG.PackageMetaData'
+[2017.12.18-09.30.16:404][231]LogMetaData: Removing '/Game/GameLevel.SKEL_GameLevel_C' ref from Metadata '/Game/FLAG.PackageMetaData'
+[2017.12.18-09.30.20:296][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.18-09.30.22:125][231]LogSavePackage: Save=1758.71ms
+[2017.12.18-09.30.22:125][231]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/GameLevel64BC496442C64E3B4C3D6E853F35A518.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap'
+[2017.12.18-09.30.22:141][231]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap
+[2017.12.18-09.30.22:367][231]LogFileHelpers: Saving map 'GameLevel' took 5.802
+[2017.12.18-09.30.30:504][373]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.18-09.30.30:506][373]LightingResults: New page: 라이팅 빌드
+[2017.12.18-09.30.30:508][373]LoadErrors: New page: 맵 로드중: MenuLevel.umap
+[2017.12.18-09.30.30:530][373]MapCheck: New page: 맵 체크
+[2017.12.18-09.30.30:531][373]LightingResults: New page: 라이팅 빌드
+[2017.12.18-09.30.30:837][373]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.18-09.30.30:995][373]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.18-09.30.31:111][373]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 116.711ms.
+[2017.12.18-09.30.31:113][373]LogFileHelpers: Loading map 'MenuLevel' took 0.701
+[2017.12.18-09.30.34:255][485]LogEditorViewport: Clicking on Actor (LMB): PunchEnemy_C (PunchEnemy3)
+[2017.12.18-09.30.35:285][510]Cmd: DELETE
+[2017.12.18-09.30.35:285][510]Cmd: ACTOR DELETE
+[2017.12.18-09.30.35:289][510]LogEditorActor: Deleted Actor: PunchEnemy_C
+[2017.12.18-09.30.35:311][510]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.12.18-09.30.35:876][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (넷마블_floor_35)
+[2017.12.18-09.30.36:328][545]Cmd: DELETE
+[2017.12.18-09.30.36:328][545]Cmd: ACTOR DELETE
+[2017.12.18-09.30.36:331][545]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.18-09.30.36:344][545]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.12.18-09.30.37:855][607]Cmd: TRANSACTION UNDO
+[2017.12.18-09.30.37:855][607]LogEditorTransaction: Undo 액터 삭제
+[2017.12.18-09.30.38:724][607]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.18-09.30.39:926][640]LogEditorViewport: Clicking on Actor (LMB): PunchEnemy_C (PunchEnemy2)
+[2017.12.18-09.30.41:175][670]Cmd: DELETE
+[2017.12.18-09.30.41:175][670]Cmd: ACTOR DELETE
+[2017.12.18-09.30.41:178][670]LogEditorActor: Deleted Actor: PunchEnemy_C
+[2017.12.18-09.30.41:203][670]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.12.18-09.30.41:803][693]LogEditorViewport: Clicking on Actor (LMB): PunchEnemy_C (PunchEnemy)
+[2017.12.18-09.30.42:136][693]Cmd: DELETE
+[2017.12.18-09.30.42:136][693]Cmd: ACTOR DELETE
+[2017.12.18-09.30.42:138][693]LogEditorActor: Deleted Actor: PunchEnemy_C
+[2017.12.18-09.30.42:152][693]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.12.18-09.30.48:088][971]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.12.18-09.31.01:288][252]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Berserker
+[2017.12.18-09.31.01:288][252]LogTemp: CWD: D:\UnrealEngine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.18-09.31.01:288][252]LogTemp: Initial Dir: D:\UnrealEngine\UE_4.17
+[2017.12.18-09.31.01:288][252]LogTemp: Env CWD: D:\UnrealEngine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.18-09.31.01:294][252]LogTemp: BranchPath = DESKTOP-6JOGDQL/D/UnrealEngine/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-6JOGDQL/D/UnrealEngine/UE_4.17/Engine/Binaries
+[2017.12.18-09.31.01:609][253]LogTemp: MATCHED-Provision:,File:,Cert:
+[2017.12.18-09.40.26:188][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.40.26:188][525]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.12.18-09.40.26:191][525]LogPlayLevel: [PlayLevel] Compiling MenuLevel before play...
+[2017.12.18-09.40.26:209][525]LogPlayLevel: PlayLevel: Blueprint regeneration took 21 ms (1 blueprints)
+[2017.12.18-09.40.26:209][525]PIE: New page: PIE 세션: MenuLevel (2017. 12. 19. 오전 3:40:26)
+[2017.12.18-09.40.26:209][525]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuLevel
+[2017.12.18-09.40.26:251][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042245s)
+[2017.12.18-09.40.26:252][525]LogAIModule: Creating AISystem for world MenuLevel
+[2017.12.18-09.40.26:252][525]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.12.18-09.40.26:253][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuLevel.MenuLevel to /Game/UEDPIE_0_MenuLevel.MenuLevel (0.043710s)
+[2017.12.18-09.40.26:268][525]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.18-09.40.26:285][525]LogInit: FAudioDevice initialized.
+[2017.12.18-09.40.26:322][525]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.18-09.40.26:351][525]LogWorld: Bringing World /Game/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2017.12.18-18.40.26
+[2017.12.18-09.40.26:353][525]LogWorld: Bringing up level for play took: 0.030590
+[2017.12.18-09.40.26:354][525]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.18-09.40.26:357][525]PIE: /Game/UEDPIE_0_MenuLevel 에 대한 에디터에서 플레이 시작 시간: -0.047
+[2017.12.18-09.40.26:358][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.40.26:360][525]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:406][526]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:434][527]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:554][528]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:615][529]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:636][530]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:655][531]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:673][532]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:695][533]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:713][534]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:731][535]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:752][536]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:769][537]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:788][538]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:805][539]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:823][540]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:842][541]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:860][542]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:880][543]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:896][544]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:917][545]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:936][546]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:957][547]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:973][548]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.26:994][549]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:016][550]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:038][551]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:059][552]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:078][553]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:096][554]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:106][555]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:116][556]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:137][557]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:154][558]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:173][559]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:195][560]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:217][561]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:235][562]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:257][563]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:272][564]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:294][565]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:309][566]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:325][567]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:341][568]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:357][569]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:374][570]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:391][571]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:405][572]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:426][573]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:446][574]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:462][575]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:477][576]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:495][577]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:517][578]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:535][579]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.40.27:538][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.40.27:642][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.41.46:825][171]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\UI\시작화면 UI\시작화면_3_아무키나 누르십시오.png)
+[2017.12.18-09.41.46:964][171]LogTexture: Display: 텍스처 빌드: 시작화면_3_아무키나_누르십시오 (AutoDXT, 1920X1080)
+[2017.12.18-09.41.52:755][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/anykey" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/anykey.uasset" SILENT=true
+[2017.12.18-09.41.52:879][467]LogSavePackage: Save=122.25ms
+[2017.12.18-09.41.52:879][467]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/anykey9B53713746E0CF3750C38285B73BFF41.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/anykey.uasset'
+[2017.12.18-09.41.52:882][467]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/UI/anykey.uasset
+[2017.12.18-09.42.03:576][942]LogClass: Warning: Enum '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:637][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:638][942]LogClass: Warning: Enum '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:660][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:683][942]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.18-09.42.03:684][942]LogClass: Warning: Enum '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.18-09.42.03:690][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:690][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:690][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:690][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:691][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:691][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.03:691][942]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.18-09.42.04:321][942]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.12.18-09.42.06:881][942]LogSlate: Took 0.027577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.18-09.42.24:947][490]BlueprintLog: New page: MenuUI 컴파일
+[2017.12.18-09.43.10:468][444]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.18-09.44.12:066][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/MenuLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.12.18-09.44.13:145][193]LogSavePackage: Save=1067.04ms
+[2017.12.18-09.44.13:145][193]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/MenuLevel_Auto151EE2C4E4937C12BD6DDD980559916DD.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/MenuLevel_Auto1.umap'
+[2017.12.18-09.44.13:146][193]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/MenuLevel_Auto1.umap
+[2017.12.18-09.44.13:151][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuLevel' took 1.135
+[2017.12.18-09.44.13:151][193]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.135
+[2017.12.18-09.44.13:232][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/MenuUI] ([1] browsable assets)...
+[2017.12.18-09.44.13:232][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MenuUI]
+[2017.12.18-09.44.13:232][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MenuUI" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/MenuUI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.12.18-09.44.13:245][193]LogSavePackage: Save=10.52ms
+[2017.12.18-09.44.13:246][193]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/MenuUI_Auto1598CAD854A4CABF349BCCEA1987AAFBF.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/MenuUI_Auto1.uasset'
+[2017.12.18-09.44.13:268][193]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/UI/MenuUI_Auto1.uasset
+[2017.12.18-09.44.13:268][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Empty_main_idle] ([1] browsable assets)...
+[2017.12.18-09.44.13:319][193]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Player/Empty_main_idle.Empty_main_idle]
+[2017.12.18-09.44.13:319][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Empty_main_idle]
+[2017.12.18-09.44.14:854][193]LogSavePackage: Save=37.10ms
+[2017.12.18-09.44.14:854][193]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_main_idle_Auto16E4C56EF432BBE8D2869D184132C577A.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Empty_main_idle_Auto1.uasset'
+[2017.12.18-09.44.15:044][193]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Player/Empty_main_idle_Auto1.uasset
+[2017.12.18-09.44.15:044][193]LogFileHelpers: Auto-saving content packages took 1.840
+[2017.12.18-09.49.50:065][640]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.18-09.50.06:018][402]BlueprintLog: New page: MenuLevel 컴파일
+[2017.12.18-09.50.15:406][920]BlueprintLog: New page: MenuLevel 컴파일
+[2017.12.18-09.50.57:026][589]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Berserker
+[2017.12.18-09.50.57:026][589]LogTemp: CWD: D:\UnrealEngine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.18-09.50.57:026][589]LogTemp: Initial Dir: D:\UnrealEngine\UE_4.17
+[2017.12.18-09.50.57:026][589]LogTemp: Env CWD: D:\UnrealEngine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.18-09.50.57:026][589]LogTemp: BranchPath = DESKTOP-6JOGDQL/D/UnrealEngine/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-6JOGDQL/D/UnrealEngine/UE_4.17/Engine/Binaries
+[2017.12.18-09.50.57:026][589]LogTemp: MATCHED-Provision:,File:,Cert:
+[2017.12.18-09.51.01:702][807]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.18-09.51.33:282][223]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.18-09.51.33:366][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.51.33:366][223]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.12.18-09.51.33:367][223]LogPlayLevel: [PlayLevel] Compiling MenuLevel before play...
+[2017.12.18-09.51.34:233][223]LogPlayLevel: [PlayLevel]   Compiling MenuUI as a dependent...
+[2017.12.18-09.51.34:380][223]LogPlayLevel: PlayLevel: Blueprint regeneration took 1014 ms (2 blueprints)
+[2017.12.18-09.51.34:380][223]PIE: New page: PIE 세션: MenuLevel (2017. 12. 19. 오전 3:51:34)
+[2017.12.18-09.51.34:380][223]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuLevel
+[2017.12.18-09.51.34:423][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043216s)
+[2017.12.18-09.51.34:424][223]LogAIModule: Creating AISystem for world MenuLevel
+[2017.12.18-09.51.34:424][223]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2017.12.18-09.51.34:425][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuLevel.MenuLevel to /Game/UEDPIE_0_MenuLevel.MenuLevel (0.044719s)
+[2017.12.18-09.51.34:450][223]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.18-09.51.34:464][223]LogInit: FAudioDevice initialized.
+[2017.12.18-09.51.34:497][223]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.18-09.51.34:526][223]LogWorld: Bringing World /Game/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2017.12.18-18.51.34
+[2017.12.18-09.51.34:529][223]LogWorld: Bringing up level for play took: 0.030580
+[2017.12.18-09.51.34:530][223]PIE: /Game/UEDPIE_0_MenuLevel 에 대한 에디터에서 플레이 시작 시간: 2.126
+[2017.12.18-09.51.34:531][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.12.18-09.51.34:534][223]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:578][224]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:599][225]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:771][226]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:838][227]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:858][228]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:877][229]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:897][230]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:917][231]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:937][232]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:959][233]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:979][234]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.34:999][235]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:016][236]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:034][237]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:054][238]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:075][239]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:093][240]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:141][241]LogBlueprintUserMessages: [DistanceEnemy_475] false
+[2017.12.18-09.51.35:161][242]LogNet: Browse: /Game/GameLevel
+[2017.12.18-09.51.35:162][242]LogLoad: LoadMap: /Game/GameLevel
+[2017.12.18-09.51.35:234][242]Cmd: MEM
+[2017.12.18-09.51.35:267][242]LogMemory: Platform Memory Stats for Windows
+[2017.12.18-09.51.35:267][242]LogMemory: Process Physical Memory: 1261.23 MB used, 2127.71 MB peak
+[2017.12.18-09.51.35:267][242]LogMemory: Process Virtual Memory: 4068.48 MB used, 4170.68 MB peak
+[2017.12.18-09.51.35:267][242]LogMemory: Physical Memory: 5946.22 MB used,  2109.44 MB free, 8055.66 MB total
+[2017.12.18-09.51.35:267][242]LogMemory: Virtual Memory: 5014.73 MB used,  2109.44 MB free, 134217728.00 MB total
+[2017.12.18-09.51.35:267][242]LogMemory: 
+[2017.12.18-09.51.35:267][242]Allocator Stats for TBB: (not implemented)
+[2017.12.18-09.51.36:561][242]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.556 s
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: 
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1315]
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: 
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: Stack: 
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C8843606
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C85CC2D2
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C85E4746
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000C159D6C9
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000C156C9DD
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CE040F67
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CE34B856
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CE361956
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CE360EA2
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000C60BDD7B
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000C6076758
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000C60DD50D
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C361BF40
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C3EACEE6
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor.exe!0x00000000229B534A
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor.exe!0x00000000229C3970
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor.exe!0x00000000229C39EA
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor.exe!0x00000000229D02D9
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: UE4Editor.exe!0x00000000229D1C47
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: KERNEL32.DLL!0x000000000A1C8102
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: ntdll.dll!0x000000000C40C2E4
+[2017.12.18-09.51.36:562][242]LogOutputDevice: Error: 
+[2017.12.18-09.51.36:568][242]LogStats:                SubmitErrorReport -  0.000 s
