@@ -1,0 +1,1402 @@
+﻿Log file open, 12/23/17 19:11:49
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2144509187) SRandInit(-2144509187).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.262967
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.23-10.11.51:986][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.23-10.11.51:986][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.23-10.11.52:168][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.12.23-10.11.52:168][  0]LogInit: User: JWOH
+[2017.12.23-10.11.52:168][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.23-10.11.52:168][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.12.23-10.11.52:168][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.23-10.11.52:168][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-10.11.52:168][  0]LogMemory: Process Physical Memory: 281.52 MB used, 281.52 MB peak
+[2017.12.23-10.11.52:168][  0]LogMemory: Process Virtual Memory: 277.50 MB used, 277.50 MB peak
+[2017.12.23-10.11.52:168][  0]LogMemory: Physical Memory: 3847.76 MB used,  4207.90 MB free, 8055.66 MB total
+[2017.12.23-10.11.52:168][  0]LogMemory: Virtual Memory: 672.29 MB used,  4207.90 MB free, 134217728.00 MB total
+[2017.12.23-10.11.53:755][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.23-10.11.53:755][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.23-10.11.54:035][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.23-10.11.58:927][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.23-10.11.59:733][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.12.23-10.11.59:733][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.23-10.11.59:753][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.23-10.11.59:753][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.23-10.11.59:756][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.23-10.11.59:757][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.23-10.11.59:757][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.23-10.11.59:763][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.23-10.11.59:763][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.12.23-10.11.59:763][  0]LogWindows: EnumDisplayDevices:
+[2017.12.23-10.11.59:763][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.23-10.11.59:764][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.23-10.11.59:765][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.23-10.11.59:765][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.23-10.11.59:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.12.23-10.11.59:765][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.23-10.11.59:765][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.23-10.11.59:765][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.23-10.11.59:785][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.23-10.12.00:154][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.23-10.12.00:244][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/11140/).
+[2017.12.23-10.12.00:244][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/443C6D674FA46DEBA7ED429B8ECCFED9/'.
+[2017.12.23-10.12.00:255][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.23-10.12.06:382][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.23-10.12.06:428][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.23-10.12.06:476][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.23-10.12.06:524][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.23-10.12.06:608][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.23-10.12.06:653][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.23-10.12.06:700][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.23-10.12.06:747][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.23-10.12.06:786][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.23-10.12.06:881][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.23-10.12.06:927][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.23-10.12.06:974][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.23-10.12.07:021][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.23-10.12.07:067][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.23-10.12.07:113][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.23-10.12.07:205][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.23-10.12.07:205][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.23-10.12.07:241][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.23-10.12.07:483][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.23-10.12.07:510][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.23-10.12.07:555][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.23-10.12.07:599][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.23-10.12.07:648][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.23-10.12.07:742][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.23-10.12.07:742][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.23-10.12.09:494][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: Loaded boot cache 0.42s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.23-10.12.09:914][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.23-10.12.10:038][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.23-10.12.10:051][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.23-10.12.10:110][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.23-10.12.10:182][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.23-10.12.10:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.23-10.12.10:326][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.23-10.12.19:561][  0]LogAssetRegistry: FAssetRegistry took 0.0339 seconds to start up
+[2017.12.23-10.12.22:848][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.23-10.12.31:302][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.23-10.12.32:408][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.23-10.12.32:475][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.23-10.12.32:489][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.23-10.12.32:500][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.23-10.12.32:500][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.23-10.12.32:500][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.23-10.12.36:506][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.12.23-10.12.38:581][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.145146 seconds
+[2017.12.23-10.12.38:665][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.23-10.12.38:665][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.23-10.12.38:665][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.23-10.12.38:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.23-10.12.56:704][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.23-10.12.56:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.23-10.12.58:465][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.23-10.12.59:343][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.23-10.12.59:343][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.23-10.12.59:465][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.23-10.12.59:529][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.23-10.13.00:617][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.23-10.13.00:894][  0]LogOcInput: OculusInput pre-init called
+[2017.12.23-10.13.01:677][  0]LogEngine: Initializing Engine...
+[2017.12.23-10.13.01:721][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.23-10.13.02:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.23-10.13.02:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.23-10.13.03:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.23-10.13.03:350][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-10.13.03:382][  0]LogInit: FAudioDevice initialized.
+[2017.12.23-10.13.03:561][  0]LogDerivedDataCache: Saved boot cache 0.18s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.23-10.13.03:593][  0]LogInit: Texture streaming: Enabled
+[2017.12.23-10.13.03:783][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.23-10.13.04:311][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.23-10.13.04:689][  0]LogInit: Transaction tracking system initialized
+[2017.12.23-10.13.07:777][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.23-10.13.12:099][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.23-10.13.14:337][  0]LogConsoleResponse: Display: 
+[2017.12.23-10.13.23:484][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.23s
+[2017.12.23-10.13.23:484][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.23-10.13.23:484][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.23-10.13.23:660][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.23-10.13.34:773][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.23-10.13.35:021][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.23-10.13.35:299][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.23-10.13.35:922][  0]MapCheck: New page: 맵 체크
+[2017.12.23-10.13.35:922][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.23-10.15.03:457][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.23-10.15.03:502][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.23-10.15.04:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.23-10.15.04:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.23-10.15.04:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real6.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.23-10.15.04:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.23-10.15.07:110][  0]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.23-10.15.11:204][  0]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.15.12:945][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.23-10.15.16:532][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.23-10.15.16:909][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 355.01ms.
+[2017.12.23-10.15.16:923][  0]LogFileHelpers: Loading map 'GameLevel' took 102.014
+[2017.12.23-10.15.24:022][  0]LogCollectionManager: Loaded 0 collections in 0.001299 seconds
+[2017.12.23-10.15.25:473][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.12.23-10.15.25:473][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.12.23-10.15.25:473][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.12.23-10.15.25:473][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.23-10.15.25:538][  0]LogContentBrowser: Native class hierarchy populated in 0.0388 seconds. Added 2386 classes and 500 folders.
+[2017.12.23-10.15.26:045][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.23-10.15.30:670][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.23-10.15.31:044][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.23-10.15.37:119][  0]LogSlate: Took 0.197304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.23-10.15.37:860][  0]LogSlate: Took 0.697053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.23-10.15.37:958][  0]LogSlate: Took 0.073300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.23-10.15.38:254][  0]LogSlate: Took 0.038815 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.23-10.15.41:199][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.23-10.15.44:910][  0]LogSlate: Took 0.110095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-10.15.47:749][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.23-10.15.47:749][  0]LogLoad: (Engine Initialization) Total time: 255.49 seconds
+[2017.12.23-10.15.47:749][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.23-10.15.47:767][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.23-10.15.47:767][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.23-10.15.49:816][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.23-10.15.52:548][  2]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-10.15.53:805][  5]LogAssetRegistry: Asset discovery search completed in 214.2661 seconds
+[2017.12.23-10.15.53:884][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.23-10.15.53:946][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.027119 seconds (updated 0 objects)
+[2017.12.23-10.45.35:969][546]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.45.35:996][547]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.45.37:822][609]LogSlate: Took 0.033405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-10.45.38:264][609]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.23-10.45.38:308][609]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.23-10.45.39:037][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.23-10.45.39:059][609]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.45.40:117][609]LogClass: Warning: Enum '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:177][609]LogClass: Warning: Enum '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:201][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.23-10.45.40:221][609]LogClass: Warning: Enum '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:229][609]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.23-10.45.40:866][609]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2017.12.23-10.45.43:519][609]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.12.23-10.45.46:239][609]LogSlate: Took 0.018067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.23-10.45.47:035][609]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.12.23-10.46.25:123][724]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX)
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Model, ItemCount : 67
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Material, ItemCount : 2
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: AnimationCurve, ItemCount : 204
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: AnimationCurveNode, ItemCount : 68
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.12.23-10.46.25:451][724]LogFbx: ItemName: Video, ItemCount : 2
+[2017.12.23-10.46.25:460][724]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX
+[2017.12.23-10.46.25:541][724]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.23-10.46.25:561][724]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.12.23-10.46.28:557][724]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX
+[2017.12.23-10.46.28:593][724]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.23-10.46.28:624][724]LogFbx: =================================================
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.46.28:624][724]LogFbx: 	Total Deformer Count 819669872.
+[2017.12.23-10.46.28:624][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.46.28:624][724]LogFbx: =================================================
+[2017.12.23-10.46.28:624][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:624][724]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.46.28:624][724]LogFbx: =================================================
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:624][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:624][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:624][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:624][724]LogFbx: =================================================
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:624][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:624][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:624][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:624][724]LogFbx: =================================================
+[2017.12.23-10.46.28:624][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:624][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:624][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:624][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:625][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:625][724]LogFbx: =================================================
+[2017.12.23-10.46.28:625][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:625][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:625][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:625][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:625][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:625][724]LogFbx: =================================================
+[2017.12.23-10.46.28:625][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:625][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:625][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:625][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:625][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:626][724]LogFbx: =================================================
+[2017.12.23-10.46.28:626][724]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.46.28:626][724]LogFbx: 	Total Deformer Count 717458432.
+[2017.12.23-10.46.28:626][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:626][724]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.46.28:626][724]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.46.28:626][724]LogFbx: =================================================
+[2017.12.23-10.46.28:626][724]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.46.28:626][724]LogFbx: 	Total Deformer Count 819669312.
+[2017.12.23-10.46.28:626][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.46.28:626][724]LogFbx: =================================================
+[2017.12.23-10.46.28:626][724]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.46.28:626][724]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.46.28:626][724]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.46.28:661][724]LogFbx: Valid bind pose for Pose (BIND_POSES) - BaseMesh_Man_Simple_Body
+[2017.12.23-10.46.28:855][724]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2017.12.23-10.46.29:088][724]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.12.23-10.46.29:088][724]LogSkeletalMesh: Section 1: 357 vertices, 1 active bones
+[2017.12.23-10.46.29:095][724]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.12.23-10.46.29:095][724]LogSkeletalMesh: Section 1: Material=1, 278 triangles
+[2017.12.23-10.46.32:639][724]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.12.23-10.46.32:639][724]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+Cylinder047  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.12.23-10.46.33:653][724]LogAssetTools: Warning: 'D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX' 임포트에 실패했습니다. '/Game/Player/Empty_special_skill' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.12.23-10.46.33:752][724]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_attack_3_Anim.Empty_attack_3_Anim
+[2017.12.23-10.46.43:322][ 14]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.12.23-10.46.43:457][ 14]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.12.23-10.46.45:051][ 14]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.12.23-10.46.51:378][221]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.12.23-10.46.51:558][221]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.12.23-10.46.54:221][222]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2017.12.23-10.47.07:039][530]LogEditorFactories: Performing atomic reimport of [D:/NewGarden/GardenProject/NGA/Resource/20171201주인공애니/Empty_special skill.FBX]
+[2017.12.23-10.47.07:120][530]LogFbx: Loading FBX Scene from D:/NewGarden/GardenProject/NGA/Resource/20171201주인공애니/Empty_special skill.FBX
+[2017.12.23-10.47.07:166][530]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.23-10.47.07:180][530]LogFbx: =================================================
+[2017.12.23-10.47.07:180][530]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.07:180][530]LogFbx: 	Total Deformer Count 1298622336.
+[2017.12.23-10.47.07:180][530]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.07:180][530]LogFbx: =================================================
+[2017.12.23-10.47.07:180][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:180][530]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.07:180][530]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.07:180][530]LogFbx: =================================================
+[2017.12.23-10.47.07:180][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:180][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:180][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:180][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:180][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:181][530]LogFbx: =================================================
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:181][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:181][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:181][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:181][530]LogFbx: =================================================
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:181][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:181][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:181][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:181][530]LogFbx: =================================================
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:181][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:181][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:181][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:181][530]LogFbx: =================================================
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:181][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:181][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:181][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:181][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:182][530]LogFbx: =================================================
+[2017.12.23-10.47.07:182][530]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.07:182][530]LogFbx: 	Total Deformer Count 1338982336.
+[2017.12.23-10.47.07:182][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:182][530]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.07:182][530]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.07:182][530]LogFbx: =================================================
+[2017.12.23-10.47.07:182][530]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.07:182][530]LogFbx: 	Total Deformer Count 1298621776.
+[2017.12.23-10.47.07:182][530]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.07:182][530]LogFbx: =================================================
+[2017.12.23-10.47.07:182][530]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.07:182][530]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.07:182][530]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.07:183][530]LogFbx: Valid bind pose for Pose (BIND_POSES) - BaseMesh_Man_Simple_Body
+[2017.12.23-10.47.07:259][530]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2017.12.23-10.47.07:507][530]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.12.23-10.47.07:507][530]LogSkeletalMesh: Section 1: 357 vertices, 1 active bones
+[2017.12.23-10.47.07:519][530]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.12.23-10.47.07:519][530]LogSkeletalMesh: Section 1: Material=1, 278 triangles
+[2017.12.23-10.47.07:533][530]LogLinker: '/Game/Player/Empty_special_skill_Skeleton' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.07:541][530]LogLinker: '/Game/Player/Empty_special_skill_Skeleton' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.07:617][530]LogEditorFactories: -- imported successfully
+[2017.12.23-10.47.07:629][530]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.12.23-10.47.07:629][530]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+Cylinder047  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.12.23-10.47.40:634][373]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX)
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Model, ItemCount : 67
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Material, ItemCount : 2
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: AnimationCurve, ItemCount : 204
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: AnimationCurveNode, ItemCount : 68
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.12.23-10.47.40:643][373]LogFbx: ItemName: Video, ItemCount : 2
+[2017.12.23-10.47.40:648][373]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX
+[2017.12.23-10.47.40:682][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.23-10.47.40:687][373]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.12.23-10.47.47:197][373]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\NGA\Resource\20171201주인공애니\Empty_special skill.FBX
+[2017.12.23-10.47.47:233][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.23-10.47.47:236][373]LogFbx: =================================================
+[2017.12.23-10.47.47:236][373]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.47:236][373]LogFbx: 	Total Deformer Count 1312862160.
+[2017.12.23-10.47.47:236][373]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.47:236][373]LogFbx: =================================================
+[2017.12.23-10.47.47:236][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:236][373]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.47:236][373]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.47:236][373]LogFbx: =================================================
+[2017.12.23-10.47.47:236][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:236][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:236][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:236][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:236][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:236][373]LogFbx: =================================================
+[2017.12.23-10.47.47:236][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:236][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:237][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:237][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:237][373]LogFbx: =================================================
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:237][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:237][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:237][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:237][373]LogFbx: =================================================
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:237][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:237][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:237][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:237][373]LogFbx: =================================================
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:237][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:237][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:237][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:237][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:238][373]LogFbx: =================================================
+[2017.12.23-10.47.47:238][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.47:238][373]LogFbx: 	Total Deformer Count 1313818752.
+[2017.12.23-10.47.47:238][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:238][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.47:238][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.47:238][373]LogFbx: =================================================
+[2017.12.23-10.47.47:238][373]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.47:238][373]LogFbx: 	Total Deformer Count 1312861600.
+[2017.12.23-10.47.47:238][373]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.47:238][373]LogFbx: =================================================
+[2017.12.23-10.47.47:238][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.47:238][373]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.47:238][373]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.47:239][373]LogFbx: Valid bind pose for Pose (BIND_POSES) - BaseMesh_Man_Simple_Body
+[2017.12.23-10.47.47:269][373]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2017.12.23-10.47.47:444][373]LogSkeletalMesh: Section 0: 6613 vertices, 52 active bones
+[2017.12.23-10.47.47:444][373]LogSkeletalMesh: Section 1: 357 vertices, 1 active bones
+[2017.12.23-10.47.47:452][373]LogSkeletalMesh: Section 0: Material=0, 8394 triangles
+[2017.12.23-10.47.47:452][373]LogSkeletalMesh: Section 1: Material=1, 278 triangles
+[2017.12.23-10.47.50:069][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_walik_Anim.Empty_walik_Anim
+[2017.12.23-10.47.50:069][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Transient.Empty_walik_Anim
+[2017.12.23-10.47.50:075][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/Idle.Idle
+[2017.12.23-10.47.50:077][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Transient.Idle
+[2017.12.23-10.47.50:102][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_jump_Anim.Empty_jump_Anim
+[2017.12.23-10.47.50:107][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_jump_attack_Anim.Empty_jump_attack_Anim
+[2017.12.23-10.47.50:114][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_kick_Anim.Empty_kick_Anim
+[2017.12.23-10.47.50:121][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/6_Anim.6_Anim
+[2017.12.23-10.47.50:126][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/7_Anim.7_Anim
+[2017.12.23-10.47.50:131][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Anim/8_Anim.8_Anim
+[2017.12.23-10.47.50:137][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_attack_3_Anim.Empty_attack_3_Anim
+[2017.12.23-10.47.54:242][373]LogLinker: '/Game/Player/Empty_special_skill_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.54:243][373]LogLinker: '/Game/Player/Empty_special_skill_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.54:376][373]LogFbx: =================================================
+[2017.12.23-10.47.54:376][373]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.54:376][373]LogFbx: 	Total Deformer Count 1251185616.
+[2017.12.23-10.47.54:376][373]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.54:376][373]LogFbx: =================================================
+[2017.12.23-10.47.54:376][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:376][373]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.54:376][373]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.54:376][373]LogFbx: =================================================
+[2017.12.23-10.47.54:376][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:376][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:376][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:376][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:376][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:377][373]LogFbx: =================================================
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:377][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:377][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:377][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:377][373]LogFbx: =================================================
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:377][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:377][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:377][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:377][373]LogFbx: =================================================
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:377][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:377][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:377][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:377][373]LogFbx: =================================================
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:377][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:377][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:377][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:377][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:378][373]LogFbx: =================================================
+[2017.12.23-10.47.54:378][373]LogFbx: Dumping Node START [Cylinder047] 
+[2017.12.23-10.47.54:378][373]LogFbx: 	Total Deformer Count 1134900544.
+[2017.12.23-10.47.54:378][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:378][373]LogFbx: 		[Node Attribute Child 1] Cylinder047 (Type Mesh).
+[2017.12.23-10.47.54:378][373]LogFbx: Dumping Node END [Cylinder047]
+[2017.12.23-10.47.54:378][373]LogFbx: =================================================
+[2017.12.23-10.47.54:378][373]LogFbx: Dumping Node START [BaseMesh_Man_Simple_Body] 
+[2017.12.23-10.47.54:378][373]LogFbx: 	Total Deformer Count 1251185616.
+[2017.12.23-10.47.54:378][373]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.23-10.47.54:378][373]LogFbx: =================================================
+[2017.12.23-10.47.54:378][373]LogFbx: 	Attribute () Type (4).
+[2017.12.23-10.47.54:378][373]LogFbx: 		[Node Attribute Child 1] BaseMesh_Man_Simple_Body (Type Mesh).
+[2017.12.23-10.47.54:378][373]LogFbx: Dumping Node END [BaseMesh_Man_Simple_Body]
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(0) Hips
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(1) Spine
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(2) Spine1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(3) Spine2
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(4) Neck
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(5) Head
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(8) LeftArm
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(10) LeftHand
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(23) LeftHandRing1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(24) LeftHandRing2
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(25) LeftHandRing3
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(26) LeftHandRing4
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2017.12.23-10.47.54:385][373]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(31) RightShoulder
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(32) RightArm
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(33) RightForeArm
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(34) RightHand
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(35) RightHandThumb1
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(36) RightHandThumb2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(37) RightHandThumb3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(38) RightHandThumb4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(39) RightHandIndex1
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(40) RightHandIndex2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(41) RightHandIndex3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(42) RightHandIndex4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(47) RightHandRing1
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(48) RightHandRing2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(49) RightHandRing3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(50) RightHandRing4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(51) RightHandPinky1
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(52) RightHandPinky2
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(53) RightHandPinky3
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(54) RightHandPinky4
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(55) Cylinder047
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(56) LeftUpLeg
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(57) LeftLeg
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(58) LeftFoot
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(59) LeftToeBase
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(60) LeftToe_End
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(61) RightUpLeg
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(62) RightLeg
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(63) RightFoot
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(64) RightToeBase
+[2017.12.23-10.47.54:386][373]LogFbx: SortedLinks :(65) RightToe_End
+[2017.12.23-10.47.54:405][373]LogFbx: Parsing AnimStack Take 001
+[2017.12.23-10.47.54:479][373]LogLinker: '/Game/Player/Empty_special_skill_Anim' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.54:479][373]LogLinker: '/Game/Player/Empty_special_skill_Anim' 파일을 찾을 수 없습니다.
+[2017.12.23-10.47.55:101][373]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_special_skill_Anim.Empty_special_skill_Anim
+[2017.12.23-10.47.55:154][373]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.47.55:154][373]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.47.55:156][373]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.47.55:162][373]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.47.55:211][373]FBXImport: Warning: FBX 씬 로딩: 머티리얼 이름 충돌 발견, 이름 충돌은 리임포트시 비정상적으로 재할당될 수 있어, '07 - Default' 머티리얼 이름이 '07 - Default_ncl1_1' 으로 변경되었습니다. 
+[2017.12.23-10.47.55:211][373]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+Cylinder047  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.12.23-10.48.11:467][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_special_skill_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill_Anim.uasset" SILENT=true
+[2017.12.23-10.48.11:630][943]LogSavePackage: Save=106.00ms
+[2017.12.23-10.48.11:630][943]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_special_skill_AnimCB3477754713EB9AE1FB9FA82008A4D2.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill_Anim.uasset'
+[2017.12.23-10.48.11:637][943]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill_Anim.uasset
+[2017.12.23-10.48.20:796][249]LogSlate: Took 0.019197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.23-10.49.09:928][259]BlueprintLog: New page: PlayerCharacterAnim_BP 컴파일
+[2017.12.23-10.49.10:010][259]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.10:010][259]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.10:011][259]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.10:012][259]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.19:456][585]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/empty_idle_sujung.empty_idle_sujung
+[2017.12.23-10.49.19:564][589]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_main_idle_Anim.Empty_main_idle_Anim
+[2017.12.23-10.49.22:204][690]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_idle_Anim.Empty_idle_Anim
+[2017.12.23-10.49.22:250][691]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_back_tumbling_Anim.Empty_back_tumbling_Anim
+[2017.12.23-10.49.27:892][893]BlueprintLog: New page: PlayerCharacterAnim_BP 컴파일
+[2017.12.23-10.49.27:947][893]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.27:948][893]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.27:949][893]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.27:949][893]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:367][977]BlueprintLog: New page: PlayerCharacterAnim_BP 컴파일
+[2017.12.23-10.49.30:424][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:425][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:426][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:427][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:427][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:428][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:429][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.30:429][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.32:152][ 36]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_attack_2_Anim.Empty_attack_2_Anim
+[2017.12.23-10.49.32:159][ 36]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Empty_attack_1_Anim.Empty_attack_1_Anim
+[2017.12.23-10.49.36:755][209]BlueprintLog: New page: PlayerCharacterAnim_BP 컴파일
+[2017.12.23-10.49.36:810][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:811][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:812][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:812][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:813][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:814][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:814][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.36:815][209]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.49.52:287][977]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.09:460][697]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.23-10.50.10:162][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:176][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:177][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:282][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:282][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.10:282][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.10:282][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.10:283][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:283][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.10:283][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.10:283][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.10:284][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:284][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.10:284][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.10:284][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_3
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.10:285][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:286][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:286][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:288][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:289][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:290][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:291][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:291][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.10:291][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.10:291][697]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.10:291][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:305][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:307][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.10:308][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:368][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:369][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:370][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:371][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:372][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.12:372][697]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:139][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:140][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:141][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:142][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:144][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:145][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:148][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:149][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:151][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:153][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:156][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.19:157][944]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:472][  3]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.23-10.50.20:940][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:949][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:950][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:991][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:992][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:992][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:995][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:996][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:996][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:997][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:997][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.20:997][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.20:997][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.20:998][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.20:998][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.20:998][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.20:998][  3]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.20:999][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.21:000][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.21:002][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.21:002][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:049][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:049][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:050][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:051][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:053][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.23:054][  3]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.24:871][ 47]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.23-10.50.25:429][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.25:439][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-10.50.25:559][ 47]PIE: New page: PIE 세션: GameLevel (2017. 12. 24. 오전 4:50:25)
+[2017.12.23-10.50.25:600][ 47]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.23-10.50.25:759][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158762s)
+[2017.12.23-10.50.25:760][ 47]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.23-10.50.25:760][ 47]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.12.23-10.50.25:761][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.160350s)
+[2017.12.23-10.50.25:820][ 47]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-10.50.25:841][ 47]LogInit: FAudioDevice initialized.
+[2017.12.23-10.50.25:988][ 47]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.23-10.50.26:121][ 47]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.26:128][ 47]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2017.12.23-19.50.26
+[2017.12.23-10.50.26:462][ 47]LogWorld: Bringing up level for play took: 0.461927
+[2017.12.23-10.50.26:768][ 47]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.12.23-10.50.26:986][ 47]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: 1.989
+[2017.12.23-10.50.27:084][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.27:499][ 47]LogRenderer: Reallocating scene render targets to support 1292x888 Format 10 NumSamples 1 (Frame:1).
+[2017.12.23-10.50.31:800][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.32:086][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.38:287][411]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.23-10.50.38:754][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:764][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:764][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:807][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:808][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:808][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:810][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:811][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:812][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:812][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:812][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.38:813][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.38:813][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.38:813][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:813][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.38:813][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.38:813][411]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_6
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.38:814][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:816][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:817][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.38:818][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:861][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:861][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:862][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:863][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:864][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.40:865][411]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.43:282][489]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.23-10.50.43:360][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.43:361][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-10.50.43:361][489]PIE: New page: PIE 세션: GameLevel (2017. 12. 24. 오전 4:50:43)
+[2017.12.23-10.50.43:361][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.23-10.50.43:408][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047469s)
+[2017.12.23-10.50.43:409][489]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.23-10.50.43:409][489]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.12.23-10.50.43:409][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.048642s)
+[2017.12.23-10.50.43:436][489]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-10.50.43:456][489]LogInit: FAudioDevice initialized.
+[2017.12.23-10.50.43:510][489]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.23-10.50.43:542][489]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.43:548][489]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2017.12.23-19.50.43
+[2017.12.23-10.50.43:556][489]LogWorld: Bringing up level for play took: 0.045175
+[2017.12.23-10.50.43:576][489]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: 0.58
+[2017.12.23-10.50.43:597][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.47:212][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.47:392][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.23-10.50.51:747][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:748][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:749][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:753][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:755][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:758][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:760][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:763][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:765][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:766][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:767][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.51:769][769]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:192][833]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.23-10.50.53:652][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:661][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:662][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:705][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:706][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:706][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:708][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:709][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:710][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:710][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:710][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.53:710][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.53:710][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.53:711][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:711][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.23-10.50.53:711][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.23-10.50.53:711][833]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_13:PersistentLevel.PlayerCharacter_C_1.CharacterMesh0.PlayerCharacterAnim_BP_C_7
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.23-10.50.53:712][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:712][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:715][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.53:716][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:765][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:765][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:766][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:767][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:769][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.50.55:770][833]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.23-10.51.02:137][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.23-10.51.04:529][901]LogSavePackage: Save=1635.51ms
+[2017.12.23-10.51.04:529][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/GameLevelC21FCA9A4B290091874FD7BB1AEFF482.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap'
+[2017.12.23-10.51.04:534][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap
+[2017.12.23-10.51.04:776][901]LogFileHelpers: Saving map 'GameLevel' took 2.860
+[2017.12.23-10.51.04:879][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/6_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/6_Anim.uasset" SILENT=true
+[2017.12.23-10.51.04:909][901]LogSavePackage: Save=19.28ms
+[2017.12.23-10.51.04:909][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/6_Anim6E7FEAAB4C15540DFE4BC0BAEBD9CE64.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/6_Anim.uasset'
+[2017.12.23-10.51.04:912][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/6_Anim.uasset
+[2017.12.23-10.51.04:954][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/7_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/7_Anim.uasset" SILENT=true
+[2017.12.23-10.51.04:984][901]LogSavePackage: Save=19.35ms
+[2017.12.23-10.51.04:984][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/7_AnimB9FEC0FD458C55E641A50CA621421F8F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/7_Anim.uasset'
+[2017.12.23-10.51.04:987][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/7_Anim.uasset
+[2017.12.23-10.51.05:029][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/8_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/8_Anim.uasset" SILENT=true
+[2017.12.23-10.51.05:082][901]LogSavePackage: Save=40.26ms
+[2017.12.23-10.51.05:082][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/8_AnimE698BB6F482A482FDC7BFFBCFC746289.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/8_Anim.uasset'
+[2017.12.23-10.51.05:085][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/8_Anim.uasset
+[2017.12.23-10.51.05:130][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/Idle" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Idle.uasset" SILENT=true
+[2017.12.23-10.51.05:162][901]LogSavePackage: Save=20.87ms
+[2017.12.23-10.51.05:162][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/IdleAD91C2A84A995CBC1EDA09B5CF894528.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Idle.uasset'
+[2017.12.23-10.51.05:192][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Idle.uasset
+[2017.12.23-10.51.05:236][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/Player_Attack_1" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_1.uasset" SILENT=true
+[2017.12.23-10.51.05:268][901]LogSavePackage: Save=21.50ms
+[2017.12.23-10.51.05:268][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Player_Attack_19D519A204A088E53EEC077A8664B0FC9.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_1.uasset'
+[2017.12.23-10.51.05:271][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_1.uasset
+[2017.12.23-10.51.05:312][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/Player_Attack_2" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_2.uasset" SILENT=true
+[2017.12.23-10.51.05:346][901]LogSavePackage: Save=22.21ms
+[2017.12.23-10.51.05:346][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Player_Attack_2CF8EE40C4B9490131F82BAB769AD3B26.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_2.uasset'
+[2017.12.23-10.51.05:349][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_2.uasset
+[2017.12.23-10.51.05:390][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Anim/Player_Attack_3" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_3.uasset" SILENT=true
+[2017.12.23-10.51.05:421][901]LogSavePackage: Save=20.47ms
+[2017.12.23-10.51.05:421][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Player_Attack_347137CBC467D7FFB2D1EADAD31A1ABBC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_3.uasset'
+[2017.12.23-10.51.05:425][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Anim/Player_Attack_3.uasset
+[2017.12.23-10.51.05:467][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Attack_3" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Attack_3.uasset" SILENT=true
+[2017.12.23-10.51.05:526][901]LogSavePackage: Save=48.34ms
+[2017.12.23-10.51.05:526][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Attack_3CB082BE045D683F30353299E20A5686C.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Attack_3.uasset'
+[2017.12.23-10.51.05:529][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Attack_3.uasset
+[2017.12.23-10.51.05:571][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_attack_3_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_attack_3_Anim.uasset" SILENT=true
+[2017.12.23-10.51.05:604][901]LogSavePackage: Save=21.20ms
+[2017.12.23-10.51.05:604][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_attack_3_Anim8B263F1544F751C49E44A3BB8BDCED04.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_attack_3_Anim.uasset'
+[2017.12.23-10.51.05:607][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_attack_3_Anim.uasset
+[2017.12.23-10.51.05:612][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_idle_Skeleton" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_Skeleton.uasset" SILENT=true
+[2017.12.23-10.51.05:634][901]LogSavePackage: Save=9.95ms
+[2017.12.23-10.51.05:634][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_idle_SkeletonC3F1122D4A9DD9BF02898AAB89A20C98.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_Skeleton.uasset'
+[2017.12.23-10.51.05:637][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_idle_Skeleton.uasset
+[2017.12.23-10.51.05:685][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_jump_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_Anim.uasset" SILENT=true
+[2017.12.23-10.51.05:717][901]LogSavePackage: Save=21.02ms
+[2017.12.23-10.51.05:717][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_jump_Anim9F2D2D3042855C22FA5702BECF9EF090.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_Anim.uasset'
+[2017.12.23-10.51.05:721][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_Anim.uasset
+[2017.12.23-10.51.05:764][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_jump_attack_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_attack_Anim.uasset" SILENT=true
+[2017.12.23-10.51.05:801][901]LogSavePackage: Save=23.06ms
+[2017.12.23-10.51.05:801][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_jump_attack_AnimB264F90D43F07E8BB66BBAA866B90B5F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_attack_Anim.uasset'
+[2017.12.23-10.51.05:822][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_jump_attack_Anim.uasset
+[2017.12.23-10.51.05:865][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_kick_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_kick_Anim.uasset" SILENT=true
+[2017.12.23-10.51.05:896][901]LogSavePackage: Save=20.46ms
+[2017.12.23-10.51.05:896][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_kick_AnimAABB62BA4038FF774B639D81F62ECAEC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_kick_Anim.uasset'
+[2017.12.23-10.51.05:900][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_kick_Anim.uasset
+[2017.12.23-10.51.05:945][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_special_skill" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill.uasset" SILENT=true
+[2017.12.23-10.51.06:020][901]LogSavePackage: Save=69.78ms
+[2017.12.23-10.51.06:020][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_special_skill1A0081964EAE89AF22D79EBF1810BBB3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill.uasset'
+[2017.12.23-10.51.06:022][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill.uasset
+[2017.12.23-10.51.06:050][901]LogSavePackage: Save=17.02ms
+[2017.12.23-10.51.06:050][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_special_skill_PhysicsAssetCBE23EF5444C5D928C134DABDD3416F9.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill_PhysicsAsset.uasset'
+[2017.12.23-10.51.06:052][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_special_skill_PhysicsAsset.uasset
+[2017.12.23-10.51.06:101][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Empty_walik_Anim" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_walik_Anim.uasset" SILENT=true
+[2017.12.23-10.51.06:135][901]LogSavePackage: Save=21.43ms
+[2017.12.23-10.51.06:135][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Empty_walik_AnimAAB8E7A64D1FC9864A5DC1954E3B5595.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_walik_Anim.uasset'
+[2017.12.23-10.51.06:160][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Empty_walik_Anim.uasset
+[2017.12.23-10.51.06:207][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Idle_RUn" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Idle_RUn.uasset" SILENT=true
+[2017.12.23-10.51.06:240][901]LogSavePackage: Save=18.67ms
+[2017.12.23-10.51.06:240][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Idle_RUn9B2D49DB45A6B7EA2BE7B69980F31270.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Idle_RUn.uasset'
+[2017.12.23-10.51.06:243][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/Idle_RUn.uasset
+[2017.12.23-10.51.06:288][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerCharacterAnim_BP" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/PlayerCharacterAnim_BP.uasset" SILENT=true
+[2017.12.23-10.51.06:508][901]LogSavePackage: Save=206.89ms
+[2017.12.23-10.51.06:508][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerCharacterAnim_BPB07EB6EF401BBF749A3CE6B8023FA471.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/PlayerCharacterAnim_BP.uasset'
+[2017.12.23-10.51.06:566][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Player/PlayerCharacterAnim_BP.uasset
+[2017.12.23-10.51.06:922][901]LogSavePackage: Save=303.66ms
+[2017.12.23-10.51.06:922][901]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerCharacter138CE33347875F35C520289E0DC3A14D.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Blueprints/PlayerCharacter.uasset'
+[2017.12.23-10.51.06:927][901]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/PlayerCharacterBP/Blueprints/PlayerCharacter.uasset
+[2017.12.23-10.51.07:402][901]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.23-10.51.07:805][902]Cmd: QUIT_EDITOR
+[2017.12.23-10.51.08:704][902]LogExit: Preparing to exit.
+[2017.12.23-10.51.09:637][902]LogDirectoryWatcher: A directory notification failed for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/', and we were unable to create a new request.
+[2017.12.23-10.51.09:971][902]LogExit: Editor shut down
+[2017.12.23-10.51.10:008][902]LogExit: Transaction tracking system shut down
+[2017.12.23-10.51.10:880][902]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.23-10.51.10:880][902]LogDirectoryWatcher: A directory notification for '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.12.23-10.51.10:881][902]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.23-10.51.10:881][902]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.23-10.51.10:881][902]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.23-10.51.12:678][902]LogExit: Object subsystem successfully closed.
+[2017.12.23-10.51.12:967][902]LogD3D11RHI: Shutdown
+[2017.12.23-10.51.12:985][902]LogD3D11RHI: CleanupD3DDevice
+[2017.12.23-10.51.13:207][902]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.23-10.51.14:768][902]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (544)
+[2017.12.23-10.51.14:768][902]LogModuleManager: Shutting down and abandoning module AnimationEditor (542)
+[2017.12.23-10.51.14:768][902]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2017.12.23-10.51.14:768][902]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2017.12.23-10.51.14:851][902]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2017.12.23-10.51.14:857][902]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (534)
+[2017.12.23-10.51.14:857][902]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.23-10.51.14:857][902]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.12.23-10.51.14:860][902]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.12.23-10.51.14:877][902]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.23-10.51.14:892][902]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.12.23-10.51.14:892][902]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.12.23-10.51.14:892][902]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.12.23-10.51.14:910][902]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' was aborted.
+[2017.12.23-10.51.14:910][902]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' was aborted.
+[2017.12.23-10.51.14:910][902]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' was aborted.
+[2017.12.23-10.51.14:910][902]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (520)
+[2017.12.23-10.51.14:910][902]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.23-10.51.14:916][902]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.23-10.51.14:917][902]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.23-10.51.14:942][902]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.23-10.51.14:943][902]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.23-10.51.14:943][902]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.23-10.51.14:943][902]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.23-10.51.14:943][902]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.23-10.51.14:943][902]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.23-10.51.14:952][902]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.23-10.51.14:952][902]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.23-10.51.14:952][902]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.23-10.51.14:952][902]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.23-10.51.14:960][902]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.23-10.51.14:977][902]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.23-10.51.15:019][902]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.23-10.51.15:020][902]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.23-10.51.15:032][902]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.23-10.51.15:032][902]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.23-10.51.15:032][902]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.23-10.51.15:032][902]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.23-10.51.15:032][902]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.23-10.51.15:141][902]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.23-10.51.15:209][902]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.23-10.51.15:285][902]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.23-10.51.15:369][902]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.23-10.51.15:369][902]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.23-10.51.15:369][902]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.23-10.51.15:369][902]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.23-10.51.15:522][902]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.23-10.51.15:522][902]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.23-10.51.15:522][902]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.23-10.51.15:522][902]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.23-10.51.15:971][902]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.23-10.51.16:004][902]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.23-10.51.16:005][902]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.23-10.51.16:051][902]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.23-10.51.16:051][902]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.23-10.51.16:091][902]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.23-10.51.16:119][902]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.23-10.51.16:119][902]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.23-10.51.16:140][902]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.23-10.51.16:140][902]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.23-10.51.16:141][902]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.23-10.51.16:141][902]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.23-10.51.16:141][902]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.23-10.51.16:141][902]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.23-10.51.16:141][902]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.23-10.51.16:176][902]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.23-10.51.16:199][902]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.23-10.51.16:234][902]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.23-10.51.16:270][902]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.23-10.51.16:309][902]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.23-10.51.16:364][902]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.23-10.51.16:437][902]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.23-10.51.16:518][902]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.23-10.51.16:641][902]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.23-10.51.16:641][902]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.23-10.51.16:686][902]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.23-10.51.16:687][902]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.23-10.51.16:697][902]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.23-10.51.16:697][902]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.23-10.51.16:697][902]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.23-10.51.16:747][902]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.23-10.51.16:747][902]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.23-10.51.16:747][902]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.23-10.51.16:768][902]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.23-10.51.16:845][902]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.23-10.51.16:867][902]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.23-10.51.16:896][902]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.23-10.51.16:896][902]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.23-10.51.16:896][902]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.23-10.51.16:896][902]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.23-10.51.16:896][902]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.23-10.51.16:987][902]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.23-10.51.17:000][902]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.23-10.51.17:240][902]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.23-10.51.17:293][902]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.23-10.51.17:293][902]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.23-10.51.17:294][902]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.23-10.51.17:391][902]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.23-10.51.17:391][902]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.23-10.51.17:410][902]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.23-10.51.17:410][902]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.23-10.51.17:410][902]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.23-10.51.17:410][902]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.23-10.51.17:410][902]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.23-10.51.17:530][902]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.23-10.51.17:546][902]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.23-10.51.17:546][902]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.23-10.51.17:559][902]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.23-10.51.17:559][902]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.23-10.51.17:603][902]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.23-10.51.17:689][902]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.23-10.51.17:738][902]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.23-10.51.17:783][902]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.23-10.51.17:783][902]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.23-10.51.17:783][902]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.23-10.51.17:783][902]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.23-10.51.17:845][902]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.23-10.51.17:886][902]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.23-10.51.17:922][902]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.23-10.51.17:946][902]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.23-10.51.17:946][902]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.23-10.51.18:036][902]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.23-10.51.18:051][902]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.23-10.51.18:153][902]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.23-10.51.18:274][902]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.23-10.51.18:371][902]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.23-10.51.18:371][902]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.23-10.51.18:371][902]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.23-10.51.18:412][902]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.23-10.51.18:412][902]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.23-10.51.18:416][902]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.23-10.51.18:416][902]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.23-10.51.18:424][902]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.23-10.51.18:424][902]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.23-10.51.18:425][902]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.23-10.51.18:453][902]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.23-10.51.18:464][902]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.23-10.51.18:464][902]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.23-10.51.18:497][902]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.23-10.51.18:497][902]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.23-10.51.18:509][902]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.23-10.51.18:509][902]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.23-10.51.18:515][902]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.23-10.51.18:671][902]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.23-10.51.18:745][902]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.23-10.51.18:745][902]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.23-10.51.18:884][902]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.23-10.51.18:884][902]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.23-10.51.18:887][902]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.23-10.51.18:962][902]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.23-10.51.19:013][902]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.23-10.51.19:013][902]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.23-10.51.19:050][902]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.23-10.51.19:050][902]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.23-10.51.19:050][902]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.23-10.51.19:105][902]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.23-10.51.19:108][902]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.23-10.51.19:140][902]LogDerivedDataCache: Shutdown
+[2017.12.23-10.51.19:168][902]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.23-10.51.19:168][902]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.23-10.51.19:240][902]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.23-10.51.19:266][902]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.23-10.51.19:270][902]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.23-10.51.19:271][902]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.23-10.51.19:352][902]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.23-10.51.19:353][902]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.23-10.51.19:392][902]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.23-10.51.19:392][902]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.23-10.51.19:392][902]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.23-10.51.19:392][902]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.23-10.51.19:440][902]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.23-10.51.19:517][902]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.23-10.51.19:517][902]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.23-10.51.19:542][902]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA1C36D7-4551-8ACF-54E5-AF9FED19A70B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2b4b9104449ff9352e6e79a22565f81d%7C3c455ced7e304eddb535ae3cbf37a172%7Cdff5993a-bb95-44de-bad5-df2ac76192ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.23-10.51.19:556][902]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.23-10.51.19:585][902]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.23-10.51.19:658][902]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.23-10.51.19:658][902]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.23-10.51.19:696][902]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.23-10.51.19:696][902]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.23-10.51.19:696][902]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.23-10.51.19:697][902]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.23-10.51.19:762][902]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.23-10.51.19:790][902]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.23-10.51.19:819][902]LogExit: Exiting.
+[2017.12.23-10.51.19:908][902]Log file closed, 12/23/17 19:51:19
