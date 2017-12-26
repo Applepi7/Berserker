@@ -1,0 +1,786 @@
+﻿Log file open, 12/26/17 08:24:37
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2099980065) SRandInit(2099980065).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.343643
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.25-23.24.42:211][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.25-23.24.42:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.25-23.24.42:568][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.12.25-23.24.42:568][  0]LogInit: User: JWOH
+[2017.12.25-23.24.42:568][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.25-23.24.42:568][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.12.25-23.24.42:568][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.25-23.24.42:579][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.25-23.24.42:579][  0]LogMemory: Process Physical Memory: 280.52 MB used, 280.52 MB peak
+[2017.12.25-23.24.42:579][  0]LogMemory: Process Virtual Memory: 277.46 MB used, 277.46 MB peak
+[2017.12.25-23.24.42:579][  0]LogMemory: Physical Memory: 3213.54 MB used,  4842.11 MB free, 8055.66 MB total
+[2017.12.25-23.24.42:579][  0]LogMemory: Virtual Memory: 672.29 MB used,  4842.11 MB free, 134217728.00 MB total
+[2017.12.25-23.24.48:149][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.25-23.24.48:149][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.25-23.24.48:738][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.25-23.24.55:894][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.25-23.24.56:638][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.12.25-23.24.56:638][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.25-23.24.56:687][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.25-23.24.56:687][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.25-23.24.56:689][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.25-23.24.56:689][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.25-23.24.56:689][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.25-23.24.56:708][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.25-23.24.56:709][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.12.25-23.24.56:709][  0]LogWindows: EnumDisplayDevices:
+[2017.12.25-23.24.56:709][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.25-23.24.56:710][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.25-23.24.56:710][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.25-23.24.56:711][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.25-23.24.56:711][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.12.25-23.24.56:711][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.25-23.24.56:711][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.25-23.24.56:711][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.25-23.24.56:732][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.25-23.24.57:215][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.25-23.24.57:344][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/4172/).
+[2017.12.25-23.24.57:344][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/235CA3684E27B47372BC3EBED332899E/'.
+[2017.12.25-23.24.57:356][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.25-23.25.01:994][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.25-23.25.02:039][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.25-23.25.02:083][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.25-23.25.02:124][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.25-23.25.02:208][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.25-23.25.02:251][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.25-23.25.02:296][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.25-23.25.02:335][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.25-23.25.02:369][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.25-23.25.02:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.25-23.25.02:499][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.25-23.25.02:537][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.25-23.25.02:577][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.25-23.25.02:618][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.25-23.25.02:658][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.25-23.25.02:739][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.25-23.25.02:739][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.25-23.25.02:770][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.25-23.25.02:994][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.25-23.25.03:017][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.25-23.25.03:056][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.25-23.25.03:095][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.25-23.25.03:134][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.25-23.25.03:220][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.25-23.25.03:220][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.25-23.25.05:049][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: Loaded boot cache 0.42s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.25-23.25.05:473][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.25-23.25.05:608][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.25-23.25.05:622][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.25-23.25.05:701][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.25-23.25.05:776][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.25-23.25.05:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.25-23.25.05:884][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.25-23.25.16:147][  0]LogAssetRegistry: FAssetRegistry took 0.0624 seconds to start up
+[2017.12.25-23.25.21:414][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.25-23.25.34:193][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.25-23.25.34:252][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.25-23.25.34:260][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.25-23.25.34:260][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.25-23.25.34:260][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.25-23.25.34:260][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.25-23.25.34:495][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.25-23.25.38:521][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.12.25-23.25.40:486][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.212564 seconds
+[2017.12.25-23.25.40:513][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.25-23.25.40:513][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.25-23.25.40:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.25-23.25.40:563][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.25-23.25.58:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.25-23.25.58:107][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.25-23.25.59:766][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.25-23.26.00:640][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.25-23.26.00:640][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.25-23.26.00:761][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.25-23.26.00:812][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.25-23.26.01:655][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.25-23.26.01:863][  0]LogOcInput: OculusInput pre-init called
+[2017.12.25-23.26.02:628][  0]LogEngine: Initializing Engine...
+[2017.12.25-23.26.02:671][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.25-23.26.03:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.25-23.26.03:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.25-23.26.04:048][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.25-23.26.04:170][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.25-23.26.04:783][  0]LogInit: FAudioDevice initialized.
+[2017.12.25-23.26.04:898][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.25-23.26.04:923][  0]LogInit: Texture streaming: Enabled
+[2017.12.25-23.26.05:080][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.25-23.26.05:080][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={9F39A2B1-442E-E793-74E4-BAB6A4297070}
+[2017.12.25-23.26.06:216][  0]LogInit: Transaction tracking system initialized
+[2017.12.25-23.26.08:284][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.25-23.26.13:712][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.25-23.26.17:241][  0]LogConsoleResponse: Display: 
+[2017.12.25-23.26.24:815][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.25-23.26.24:815][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.25-23.26.24:943][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.15s
+[2017.12.25-23.26.24:943][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.25-23.26.33:349][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.25-23.26.33:565][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.25-23.26.33:665][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.25-23.26.34:509][  0]MapCheck: New page: 맵 체크
+[2017.12.25-23.26.34:509][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.25-23.27.50:318][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.25-23.27.50:319][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.25-23.27.50:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.25-23.27.50:363][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.25-23.27.52:445][  0]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.25-23.27.52:965][  0]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.27.53:172][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.25-23.27.53:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.25-23.27.53:896][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 133.333ms.
+[2017.12.25-23.27.53:896][  0]LogFileHelpers: Loading map 'GameLevel' took 80.455
+[2017.12.25-23.27.55:603][  0]LogCollectionManager: Loaded 0 collections in 0.001261 seconds
+[2017.12.25-23.27.55:792][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.12.25-23.27.55:792][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.12.25-23.27.55:792][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.12.25-23.27.55:792][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.25-23.27.55:814][  0]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2386 classes and 500 folders.
+[2017.12.25-23.27.55:928][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.25-23.27.58:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.12.25-23.27.59:085][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.25-23.28.03:977][  0]LogSlate: Took 0.023683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.25-23.28.04:061][  0]LogSlate: Took 0.069029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.25-23.28.04:074][  0]LogSlate: Took 0.011341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.25-23.28.04:127][  0]LogSlate: Took 0.018312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.25-23.28.05:551][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.25-23.28.06:471][  0]LogSlate: Took 0.025177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.25-23.28.07:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.25-23.28.07:283][  0]LogLoad: (Engine Initialization) Total time: 225.59 seconds
+[2017.12.25-23.28.07:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.25-23.28.07:292][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.25-23.28.07:292][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.25-23.28.07:776][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.25-23.28.09:304][  3]LogAssetRegistry: Asset discovery search completed in 173.1955 seconds
+[2017.12.25-23.28.09:308][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.25-23.28.09:309][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
+[2017.12.25-23.28.09:384][  3]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.25-23.28.12:029][ 41]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.25-23.28.13:087][ 41]LogClass: Warning: Enum '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:113][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:114][ 41]LogClass: Warning: Enum '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:139][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.25-23.28.13:158][ 41]LogClass: Warning: Enum '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.25-23.28.13:164][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:165][ 41]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.25-23.28.13:497][ 41]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.12.25-23.28.16:128][ 41]LogLinker: Warning: 애셋 이름을 해석할 수 없습니다.
+[2017.12.25-23.28.16:193][ 41]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.28.16:214][ 41]LogSlate: Took 0.013950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.25-23.28.17:204][ 42]LogSlate: Took 0.011425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 0 (  Trying 121.166.148.201...)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (121.166.148.201) port 443 (#0))
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 6 (TLSv1.0 (IN), TLS handshake, Server hello (2):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 7 (TLSv1.0 (IN), TLS handshake, Certificate (11):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 8 (TLSv1.0 (IN), TLS handshake, Server key exchange (12):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 9 (TLSv1.0 (IN), TLS handshake, Server finished (14):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 10 (TLSv1.0 (OUT), TLS handshake, Client key exchange (16):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 11 (TLSv1.0 (OUT), TLS change cipher, Client hello (1):)
+[2017.12.25-23.29.10:036][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 12 (TLSv1.0 (OUT), TLS handshake, Finished (20):)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 13 (TLSv1.0 (IN), TLS change cipher, Client hello (1):)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 14 (TLSv1.0 (IN), TLS handshake, Finished (20):)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 15 (SSL connection using TLSv1.0 / ECDHE-RSA-AES256-SHA)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 16 (ALPN, server did not agree to a protocol)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 17 (Server certificate:)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 18 (	 subject: CN=a-PC)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 19 (	 start date: Feb  3 02:05:27 2017 GMT)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 20 (	 expire date: Feb  3 00:00:00 2018 GMT)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 21 (SSL: certificate subject name 'a-PC' does not match target host name 'datarouter.ol.epicgames.com')
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 22 (Closing connection 0)
+[2017.12.25-23.29.10:037][880]LogHttp: Warning: 00000238AD2AA080: libcurl info message cache 23 (TLSv1.0 (OUT), TLS alert, Client hello (1):)
+[2017.12.25-23.29.11:270][905]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.25-23.29.11:775][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.29.11:775][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.25-23.29.11:823][905]PIE: New page: PIE 세션: GameLevel (2017. 12. 26. 오후 5:29:11)
+[2017.12.25-23.29.11:823][905]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.25-23.29.11:889][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066029s)
+[2017.12.25-23.29.11:890][905]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.25-23.29.11:890][905]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.12.25-23.29.11:890][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.067202s)
+[2017.12.25-23.29.11:917][905]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.25-23.29.11:929][905]LogInit: FAudioDevice initialized.
+[2017.12.25-23.29.12:101][905]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.25-23.29.12:169][905]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.29.12:174][905]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2017.12.26-08.29.12
+[2017.12.25-23.29.12:337][905]LogWorld: Bringing up level for play took: 0.220418
+[2017.12.25-23.29.12:421][905]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.12.25-23.29.12:495][905]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: 0.031
+[2017.12.25-23.29.12:512][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.29.12:706][905]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.12.25-23.29.22:171][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.29.22:351][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.31.11:603][249]LogHttp: Warning: 00000238A44F9000: libcurl info message cache 4 (Closing connection 1)
+[2017.12.25-23.32.56:593][962]Cmd: SELECT NONE
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.33.15:697][ 41]LogHttp: Warning: 000002391890C700: libcurl info message cache 4 (Closing connection 2)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.35.16:994][482]LogHttp: Warning: 00000238A44BAE00: libcurl info message cache 4 (Closing connection 3)
+[2017.12.25-23.36.23:172][ 31]LogEditorViewport: Clicking on Actor (LMB): Level_2_C (Level_2)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.37.18:238][759]LogHttp: Warning: 000002391863B700: libcurl info message cache 4 (Closing connection 4)
+[2017.12.25-23.38.30:476][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.12.25-23.38.32:135][460]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.25-23.38.32:385][460]LogSavePackage: Save=1374.07ms
+[2017.12.25-23.38.32:385][460]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/GameLevel_Auto13DD265D7401C44BB454724B4BD25CFF1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto1.umap'
+[2017.12.25-23.38.32:482][460]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto1.umap
+[2017.12.25-23.38.32:487][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameLevel' took 2.998
+[2017.12.25-23.38.32:487][460]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.998
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.39.22:017][610]LogHttp: Warning: 00000238C64D7880: libcurl info message cache 4 (Closing connection 5)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.41.23:684][975]LogHttp: Warning: 00000238C64D4D00: libcurl info message cache 4 (Closing connection 6)
+[2017.12.25-23.43.18:833][813]LogEditorViewport: Clicking on Actor (LMB): Level_1_C (Level_1)
+[2017.12.25-23.43.30:387][184]LogHttp: Warning: 00000238BA058700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.43.30:387][184]LogHttp: Warning: 00000238BA058700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.43.30:387][184]LogHttp: Warning: 00000238BA058700: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.43.30:387][184]LogHttp: Warning: 00000238BA058700: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.43.30:387][184]LogHttp: Warning: 00000238BA058700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.43.30:388][184]LogHttp: Warning: 00000238BA058700: libcurl info message cache 4 (Closing connection 7)
+[2017.12.25-23.44.11:523][861]BlueprintLog: New page: Level_1 컴파일
+[2017.12.25-23.44.21:239][284]BlueprintLog: New page: Level_1 컴파일
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.45.31:979][586]LogHttp: Warning: 000002394A689300: libcurl info message cache 4 (Closing connection 8)
+[2017.12.25-23.45.39:787][796]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.25-23.45.39:859][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.45.39:859][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.25-23.45.39:859][796]PIE: New page: PIE 세션: GameLevel (2017. 12. 26. 오후 5:45:39)
+[2017.12.25-23.45.39:859][796]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.25-23.45.39:903][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043836s)
+[2017.12.25-23.45.39:904][796]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.25-23.45.39:904][796]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.12.25-23.45.39:904][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.044997s)
+[2017.12.25-23.45.39:932][796]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.25-23.45.39:949][796]LogInit: FAudioDevice initialized.
+[2017.12.25-23.45.39:993][796]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.25-23.45.40:016][796]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.45.40:021][796]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 60) at 2017.12.26-08.45.40
+[2017.12.25-23.45.40:026][796]LogWorld: Bringing up level for play took: 0.032214
+[2017.12.25-23.45.40:038][796]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: -0.427
+[2017.12.25-23.45.40:038][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.45.53:891][271]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-391.270 Y=-3657.347 Z=416.800] for [WarriorEnemy_C]
+[2017.12.25-23.45.53:891][271]LogScript: Warning: Accessed None 이 CallFunc_SpawnAIFromClass_ReturnValue 프로퍼티를 읽으려 합니다.
+	Level_1_C /Game/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.Level_194
+	Function /Game/SpawnManager/Spawner/SpawnManager.SpawnManager_C:SpawnWarrior:01AD
+[2017.12.25-23.45.53:891][271]PIE: Error: 블루프린트 런타임 오류: Accessed None 이 CallFunc_SpawnAIFromClass_ReturnValue 프로퍼티를 읽으려 합니다. 다음 함수에서: 'SpawnWarrior' 노드: Spawn Emitter at Location 그래프: SpawnWarrior 오브젝트: SpawnManager 설명: Accessed None 이 CallFunc_SpawnAIFromClass_ReturnValue 프로퍼티를 읽으려 합니다.
+[2017.12.25-23.45.54:556][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.45.54:812][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.46.56:846][752]BlueprintLog: New page: Level_2 컴파일
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (121.166.148.201) port 443 (#9))
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 5 (SSL re-using session ID)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 6 (TLSv1.0 (OUT), TLS handshake, Client hello (1):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 7 (TLSv1.0 (IN), TLS handshake, Server hello (2):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 8 (TLSv1.0 (IN), TLS handshake, Certificate (11):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 9 (TLSv1.0 (IN), TLS handshake, Server key exchange (12):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 10 (TLSv1.0 (IN), TLS handshake, Server finished (14):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 11 (TLSv1.0 (OUT), TLS handshake, Client key exchange (16):)
+[2017.12.25-23.47.38:950][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 12 (TLSv1.0 (OUT), TLS change cipher, Client hello (1):)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 13 (TLSv1.0 (OUT), TLS handshake, Finished (20):)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 14 (TLSv1.0 (IN), TLS change cipher, Client hello (1):)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 15 (TLSv1.0 (IN), TLS handshake, Finished (20):)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 16 (SSL connection using TLSv1.0 / ECDHE-RSA-AES256-SHA)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 17 (ALPN, server did not agree to a protocol)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 19 (Server certificate:)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 20 (	 subject: CN=a-PC)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 21 (	 start date: Feb  3 02:05:27 2017 GMT)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 22 (	 expire date: Feb  3 00:00:00 2018 GMT)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 23 (SSL: certificate subject name 'a-PC' does not match target host name 'datarouter.ol.epicgames.com')
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 24 (Closing connection 9)
+[2017.12.25-23.47.38:951][166]LogHttp: Warning: 000002394E002200: libcurl info message cache 25 (TLSv1.0 (OUT), TLS alert, Client hello (1):)
+[2017.12.25-23.47.40:933][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnManager/Spawner/Level_2" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/SpawnManager/Spawner/Level_2.uasset" SILENT=true
+[2017.12.25-23.47.41:023][228]LogSavePackage: Save=79.56ms
+[2017.12.25-23.47.41:023][228]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Level_2E07096C248F707C846B9589AC9ECDF50.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/SpawnManager/Spawner/Level_2.uasset'
+[2017.12.25-23.47.41:026][228]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/SpawnManager/Spawner/Level_2.uasset
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.49.40:215][156]LogHttp: Warning: 000002391A041900: libcurl info message cache 4 (Closing connection 10)
+[2017.12.25-23.50.16:239][528]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.16:240][528]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.16:241][528]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.16:242][528]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.18:646][597]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.25-23.50.19:309][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.19:309][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.25-23.50.19:309][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.25-23.50.19:309][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.25-23.50.19:310][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.19:310][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.25-23.50.19:310][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.25-23.50.19:310][597]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_1
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.25-23.50.19:312][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.19:314][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.19:315][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.19:316][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.21:739][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.21:740][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.21:741][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.21:742][597]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.23:549][653]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.25-23.50.23:627][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.50.23:628][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.25-23.50.23:628][653]PIE: New page: PIE 세션: GameLevel (2017. 12. 26. 오후 5:50:23)
+[2017.12.25-23.50.23:628][653]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.25-23.50.23:672][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044279s)
+[2017.12.25-23.50.23:673][653]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.25-23.50.23:673][653]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2017.12.25-23.50.23:673][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.045468s)
+[2017.12.25-23.50.23:703][653]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.25-23.50.23:722][653]LogInit: FAudioDevice initialized.
+[2017.12.25-23.50.23:782][653]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.25-23.50.23:804][653]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.23:809][653]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 60) at 2017.12.26-08.50.23
+[2017.12.25-23.50.23:814][653]LogWorld: Bringing up level for play took: 0.029205
+[2017.12.25-23.50.23:830][653]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: -0.635
+[2017.12.25-23.50.23:831][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.50.23:840][653]LogBlueprintUserMessages: [PlayerCharacter_586] Hello
+[2017.12.25-23.50.25:791][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.50.26:001][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.25-23.50.27:876][792]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.27:877][792]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.27:878][792]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.27:879][792]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:741][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:742][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:743][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:745][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:756][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:757][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:758][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:759][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:777][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:778][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:779][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.50.35:780][116]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.01:160][185]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.01:163][185]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.01:165][185]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.01:166][185]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:144][771]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.12.25-23.51.16:737][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:737][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.25-23.51.16:738][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.25-23.51.16:738][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.PlayerCharacter_586.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.25-23.51.16:738][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:738][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0380
+[2017.12.25-23.51.16:738][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0404
+[2017.12.25-23.51.16:738][771]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsPlayer_Character 프로퍼티를 읽으려 합니다.
+	PlayerCharacterAnim_BP_C /Engine/Transient.World_3:PersistentLevel.PlayerCharacter_C_0.CharacterMesh0.PlayerCharacterAnim_BP_C_0
+	Function /Game/Player/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP_C:ExecuteUbergraph_PlayerCharacterAnim_BP:0488
+[2017.12.25-23.51.16:740][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:742][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:743][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.16:744][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.19:192][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.19:193][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.19:194][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.19:195][771]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.51.41:488][640]LogHttp: Warning: 0000023961582680: libcurl info message cache 4 (Closing connection 11)
+[2017.12.25-23.53.04:424][716]BlueprintLog: New page: Enemy 컴파일
+[2017.12.25-23.53.04:839][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.25-23.53.04:839][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.25-23.53.04:839][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.25-23.53.04:840][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.25-23.53.04:840][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.25-23.53.04:840][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.25-23.53.04:840][716]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_10:PersistentLevel.DistanceEnemy_C_0.CharacterMesh0.DistanceEnemyAnim_BP_C_1
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.25-23.53.04:845][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.04:847][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.04:848][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.04:849][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.06:762][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.06:763][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.06:764][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.53.06:765][716]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.55.07:998][161]LogHttp: Warning: 000002399964B100: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2017.12.25-23.55.07:998][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 0 (Connection 12 seems to be dead!)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 1 (Closing connection 12)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 2 (TLSv1.0 (OUT), TLS alert, Client hello (1):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 3 (  Trying 121.166.148.201...)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (121.166.148.201) port 443 (#13))
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 7 (SSL re-using session ID)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 8 (TLSv1.0 (OUT), TLS handshake, Client hello (1):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 9 (TLSv1.0 (IN), TLS handshake, Server hello (2):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 10 (TLSv1.0 (IN), TLS handshake, Certificate (11):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 11 (TLSv1.0 (IN), TLS handshake, Server key exchange (12):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 12 (TLSv1.0 (IN), TLS handshake, Server finished (14):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 13 (TLSv1.0 (OUT), TLS handshake, Client key exchange (16):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 14 (TLSv1.0 (OUT), TLS change cipher, Client hello (1):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 15 (TLSv1.0 (OUT), TLS handshake, Finished (20):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 16 (TLSv1.0 (IN), TLS change cipher, Client hello (1):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 17 (TLSv1.0 (IN), TLS handshake, Finished (20):)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 18 (SSL connection using TLSv1.0 / ECDHE-RSA-AES256-SHA)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 19 (ALPN, server did not agree to a protocol)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 20 (old SSL session ID is stale, removing)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 21 (Server certificate:)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 22 (	 subject: CN=a-PC)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 23 (	 start date: Feb  3 02:05:27 2017 GMT)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 24 (	 expire date: Feb  3 00:00:00 2018 GMT)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 25 (SSL: certificate subject name 'a-PC' does not match target host name 'datarouter.ol.epicgames.com')
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 26 (Closing connection 13)
+[2017.12.25-23.55.07:999][161]LogHttp: Warning: 000002399964B100: libcurl info message cache 27 (TLSv1.0 (OUT), TLS alert, Client hello (1):)
+[2017.12.25-23.56.08:771][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.12.25-23.56.11:117][ 22]LogSavePackage: Save=1309.12ms
+[2017.12.25-23.56.11:117][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/GameLevel_Auto2371B59F44A5427C21CECBCA053A503B0.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto2.umap'
+[2017.12.25-23.56.11:246][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/GameLevel_Auto2.umap
+[2017.12.25-23.56.11:250][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameLevel' took 2.514
+[2017.12.25-23.56.11:250][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.514
+[2017.12.25-23.56.11:253][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Boss/Boss] ([1] browsable assets)...
+[2017.12.25-23.56.11:332][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Boss/Boss.Boss]
+[2017.12.25-23.56.11:332][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Boss/Boss]
+[2017.12.25-23.56.11:332][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Boss/Boss" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Boss/Boss_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.12.25-23.56.11:570][ 22]LogSavePackage: Save=226.82ms
+[2017.12.25-23.56.11:570][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Boss_Auto260748B874F4B5DFB2C41929E218E2F6F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Boss/Boss_Auto2.uasset'
+[2017.12.25-23.56.11:619][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Boss/Boss_Auto2.uasset
+[2017.12.25-23.56.11:620][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Enemy] ([1] browsable assets)...
+[2017.12.25-23.56.11:620][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Enemy]
+[2017.12.25-23.56.11:620][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Enemy" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Enemy_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.12.25-23.56.11:733][ 22]LogSavePackage: Save=103.92ms
+[2017.12.25-23.56.11:733][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Enemy_Auto25851527646F70BBBA746B5A56FD5B9E6.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Enemy_Auto2.uasset'
+[2017.12.25-23.56.11:822][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/Enemy_Auto2.uasset
+[2017.12.25-23.56.11:822][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacterBP/Blueprints/PlayerCharacter] ([1] browsable assets)...
+[2017.12.25-23.56.11:824][ 22]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.11:877][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacterBP/Blueprints/PlayerCharacter.PlayerCharacter]
+[2017.12.25-23.56.11:877][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacterBP/Blueprints/PlayerCharacter]
+[2017.12.25-23.56.12:240][ 22]LogSavePackage: Save=353.56ms
+[2017.12.25-23.56.12:241][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PlayerCharacter_Auto2EE7632834910CB24F4A7A49A07D6C35D.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Blueprints/PlayerCharacter_Auto2.uasset'
+[2017.12.25-23.56.12:315][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/PlayerCharacterBP/Blueprints/PlayerCharacter_Auto2.uasset
+[2017.12.25-23.56.12:317][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/PunchEnemy/PunchEnemy] ([1] browsable assets)...
+[2017.12.25-23.56.12:358][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/PunchEnemy/PunchEnemy.PunchEnemy]
+[2017.12.25-23.56.12:358][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/PunchEnemy/PunchEnemy]
+[2017.12.25-23.56.12:492][ 22]LogSavePackage: Save=124.12ms
+[2017.12.25-23.56.12:492][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PunchEnemy_Auto25758F1F74AC7AE88CB0F878F1DA4C9C2.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/PunchEnemy/PunchEnemy_Auto2.uasset'
+[2017.12.25-23.56.12:710][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/PunchEnemy/PunchEnemy_Auto2.uasset
+[2017.12.25-23.56.12:712][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/WarriorEnemy/WarriorEnemy] ([1] browsable assets)...
+[2017.12.25-23.56.12:767][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/WarriorEnemy/WarriorEnemy.WarriorEnemy]
+[2017.12.25-23.56.12:767][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WarriorEnemy/WarriorEnemy]
+[2017.12.25-23.56.12:913][ 22]LogSavePackage: Save=136.38ms
+[2017.12.25-23.56.12:919][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorEnemy_Auto2333A5DA04AA1B486AAA884BC75AD327B.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto2.uasset'
+[2017.12.25-23.56.12:967][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/WarriorEnemy/WarriorEnemy_Auto2.uasset
+[2017.12.25-23.56.12:968][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SpawnManager/Spawner/Level_1] ([1] browsable assets)...
+[2017.12.25-23.56.12:968][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpawnManager/Spawner/Level_1]
+[2017.12.25-23.56.13:039][ 22]LogSavePackage: Save=62.12ms
+[2017.12.25-23.56.13:040][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Level_1_Auto2E25D92DE49BD24942817BB838AAD79C7.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/SpawnManager/Spawner/Level_1_Auto2.uasset'
+[2017.12.25-23.56.13:040][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/SpawnManager/Spawner/Level_1_Auto2.uasset
+[2017.12.25-23.56.13:041][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/DistanceEnemy/DistanceEnemy] ([1] browsable assets)...
+[2017.12.25-23.56.13:078][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/DistanceEnemy/DistanceEnemy.DistanceEnemy]
+[2017.12.25-23.56.13:078][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/DistanceEnemy/DistanceEnemy]
+[2017.12.25-23.56.13:220][ 22]LogSavePackage: Save=118.83ms
+[2017.12.25-23.56.13:220][ 22]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/DistanceEnemy_Auto2582A0C7745A9C30F4A2D9C8FD41319B3.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/DistanceEnemy/DistanceEnemy_Auto2.uasset'
+[2017.12.25-23.56.13:283][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Autosaves/Game/Enemy/DistanceEnemy/DistanceEnemy_Auto2.uasset
+[2017.12.25-23.56.13:283][ 22]LogFileHelpers: Auto-saving content packages took 2.031
+[2017.12.25-23.56.21:628][301]BlueprintLog: New page: Enemy 컴파일
+[2017.12.25-23.56.21:955][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.21:969][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.21:969][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.22:025][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_1.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.25-23.56.22:025][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_1.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.25-23.56.22:025][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_9:PersistentLevel.Boss_C_1.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.25-23.56.22:026][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.25-23.56.22:026][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.25-23.56.22:026][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.25-23.56.22:027][301]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_17:PersistentLevel.DistanceEnemy_C_2.CharacterMesh0.DistanceEnemyAnim_BP_C_1
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.25-23.56.22:033][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.22:034][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.22:035][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.22:037][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:174][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:175][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:176][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:178][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:180][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.24:181][301]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.25-23.56.44:352][614]BlueprintLog: New page: DistanceEnemy 컴파일
+[2017.12.25-23.56.44:419][614]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_10:PersistentLevel.DistanceEnemy_C_19.CharacterMesh0.DistanceEnemyAnim_BP_C_1
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.25-23.56.44:419][614]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_17:PersistentLevel.DistanceEnemy_C_2.CharacterMesh0.DistanceEnemyAnim_BP_C_3
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.25-23.57.09:333][457]LogHttp: Warning: 00000239B1ADE200: libcurl info message cache 4 (Closing connection 14)
+[2017.12.25-23.58.28:460][690]LogUObjectBase: Warning: Object is not registered
+[2017.12.25-23.58.29:834][690]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.373 s
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: 
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: Stack: 
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F83606
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020D0C2D2
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020D24746
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000018EFD2D6
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000001730FC0B
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000001679259A
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000001662737C
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000001662A8E9
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000016756C25
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000020044A47
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002004AC21
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000202803A3
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000200A1E65
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002007A28C
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002006B444
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F5B21C
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F43B51
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F5D22B
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F3ECB2
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: USER32.dll!0x0000000055371169
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: USER32.dll!0x0000000055370C97
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000020F5D936
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor.exe!0x00000000795F4BE2
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor.exe!0x0000000079603970
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor.exe!0x00000000796039EA
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor.exe!0x00000000796102D9
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: UE4Editor.exe!0x0000000079611C47
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: KERNEL32.DLL!0x0000000052968102
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: ntdll.dll!0x000000005559C2E4
+[2017.12.25-23.58.29:834][690]LogOutputDevice: Error: 
+[2017.12.25-23.58.29:843][690]LogStats:                SubmitErrorReport -  0.000 s
