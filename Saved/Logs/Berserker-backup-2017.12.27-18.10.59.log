@@ -1,0 +1,1917 @@
+﻿Log file open, 12/27/17 11:45:36
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Berserker
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-667558820) SRandInit(-667558820).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.226373
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.27-02.45.37:372][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.27-02.45.37:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.27-02.45.37:401][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.12.27-02.45.37:401][  0]LogInit: User: JWOH
+[2017.12.27-02.45.37:401][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.27-02.45.37:401][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.12.27-02.45.37:402][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.27-02.45.37:402][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.27-02.45.37:402][  0]LogMemory: Process Physical Memory: 282.85 MB used, 282.85 MB peak
+[2017.12.27-02.45.37:402][  0]LogMemory: Process Virtual Memory: 277.60 MB used, 277.60 MB peak
+[2017.12.27-02.45.37:402][  0]LogMemory: Physical Memory: 3620.15 MB used,  4435.51 MB free, 8055.66 MB total
+[2017.12.27-02.45.37:402][  0]LogMemory: Virtual Memory: 672.29 MB used,  4435.51 MB free, 134217728.00 MB total
+[2017.12.27-02.45.37:925][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.27-02.45.37:925][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.27-02.45.37:997][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.27-02.45.41:126][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.27-02.45.41:163][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.12.27-02.45.41:163][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.27-02.45.41:171][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.27-02.45.41:171][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.27-02.45.41:174][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.27-02.45.41:174][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.27-02.45.41:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.27-02.45.41:179][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.27-02.45.41:179][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.12.27-02.45.41:179][  0]LogWindows: EnumDisplayDevices:
+[2017.12.27-02.45.41:180][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.27-02.45.41:180][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.27-02.45.41:181][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.27-02.45.41:182][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.27-02.45.41:182][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.12.27-02.45.41:182][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.27-02.45.41:182][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.27-02.45.41:182][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.27-02.45.41:201][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.27-02.45.41:211][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.27-02.45.41:212][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Intermediate/Shaders/WorkingDirectory/8120/).
+[2017.12.27-02.45.41:212][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/45F77FE440B734CDEF3BF582642BA602/'.
+[2017.12.27-02.45.41:212][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.27-02.45.43:939][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.27-02.45.43:990][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.27-02.45.44:041][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.27-02.45.44:090][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.27-02.45.44:151][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.27-02.45.44:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.27-02.45.44:253][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.27-02.45.44:304][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.27-02.45.44:346][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.27-02.45.44:408][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.27-02.45.44:458][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.27-02.45.44:510][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.27-02.45.44:565][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.27-02.45.44:623][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.27-02.45.44:672][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.27-02.45.44:774][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.27-02.45.44:774][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.27-02.45.44:815][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.27-02.45.44:967][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.27-02.45.44:992][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.27-02.45.45:038][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.27-02.45.45:082][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.27-02.45.45:125][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.27-02.45.45:176][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.27-02.45.45:176][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.27-02.45.46:034][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: Loaded boot cache 0.12s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.27-02.45.46:156][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.27-02.45.46:200][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.27-02.45.46:213][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.27-02.45.46:225][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.27-02.45.46:226][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.27-02.45.46:237][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.27-02.45.46:237][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.27-02.45.51:045][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.12.27-02.45.51:193][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.27-02.45.51:421][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.27-02.45.51:949][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.27-02.45.51:983][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.27-02.45.51:983][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.27-02.45.51:983][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.27-02.45.51:983][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.27-02.45.51:983][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.27-02.45.52:454][  0]LogNetVersion: Berserker , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 408643392)
+[2017.12.27-02.45.52:667][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.048859 seconds
+[2017.12.27-02.45.52:672][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.27-02.45.52:672][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.27-02.45.52:672][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.27-02.45.52:713][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.27-02.45.57:673][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.27-02.45.57:706][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.27-02.45.58:303][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.27-02.45.58:666][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.27-02.45.58:666][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.27-02.45.58:711][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.27-02.45.58:749][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.27-02.45.59:343][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.27-02.45.59:578][  0]LogOcInput: OculusInput pre-init called
+[2017.12.27-02.45.59:862][  0]LogEngine: Initializing Engine...
+[2017.12.27-02.45.59:864][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.27-02.46.00:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.27-02.46.00:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.27-02.46.00:243][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.27-02.46.00:255][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.27-02.46.00:281][  0]LogInit: FAudioDevice initialized.
+[2017.12.27-02.46.00:428][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.27-02.46.00:456][  0]LogInit: Texture streaming: Enabled
+[2017.12.27-02.46.00:554][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.27-02.46.00:807][  0]LogInit: Transaction tracking system initialized
+[2017.12.27-02.46.01:113][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.27-02.46.01:930][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.27-02.46.02:713][  0]LogConsoleResponse: Display: 
+[2017.12.27-02.46.02:912][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.27-02.46.02:912][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.27-02.46.02:912][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.27-02.46.03:140][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/' took 0.03s
+[2017.12.27-02.46.03:952][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.27-02.46.03:953][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.27-02.46.03:954][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.27-02.46.04:004][  0]MapCheck: New page: 맵 체크
+[2017.12.27-02.46.04:004][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.27-02.46.07:113][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.27-02.46.07:114][  0]LogClothingAssetFactory: Finished physical mesh import
+[2017.12.27-02.46.07:116][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.27-02.46.07:116][  0]LogActorComponent: ReregisterComponent: (/Game/GameLevel.GameLevel:PersistentLevel.flag_real7.SkeletalMeshComponent0) Not currently registered. Aborting.
+[2017.12.27-02.46.07:651][  0]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.27-02.46.07:677][  0]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.46.07:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.27-02.46.07:903][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.27-02.46.08:018][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 115.086ms.
+[2017.12.27-02.46.08:018][  0]LogFileHelpers: Loading map 'GameLevel' took 4.066
+[2017.12.27-02.46.08:211][  0]LogCollectionManager: Loaded 0 collections in 0.001050 seconds
+[2017.12.27-02.46.08:285][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' took 0.01s
+[2017.12.27-02.46.08:285][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.12.27-02.46.08:285][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' took 0.01s
+[2017.12.27-02.46.08:285][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.27-02.46.08:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2386 classes and 500 folders.
+[2017.12.27-02.46.08:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.27-02.46.08:722][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.27-02.46.08:760][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.27-02.46.08:888][  0]LogSlate: Took 0.005990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.27-02.46.08:897][  0]LogSlate: Took 0.007251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.27-02.46.08:902][  0]LogSlate: Took 0.004583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.27-02.46.08:912][  0]LogSlate: Took 0.004934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.27-02.46.09:130][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.27-02.46.09:266][  0]LogSlate: Took 0.003985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.27-02.46.09:492][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.27-02.46.09:492][  0]LogLoad: (Engine Initialization) Total time: 37.19 seconds
+[2017.12.27-02.46.09:492][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.27-02.46.09:493][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.27-02.46.09:493][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.27-02.46.09:863][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.27-02.46.10:522][  2]LogAssetRegistry: Asset discovery search completed in 19.4984 seconds
+[2017.12.27-02.46.10:525][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.27-02.46.10:525][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.12.27-02.46.10:850][  3]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.27-02.47.10:736][293]LogHttp: Warning: 0000027CA55A9A80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.27-02.47.10:736][293]LogHttp: Warning: 0000027CA55A9A80: libcurl info message cache 0 (  Trying 121.166.148.201...)
+[2017.12.27-02.47.10:736][293]LogHttp: Warning: 0000027CA55A9A80: libcurl info message cache 1 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.27-02.47.10:736][293]LogHttp: Warning: 0000027CA55A9A80: libcurl info message cache 2 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.27-02.47.10:736][293]LogHttp: Warning: 0000027CA55A9A80: libcurl info message cache 3 (Closing connection 0)
+[2017.12.27-02.48.07:520][764]LogEditorViewport: Clicking on Actor (LMB): Level_1_C (Level_1)
+[2017.12.27-02.48.21:420][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ceiling_lv1)
+[2017.12.27-02.48.45:221][ 49]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.27-02.48.45:626][ 49]LogClass: Warning: Enum '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:632][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:633][ 49]LogClass: Warning: Enum '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.27-02.48.45:635][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:635][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:636][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:636][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:636][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:636][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:636][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX09/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:638][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.12.27-02.48.45:640][ 49]LogClass: Warning: Enum '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.27-02.48.45:642][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:642][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:642][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:642][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:642][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:643][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:643][ 49]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX05/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.12.27-02.48.45:740][ 49]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.12.27-02.48.46:516][ 49]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.27-02.48.46:650][ 49]LogSlate: Took 0.004415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.27-02.48.56:240][403]LogSlate: Took 0.005160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (121.166.148.201) port 443 (#1))
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 7 (TLSv1.0 (IN), TLS handshake, Server hello (2):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 8 (TLSv1.0 (IN), TLS handshake, Certificate (11):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 9 (TLSv1.0 (IN), TLS handshake, Server key exchange (12):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 10 (TLSv1.0 (IN), TLS handshake, Server finished (14):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 11 (TLSv1.0 (OUT), TLS handshake, Client key exchange (16):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 12 (TLSv1.0 (OUT), TLS change cipher, Client hello (1):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 13 (TLSv1.0 (OUT), TLS handshake, Finished (20):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 14 (TLSv1.0 (IN), TLS change cipher, Client hello (1):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 15 (TLSv1.0 (IN), TLS handshake, Finished (20):)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 16 (SSL connection using TLSv1.0 / ECDHE-RSA-AES256-SHA)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 17 (ALPN, server did not agree to a protocol)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 18 (Server certificate:)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 19 (	 subject: CN=a-PC)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 20 (	 start date: Feb  3 02:05:27 2017 GMT)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 21 (	 expire date: Feb  3 00:00:00 2018 GMT)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 22 (SSL: certificate subject name 'a-PC' does not match target host name 'datarouter.ol.epicgames.com')
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 23 (Closing connection 1)
+[2017.12.27-02.49.12:559][ 57]LogHttp: Warning: 0000027D584AE200: libcurl info message cache 24 (TLSv1.0 (OUT), TLS alert, Client hello (1):)
+[2017.12.27-02.49.14:239][131]BlueprintLog: New page: Enemy 컴파일
+[2017.12.27-02.49.14:774][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.49.14:774][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.49.14:774][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.49.14:775][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.49.14:775][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.49.14:775][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.49.14:776][131]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_11:PersistentLevel.DistanceEnemy_C_0.CharacterMesh0.DistanceEnemyAnim_BP_C_1
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.27-02.49.14:781][131]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.49.14:783][131]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.49.57:863][916]BlueprintLog: New page: Enemy 컴파일
+[2017.12.27-02.49.58:246][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.49.58:246][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.49.58:246][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.49.58:247][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.49.58:247][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.49.58:247][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_1
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.49.58:248][916]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_11:PersistentLevel.DistanceEnemy_C_0.CharacterMesh0.DistanceEnemyAnim_BP_C_1
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.27-02.49.58:253][916]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.49.58:255][916]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.50.01:983][995]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2017.12.27-02.50.02:183][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.27-02.50.02:183][995]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.12.27-02.50.02:203][995]LogPlayLevel: [PlayLevel] Compiling BossAnim_BP before play...
+[2017.12.27-02.50.02:237][995]LogPlayLevel: [PlayLevel]   Compiling Boss as a dependent...
+[2017.12.27-02.50.02:277][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.50.02:277][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.50.02:277][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Game/GameLevel.GameLevel:PersistentLevel.Boss_65.CharacterMesh0.BossAnim_BP_C_0
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.50.02:278][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_2
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0312
+[2017.12.27-02.50.02:278][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_2
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:0396
+[2017.12.27-02.50.02:278][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsBoss 프로퍼티를 읽으려 합니다.
+	BossAnim_BP_C /Engine/Transient.World_8:PersistentLevel.Boss_C_0.CharacterMesh0.BossAnim_BP_C_2
+	Function /Game/Enemy/Boss/BossAnim_BP.BossAnim_BP_C:ExecuteUbergraph_BossAnim_BP:041A
+[2017.12.27-02.50.02:641][995]LogPlayLevel: [PlayLevel] Compiling PunchEnemyAnim_BP before play...
+[2017.12.27-02.50.02:661][995]LogPlayLevel: [PlayLevel]   Compiling PunchEnemy as a dependent...
+[2017.12.27-02.50.03:436][995]LogPlayLevel: [PlayLevel] Compiling WarriorAnim_BP before play...
+[2017.12.27-02.50.03:451][995]LogPlayLevel: [PlayLevel]   Compiling WarriorEnemy as a dependent...
+[2017.12.27-02.50.03:992][995]LogPlayLevel: [PlayLevel] Compiling DistanceEnemyAnim_BP before play...
+[2017.12.27-02.50.04:001][995]LogPlayLevel: [PlayLevel]   Compiling DistanceEnemy as a dependent...
+[2017.12.27-02.50.04:034][995]LogScript: Warning: Accessed None 이 K2Node_DynamicCast_AsDistance_Enemy 프로퍼티를 읽으려 합니다.
+	DistanceEnemyAnim_BP_C /Engine/Transient.World_11:PersistentLevel.DistanceEnemy_C_0.CharacterMesh0.DistanceEnemyAnim_BP_C_2
+	Function /Game/Enemy/DistanceEnemy/DistanceEnemyAnim_BP.DistanceEnemyAnim_BP_C:ExecuteUbergraph_DistanceEnemyAnim_BP:0189
+[2017.12.27-02.50.04:295][995]LogPlayLevel: PlayLevel: Blueprint regeneration took 2111 ms (8 blueprints)
+[2017.12.27-02.50.04:296][995]PIE: New page: PIE 세션: GameLevel (2017. 12. 27. 오후 8:50:04)
+[2017.12.27-02.50.04:296][995]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2017.12.27-02.50.04:342][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046012s)
+[2017.12.27-02.50.04:342][995]LogAIModule: Creating AISystem for world GameLevel
+[2017.12.27-02.50.04:343][995]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.12.27-02.50.04:343][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.047229s)
+[2017.12.27-02.50.04:367][995]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.27-02.50.04:385][995]LogInit: FAudioDevice initialized.
+[2017.12.27-02.50.04:469][995]LogLoad: Game class is 'BerserkerGameMode_C'
+[2017.12.27-02.50.04:491][995]AnimBlueprint: Warning: 슬롯노드: PlayerCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'DefaultSlot' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2017.12.27-02.50.04:498][995]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 60) at 2017.12.27-11.50.04
+[2017.12.27-02.50.04:504][995]LogWorld: Bringing up level for play took: 0.032862
+[2017.12.27-02.50.04:548][995]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.12.27-02.50.04:558][995]PIE: /Game/UEDPIE_0_GameLevel 에 대한 에디터에서 플레이 시작 시간: 2.99
+[2017.12.27-02.50.04:558][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.27-02.50.04:569][995]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:614][995]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.12.27-02.50.04:656][996]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:737][997]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:763][998]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:810][999]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:834][  0]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:858][  1]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:885][  2]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:908][  3]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:927][  4]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:955][  5]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:978][  6]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.04:997][  7]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:028][  8]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:057][  9]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:079][ 10]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:103][ 11]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:123][ 12]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:151][ 13]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:174][ 14]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:194][ 15]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:217][ 16]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:236][ 17]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:260][ 18]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:286][ 19]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:308][ 20]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:330][ 21]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:352][ 22]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:369][ 23]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:390][ 24]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:412][ 25]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:435][ 26]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:452][ 27]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:472][ 28]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:495][ 29]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:517][ 30]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:534][ 31]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:554][ 32]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:575][ 33]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:599][ 34]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:615][ 35]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:635][ 36]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:661][ 37]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:684][ 38]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:701][ 39]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:726][ 40]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:752][ 41]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:771][ 42]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:788][ 43]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:811][ 44]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:827][ 45]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:849][ 46]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:871][ 47]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:892][ 48]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:918][ 49]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:934][ 50]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:955][ 51]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:979][ 52]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.05:995][ 53]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:017][ 54]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:039][ 55]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:064][ 56]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:087][ 57]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:105][ 58]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:130][ 59]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:145][ 60]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:169][ 61]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:189][ 62]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:210][ 63]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:235][ 64]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:255][ 65]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:273][ 66]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:295][ 67]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:312][ 68]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:333][ 69]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:358][ 70]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:383][ 71]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:405][ 72]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:422][ 73]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:445][ 74]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:461][ 75]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:483][ 76]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:505][ 77]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:528][ 78]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:571][ 79]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:589][ 80]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:605][ 81]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:621][ 82]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:639][ 83]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:665][ 84]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:690][ 85]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:716][ 86]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:742][ 87]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:763][ 88]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:780][ 89]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:802][ 90]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:825][ 91]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:853][ 92]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:869][ 93]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:894][ 94]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:909][ 95]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:933][ 96]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:959][ 97]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.06:984][ 98]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:006][ 99]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:024][100]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:048][101]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:065][102]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:088][103]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:113][104]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:139][105]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:161][106]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:189][107]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:209][108]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:223][109]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:247][110]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:271][111]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:288][112]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:305][113]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:331][114]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:350][115]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:368][116]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:391][117]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:416][118]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:445][119]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:472][120]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:491][121]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:512][122]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:537][123]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:554][124]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:575][125]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:597][126]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:636][127]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:664][128]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:686][129]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:702][130]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:722][131]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:749][132]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:770][133]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:793][134]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:815][135]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:838][136]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:862][137]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:882][138]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:904][139]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:928][140]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:951][141]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:973][142]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.07:996][143]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:017][144]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:041][145]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:064][146]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:085][147]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:112][148]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:135][149]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:161][150]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:183][151]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:210][152]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:234][153]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:260][154]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:282][155]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:310][156]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:332][157]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:361][158]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:384][159]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:411][160]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:435][161]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:460][162]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:484][163]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:509][164]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:536][165]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:562][166]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:592][167]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:617][168]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:644][169]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:673][170]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:700][171]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:728][172]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:758][173]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:785][174]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:812][175]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:842][176]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:868][177]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:895][178]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:923][179]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:948][180]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.08:977][181]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:003][182]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:031][183]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:060][184]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:086][185]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:115][186]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:144][187]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:170][188]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:200][189]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:230][190]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:263][191]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:328][192]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:348][193]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:364][194]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:391][195]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:425][196]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:457][197]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:488][198]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:522][199]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:555][200]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:588][201]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:621][202]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:653][203]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:687][204]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:720][205]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:752][206]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:784][207]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:816][208]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:849][209]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:881][210]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:913][211]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:945][212]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.09:978][213]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:011][214]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:042][215]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:076][216]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:108][217]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:141][218]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:173][219]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:206][220]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:239][221]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:273][222]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:305][223]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:338][224]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:371][225]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:403][226]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:437][227]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:470][228]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:504][229]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:538][230]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:571][231]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:603][232]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:636][233]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:668][234]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:702][235]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:735][236]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:769][237]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:803][238]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:837][239]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:872][240]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:908][241]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:943][242]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.10:978][243]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:015][244]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:051][245]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:087][246]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:123][247]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:157][248]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:193][249]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:227][250]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:260][251]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:296][252]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:328][253]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:360][254]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:391][255]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:423][256]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:454][257]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:484][258]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:514][259]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:544][260]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:575][261]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:604][262]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:633][263]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:663][264]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:694][265]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:723][266]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:757][267]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:783][268]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:813][269]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:846][270]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:873][271]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:901][272]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:930][273]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:962][274]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.11:989][275]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:017][276]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:047][277]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:078][278]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:108][279]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:139][280]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:170][281]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:202][282]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:235][283]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:268][284]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:297][285]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:328][286]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:359][287]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:389][288]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:419][289]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:448][290]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:478][291]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:511][292]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:538][293]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:568][294]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:598][295]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:628][296]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:659][297]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:687][298]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:714][299]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:745][300]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:771][301]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:801][302]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:829][303]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:861][304]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:887][305]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:916][306]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:944][307]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.12:972][308]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:002][309]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:032][310]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:062][311]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:096][312]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:122][313]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:150][314]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:179][315]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:211][316]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:238][317]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:268][318]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:297][319]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:328][320]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:358][321]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:385][322]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:414][323]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:444][324]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:477][325]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:504][326]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:536][327]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:566][328]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:596][329]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:627][330]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:657][331]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:686][332]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:715][333]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:744][334]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:774][335]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:800][336]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:828][337]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:860][338]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:888][339]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:920][340]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:951][341]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.13:984][342]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:016][343]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:048][344]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:080][345]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:114][346]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:146][347]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:178][348]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:210][349]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:243][350]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:278][351]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:310][352]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:344][353]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:378][354]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:411][355]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:445][356]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:478][357]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:515][358]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:548][359]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:581][360]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:617][361]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:649][362]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:681][363]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:716][364]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:751][365]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:785][366]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:820][367]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:854][368]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:905][369]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:928][370]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:962][371]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.14:998][372]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:034][373]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:072][374]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:116][375]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:150][376]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:188][377]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:224][378]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:262][379]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:297][380]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:332][381]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:368][382]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:407][383]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:445][384]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:480][385]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:513][386]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:549][387]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:580][388]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:612][389]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:646][390]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:677][391]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:710][392]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:743][393]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:772][394]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:803][395]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:835][396]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:867][397]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:898][398]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:928][399]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:961][400]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.15:988][401]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:018][402]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:049][403]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:079][404]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:113][405]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:140][406]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:169][407]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:198][408]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:229][409]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:261][410]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:291][411]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:320][412]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:351][413]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:383][414]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:413][415]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:447][416]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:478][417]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:507][418]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:536][419]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:568][420]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:599][421]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:629][422]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:661][423]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:694][424]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:725][425]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:755][426]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:786][427]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:817][428]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:848][429]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:880][430]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:911][431]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:941][432]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:970][433]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.16:998][434]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:029][435]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:055][436]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:084][437]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:115][438]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:148][439]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:177][440]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:205][441]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:237][442]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:268][443]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:299][444]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:332][445]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:364][446]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:396][447]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:429][448]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:461][449]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:494][450]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:529][451]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:563][452]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:599][453]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:634][454]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:669][455]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:706][456]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:744][457]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:780][458]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:814][459]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:849][460]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:887][461]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:928][462]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.17:965][463]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:005][464]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:047][465]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:084][466]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:122][467]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:159][468]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:198][469]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:238][470]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:279][471]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:319][472]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:361][473]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:400][474]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:439][475]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:480][476]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:523][477]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:563][478]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:603][479]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:645][480]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:684][481]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:723][482]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:763][483]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:800][484]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:837][485]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:874][486]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:912][487]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:946][488]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.18:982][489]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:016][490]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:053][491]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:089][492]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:128][493]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:160][494]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:194][495]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:233][496]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:264][497]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:298][498]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:332][499]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:367][500]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:402][501]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:436][502]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:477][503]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:504][504]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:539][505]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:577][506]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:618][507]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:652][508]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:687][509]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:726][510]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:763][511]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:797][512]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:833][513]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:870][514]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:908][515]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:946][516]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.19:982][517]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.20:020][518]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.20:057][519]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.20:094][520]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.20:131][521]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.20:168][522]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:209][523]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:248][524]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:288][525]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:328][526]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:376][527]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:412][528]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:451][529]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:493][530]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:536][531]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:581][532]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:625][533]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:671][534]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:712][535]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:760][536]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:803][537]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:845][538]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:888][539]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:933][540]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.20:976][541]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:019][542]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:063][543]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:115][544]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:151][545]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:194][546]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:238][547]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:282][548]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:326][549]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:370][550]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:411][551]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:454][552]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:500][553]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:541][554]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:584][555]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:633][556]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:676][557]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:716][558]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:762][559]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:804][560]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:845][561]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:888][562]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:931][563]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.21:977][564]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.22:021][565]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.22:067][566]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.22:113][567]LogBlueprintUserMessages: [PlayerCharacter_586] 1
+[2017.12.27-02.50.22:161][568]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:296][592]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:340][593]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:384][594]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:430][595]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:479][596]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:523][597]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:570][598]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:614][599]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:661][600]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:714][601]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:770][602]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:814][603]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:861][604]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:906][605]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.23:955][606]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:002][607]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:048][608]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:098][609]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:141][610]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:184][611]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:217][612]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:257][613]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:302][614]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:334][615]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:370][616]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:407][617]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:445][618]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:482][619]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:517][620]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:554][621]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:594][622]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:635][623]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:668][624]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:701][625]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:731][626]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:767][627]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:802][628]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:844][629]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:875][630]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:915][631]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:949][632]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.24:987][633]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:023][634]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:067][635]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:105][636]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:141][637]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:182][638]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:216][639]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:255][640]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:297][641]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:336][642]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:373][643]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:415][644]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:451][645]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:492][646]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:537][647]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:569][648]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:609][649]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:648][650]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:681][651]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:719][652]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:758][653]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:803][654]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:834][655]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:871][656]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:911][657]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:952][658]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.25:986][659]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:024][660]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:059][661]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:098][662]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:134][663]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:171][664]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:210][665]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:246][666]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:281][667]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:317][668]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:354][669]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:396][670]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:430][671]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:464][672]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:501][673]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:543][674]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:577][675]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:617][676]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:649][677]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:686][678]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:718][679]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:755][680]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:793][681]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:830][682]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:867][683]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:900][684]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:937][685]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.26:974][686]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:015][687]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:049][688]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:087][689]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:127][690]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:166][691]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:204][692]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:240][693]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:272][694]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:312][695]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:353][696]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:384][697]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:421][698]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:458][699]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:497][700]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:538][701]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:569][702]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:606][703]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:642][704]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:670][705]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:707][706]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:747][707]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:783][708]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:817][709]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:853][710]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:887][711]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:923][712]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:955][713]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.27:988][714]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:020][715]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:054][716]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:088][717]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:120][718]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:153][719]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:183][720]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:212][721]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:242][722]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:273][723]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:301][724]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:327][725]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:357][726]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:386][727]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:415][728]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:460][729]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:492][730]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:515][731]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:538][732]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:567][733]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:592][734]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:616][735]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:647][736]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:671][737]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:701][738]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:724][739]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:748][740]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:775][741]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:801][742]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:826][743]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:855][744]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:883][745]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:913][746]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:937][747]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.28:971][748]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:001][749]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:028][750]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:067][751]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:094][752]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:127][753]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:156][754]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:183][755]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:214][756]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:245][757]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:281][758]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:309][759]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:333][760]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:362][761]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:386][762]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:411][763]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:437][764]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:464][765]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:494][766]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:515][767]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:538][768]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:570][769]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:590][770]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:612][771]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:632][772]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:671][773]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:690][774]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:707][775]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:738][776]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:760][777]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:779][778]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:807][779]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:829][780]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:849][781]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:878][782]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:899][783]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:926][784]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:948][785]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:968][786]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.29:999][787]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:018][788]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:043][789]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:063][790]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:088][791]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:116][792]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:134][793]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:162][794]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:182][795]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:209][796]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:231][797]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:258][798]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:283][799]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:307][800]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:329][801]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:349][802]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:379][803]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:399][804]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:424][805]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:445][806]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:466][807]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:494][808]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:513][809]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:533][810]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:562][811]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:580][812]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:600][813]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:626][814]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:646][815]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:666][816]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:693][817]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:713][818]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:730][819]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:756][820]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:783][821]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:804][822]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:828][823]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:847][824]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:867][825]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:893][826]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:913][827]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:932][828]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:958][829]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.30:978][830]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:002][831]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:031][832]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:056][833]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:077][834]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:096][835]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:131][836]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:151][837]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:176][838]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:197][839]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:220][840]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:247][841]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:267][842]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:292][843]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:322][844]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:340][845]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:361][846]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:378][847]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:404][848]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:432][849]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:450][850]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:474][851]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:499][852]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:518][853]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:537][854]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:565][855]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:583][856]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:608][857]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:628][858]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:647][859]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:675][860]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:702][861]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:720][862]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:744][863]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:762][864]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:781][865]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:808][866]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:828][867]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:846][868]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:873][869]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:893][870]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:910][871]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:934][872]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:960][873]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:978][874]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.31:999][875]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:025][876]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:045][877]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:063][878]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:085][879]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:114][880]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:132][881]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:152][882]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:180][883]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:197][884]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:216][885]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:242][886]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:261][887]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:280][888]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:305][889]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:331][890]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:351][891]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:374][892]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:393][893]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:411][894]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:437][895]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:467][896]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:486][897]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:508][898]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:528][899]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:554][900]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:581][901]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:602][902]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:629][903]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:648][904]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:679][905]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:701][906]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:722][907]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:740][908]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:762][909]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:792][910]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:818][911]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:841][912]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:859][913]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:877][914]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:901][915]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:929][916]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:948][917]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:968][918]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.32:990][919]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:009][920]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:032][921]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:060][922]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:080][923]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:110][924]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:153][925]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:172][926]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:198][927]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:242][928]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:265][929]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:290][930]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:314][931]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:348][932]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:380][933]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:412][934]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:444][935]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:472][936]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:496][937]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:518][938]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:543][939]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:576][940]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:611][941]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:631][942]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:653][943]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:690][944]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:709][945]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:728][946]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:761][947]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:789][948]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:812][949]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:831][950]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:861][951]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:890][952]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:921][953]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:944][954]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:961][955]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:979][956]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.33:996][957]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:021][958]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:043][959]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:073][960]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:094][961]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:120][962]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:142][963]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:169][964]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:192][965]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:218][966]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:242][967]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:268][968]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:292][969]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:319][970]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:343][971]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:371][972]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:403][973]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:428][974]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:457][975]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:487][976]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:516][977]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:544][978]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:573][979]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:605][980]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:632][981]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:660][982]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:690][983]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:724][984]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:763][985]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:787][986]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:807][987]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:836][988]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:870][989]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:896][990]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:926][991]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:955][992]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.34:986][993]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:019][994]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:047][995]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:078][996]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:112][997]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:144][998]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:176][999]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:210][  0]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:245][  1]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:281][  2]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:315][  3]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:349][  4]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:382][  5]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:415][  6]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:449][  7]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:483][  8]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:516][  9]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:549][ 10]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:584][ 11]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:617][ 12]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:652][ 13]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:685][ 14]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:724][ 15]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:759][ 16]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:795][ 17]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:831][ 18]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:867][ 19]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:903][ 20]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:939][ 21]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.35:973][ 22]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:009][ 23]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:045][ 24]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:081][ 25]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:118][ 26]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:155][ 27]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:188][ 28]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:224][ 29]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:260][ 30]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:295][ 31]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:331][ 32]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:367][ 33]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:404][ 34]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:439][ 35]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:474][ 36]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:510][ 37]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:545][ 38]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:581][ 39]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:617][ 40]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:653][ 41]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:688][ 42]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:723][ 43]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:759][ 44]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:794][ 45]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:830][ 46]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:866][ 47]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:902][ 48]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:937][ 49]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.36:973][ 50]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:009][ 51]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:045][ 52]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:081][ 53]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:118][ 54]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:154][ 55]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:187][ 56]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:223][ 57]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:260][ 58]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:297][ 59]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:332][ 60]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:367][ 61]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:406][ 62]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:441][ 63]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:478][ 64]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:514][ 65]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:553][ 66]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:590][ 67]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:627][ 68]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:666][ 69]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:703][ 70]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:738][ 71]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:775][ 72]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:813][ 73]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:852][ 74]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:890][ 75]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:930][ 76]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.37:971][ 77]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:008][ 78]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:048][ 79]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:088][ 80]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:126][ 81]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:165][ 82]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:204][ 83]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:243][ 84]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:281][ 85]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:326][ 86]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:363][ 87]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:404][ 88]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:445][ 89]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:483][ 90]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:527][ 91]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:560][ 92]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:598][ 93]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:636][ 94]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:674][ 95]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:706][ 96]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:740][ 97]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:775][ 98]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:810][ 99]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:844][100]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:880][101]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:914][102]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:947][103]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.38:983][104]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:017][105]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:053][106]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:085][107]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:121][108]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:152][109]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:187][110]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:221][111]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:254][112]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:289][113]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:323][114]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:356][115]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:391][116]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:424][117]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:458][118]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:493][119]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:527][120]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:560][121]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:595][122]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:628][123]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:662][124]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:694][125]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:727][126]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:760][127]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:793][128]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:825][129]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:857][130]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:889][131]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:922][132]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:958][133]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.39:989][134]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:020][135]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:052][136]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:085][137]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:118][138]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:151][139]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:183][140]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:216][141]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:247][142]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:282][143]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:312][144]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:344][145]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:377][146]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:409][147]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:441][148]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:473][149]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:505][150]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:543][151]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:573][152]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:603][153]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:633][154]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:666][155]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:698][156]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:730][157]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:765][158]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:796][159]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:828][160]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:858][161]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:889][162]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:925][163]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:954][164]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.40:987][165]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.41:018][166]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.41:047][167]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.41:079][168]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.41:114][169]LogBlueprintUserMessages: [PlayerCharacter_586] 0
+[2017.12.27-02.50.41:117][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.27-02.50.41:324][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameLevel.GameLevel:PersistentLevel' has LevelScriptBlueprint '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel' with GeneratedClass '/Game/GameLevel.GameLevel_C' with ClassGeneratedBy '/Game/GameLevel.GameLevel:PersistentLevel.GameLevel'
+[2017.12.27-02.50.43:564][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Boss/Boss" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Boss/Boss.uasset" SILENT=true
+[2017.12.27-02.50.43:740][194]LogSavePackage: Save=163.12ms
+[2017.12.27-02.50.43:740][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Boss62829592471E3D12CF9EF69F4C4FBCD1.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Boss/Boss.uasset'
+[2017.12.27-02.50.43:743][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Boss/Boss.uasset
+[2017.12.27-02.50.43:790][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/DistanceEnemy/DistanceEnemy" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/DistanceEnemy.uasset" SILENT=true
+[2017.12.27-02.50.43:925][194]LogSavePackage: Save=124.30ms
+[2017.12.27-02.50.43:925][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/DistanceEnemyDAC7A9FD4FBA7421C4D970AD1CB752FC.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/DistanceEnemy.uasset'
+[2017.12.27-02.50.43:955][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/DistanceEnemy/DistanceEnemy.uasset
+[2017.12.27-02.50.43:961][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Enemy" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Enemy.uasset" SILENT=true
+[2017.12.27-02.50.44:076][194]LogSavePackage: Save=103.66ms
+[2017.12.27-02.50.44:076][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/Enemy114708104F66ECDA999068A58A9EDA7F.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Enemy.uasset'
+[2017.12.27-02.50.44:078][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/Enemy.uasset
+[2017.12.27-02.50.44:129][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/PunchEnemy/PunchEnemy" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/PunchEnemy/PunchEnemy.uasset" SILENT=true
+[2017.12.27-02.50.44:276][194]LogSavePackage: Save=136.23ms
+[2017.12.27-02.50.44:276][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/PunchEnemyC6E4C44E4EB8784F9BE91CBA0BC505A0.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/PunchEnemy/PunchEnemy.uasset'
+[2017.12.27-02.50.44:294][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/PunchEnemy/PunchEnemy.uasset
+[2017.12.27-02.50.44:359][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/WarriorEnemy/WarriorEnemy" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorEnemy.uasset" SILENT=true
+[2017.12.27-02.50.44:544][194]LogSavePackage: Save=175.57ms
+[2017.12.27-02.50.44:544][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/WarriorEnemy93A31CAB47E30ACE0800E799C867AB59.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorEnemy.uasset'
+[2017.12.27-02.50.44:579][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/Enemy/WarriorEnemy/WarriorEnemy.uasset
+[2017.12.27-02.50.44:715][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.27-02.50.46:610][194]LogSavePackage: Save=1700.14ms
+[2017.12.27-02.50.46:610][194]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Saved/GameLevel9A2707414A644EC396D0B8A32B015322.tmp' to '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap'
+[2017.12.27-02.50.46:616][194]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/GameLevel.umap
+[2017.12.27-02.50.46:776][194]LogFileHelpers: Saving map 'GameLevel' took 2.194
+[2017.12.27-02.50.47:259][194]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.27-02.50.47:548][195]Cmd: QUIT_EDITOR
+[2017.12.27-02.50.47:933][195]LogExit: Preparing to exit.
+[2017.12.27-02.50.48:987][195]LogDirectoryWatcher: A directory notification failed for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/', and we were unable to create a new request.
+[2017.12.27-02.50.49:044][195]LogExit: Editor shut down
+[2017.12.27-02.50.49:048][195]LogExit: Transaction tracking system shut down
+[2017.12.27-02.50.49:227][195]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.27-02.50.49:227][195]LogDirectoryWatcher: A directory notification for '../../../../../NewGarden/GardenProject/NGA/Project/Berserker/Content/' was aborted.
+[2017.12.27-02.50.49:228][195]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.27-02.50.49:228][195]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.27-02.50.49:228][195]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.27-02.50.49:325][195]LogExit: Object subsystem successfully closed.
+[2017.12.27-02.50.49:342][195]LogD3D11RHI: Shutdown
+[2017.12.27-02.50.49:342][195]LogD3D11RHI: CleanupD3DDevice
+[2017.12.27-02.50.49:363][195]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.12.27-02.50.49:587][195]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.12.27-02.50.49:587][195]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.12.27-02.50.49:588][195]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Collections/' was aborted.
+[2017.12.27-02.50.49:588][195]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Content/Developers/JWOH/Collections/' was aborted.
+[2017.12.27-02.50.49:588][195]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/NGA/Project/Berserker/Saved/Collections/' was aborted.
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (520)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.27-02.50.49:588][195]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.27-02.50.49:589][195]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.27-02.50.49:851][195]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.27-02.50.49:852][195]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.27-02.50.49:903][195]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.27-02.50.49:904][195]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.27-02.50.49:913][195]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.27-02.50.49:914][195]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.27-02.50.50:129][195]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.27-02.50.50:130][195]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.27-02.50.50:130][195]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.27-02.50.50:130][195]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.27-02.50.50:131][195]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.27-02.50.50:231][195]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.27-02.50.50:332][195]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.27-02.50.50:333][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.27-02.50.50:333][195]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.27-02.50.50:333][195]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.27-02.50.50:333][195]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.27-02.50.50:334][195]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.27-02.50.50:336][195]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.27-02.50.50:337][195]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.27-02.50.50:388][195]LogDerivedDataCache: Shutdown
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.27-02.50.50:388][195]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.27-02.50.50:389][195]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.27-02.50.50:389][195]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.27-02.50.50:389][195]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.27-02.50.50:389][195]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEBECDB96-464B-8E2A-8D0D-EEADB8A057EE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2b4b9104449ff9352e6e79a22565f81d%7C3c455ced7e304eddb535ae3cbf37a172%7Cdff5993a-bb95-44de-bad5-df2ac76192ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: libcurl info message cache 1 (  Trying 121.166.148.201...)
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: libcurl info message cache 2 (connect to 121.166.148.201 port 443 failed: Connection refused)
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2017.12.27-02.50.50:390][195]LogHttp: Warning: 0000027CA0716680: libcurl info message cache 4 (Closing connection 2)
+[2017.12.27-02.50.50:404][195]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.27-02.50.50:406][195]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.27-02.50.50:408][195]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.27-02.50.50:412][195]LogExit: Exiting.
+[2017.12.27-02.50.50:475][195]Log file closed, 12/27/17 11:50:50
