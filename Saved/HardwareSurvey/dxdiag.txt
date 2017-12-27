@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 10/27/2017, 20:06:17
+      Time of this report: 12/27/2017, 08:41:39
              Machine name: DESKTOP-6JOGDQL
          Operating System: Windows 10 Pro 64-bit (10.0, Build 10586) (10586.th2_release.151121-2308)
                  Language: Korean (Regional Setting: Korean)
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz (8 CPUs), ~2.6GHz
                    Memory: 8192MB RAM
       Available OS Memory: 8056MB RAM
-                Page File: 7654MB used, 2832MB available
+                Page File: 6480MB used, 5927MB available
               Windows Dir: C:\Windows
           DirectX Version: 12
       DX Setup Parameters: Not found
@@ -333,13 +333,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 46.3 GB
+ Free Space: 9.5 GB
 Total Space: 243.6 GB
 File System: NTFS
       Model: SAMSUNG MZNLN256HCHP-00000
 
       Drive: D:
- Free Space: 269.3 GB
+ Free Space: 120.2 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: ST1000LM024 HN-M101MBB
@@ -1211,15 +1211,15 @@ P9:
 P10: 
 
 첨부 파일:
-C:\Users\J.W OH\AppData\Local\Temp\RDR6926.tmp\empty.txt
-C:\Users\J.W OH\AppData\Local\Temp\WER6936.tmp.WERInternalMetadata.xml
+C:\Users\J.W OH\AppData\Local\Temp\RDR8821.tmp\empty.txt
+C:\Users\J.W OH\AppData\Local\Temp\WER8841.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
 
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: d6faa209-bb06-11e7-8ed3-c8ff2804e62e
+보고서 ID: 0d4be34a-ea53-11e7-8eda-c8ff2804e62e
 보고서 상태: 0
 해시된 패킷: ebf188e9f58afbcb05ca754602ef53df
 +++ WER1 +++:
@@ -1243,11 +1243,11 @@ P10:
 첨부 파일:
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_067bdfea
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_1ce44368
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 3d104dc8-bb03-11e7-8ed3-c8ff2804e62e
+보고서 ID: 710fb753-ea41-11e7-8eda-c8ff2804e62e
 보고서 상태: 0
 해시된 패킷: eb82fd74f4d2bb1026cfaad3173ebd23
 +++ WER2 +++:
@@ -1269,14 +1269,14 @@ P9:
 P10: 
 
 첨부 파일:
-C:\Users\J.W OH\AppData\Local\Temp\WER6FDB.tmp.WERInternalMetadata.xml
+C:\Users\J.W OH\AppData\Local\Temp\WER9C29.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_067bdd6a
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_1ce441f1
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: e05fd11d-bb02-11e7-8ed3-c8ff2804e62e
+보고서 ID: e7e7fd0e-ea40-11e7-8eda-c8ff2804e62e
 보고서 상태: 0
 해시된 패킷: eb82fd74f4d2bb1026cfaad3173ebd23
 +++ WER3 +++:
@@ -1328,11 +1328,11 @@ P10:
 첨부 파일:
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_2f16cf56
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_253a1f06
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 3d104dc8-bb03-11e7-8ed3-c8ff2804e62e
+보고서 ID: 710fb753-ea41-11e7-8eda-c8ff2804e62e
 보고서 상태: 4100
 해시된 패킷: 
 +++ WER5 +++:
@@ -1354,76 +1354,17 @@ P9:
 P10: 
 
 첨부 파일:
-C:\Users\J.W OH\AppData\Local\Temp\WER6FDB.tmp.WERInternalMetadata.xml
+C:\Users\J.W OH\AppData\Local\Temp\WER9C29.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_cab_10746fea
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_cab_29ae9c38
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: e05fd11d-bb02-11e7-8ed3-c8ff2804e62e
+보고서 ID: e7e7fd0e-ea40-11e7-8eda-c8ff2804e62e
 보고서 상태: 4
 해시된 패킷: 
 +++ WER6 +++:
-오류 버킷 133253869234, 유형 5
-이벤트 이름: MoAppCrash
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: Microsoft.Messaging_1.10.22012.0_x86__8wekyb3d8bbwe
-P2: praid:ppleae38af2e007f4358a809ac99a64a67c1
-P3: 10.0.0.355
-P4: 561ce698
-P5: ntdll.dll
-P6: 10.0.10586.20
-P7: 5654262a
-P8: c0000005
-P9: 0003ef53
-P10: 
-
-첨부 파일:
-C:\Users\J.W OH\AppData\Local\Temp\WERA6F6.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Messag_d9cc6058d0865342ba49a3d974ce9f57774a20c6_83c21204_180cb89a
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: a1e725a0-0edf-476e-8edb-9adf5fcb2d4b
-보고서 상태: 0
-해시된 패킷: 478bb28658708041510d615166d1bb70
-+++ WER7 +++:
-오류 버킷 128937252777, 유형 5
-이벤트 이름: FaultTolerantHeap
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: SkypeHost.exe
-P2: 10.0.0.355
-P3: 561CE698
-P4: ffffbaad
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-C:\Windows\ServiceProfiles\LocalService\AppData\Local\Temp\FTHA698.tmp\fthempty.txt
-C:\Windows\ServiceProfiles\LocalService\AppData\Local\Temp\WERA6A9.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 77bb31eb-bb00-11e7-8ed3-c8ff2804e62e
-보고서 상태: 0
-해시된 패킷: 221dc4484649457ee3250d3395bd24fa
-+++ WER8 +++:
 오류 버킷 125288348927, 유형 5
 이벤트 이름: StoreAgentScanForUpdatesFailure0
 응답: 사용할 수 없음
@@ -1442,17 +1383,17 @@ P9:
 P10: 
 
 첨부 파일:
-C:\Users\J.W OH\AppData\Local\Temp\WER8064.tmp.WERInternalMetadata.xml
+C:\Users\J.W OH\AppData\Local\Temp\WER332.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_0b02990d
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_3a600787
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 3dc3465e-ba55-11e7-8ed3-c8ff2804e62e
+보고서 ID: cbccbb79-ea1a-11e7-8ed9-c8ff2804e62e
 보고서 상태: 0
 해시된 패킷: eb82fd74f4d2bb1026cfaad3173ebd23
-+++ WER9 +++:
++++ WER7 +++:
 오류 버킷 109095910373, 유형 1
 이벤트 이름: APPCRASH
 응답: 사용할 수 없음
@@ -1480,3 +1421,61 @@ C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_Win32Project1.ex_6bffa
 보고서 ID: 232bc516-d7df-4e40-b1e0-986f845ed6ba
 보고서 상태: 0
 해시된 패킷: 3a0d893ef9b742f15ad1e38435ef00bb
++++ WER8 +++:
+오류 버킷 , 유형 0
+이벤트 이름: StoreAgentScanForUpdatesFailure0
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: WSAutoUpdate
+P2: 80070422
+P3: 10586
+P4: 36
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+C:\Users\J.W OH\AppData\Local\Temp\WER332.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_cab_04f40341
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: cbccbb79-ea1a-11e7-8ed9-c8ff2804e62e
+보고서 상태: 4
+해시된 패킷: 
++++ WER9 +++:
+오류 버킷 125288348927, 유형 5
+이벤트 이름: StoreAgentScanForUpdatesFailure0
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: WSAutoUpdate
+P2: 80070422
+P3: 10586
+P4: 36
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+C:\Users\J.W OH\AppData\Local\Temp\WER4F8B.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_WSAutoUpdate_fe4292d05aaea5d667ae9314f966c9d8d741de_00000000_2ae95901
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 6241aee5-ea1a-11e7-8ed9-c8ff2804e62e
+보고서 상태: 0
+해시된 패킷: eb82fd74f4d2bb1026cfaad3173ebd23
